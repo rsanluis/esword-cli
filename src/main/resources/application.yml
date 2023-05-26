@@ -13,4 +13,8 @@ spring:
         dialect: org.hibernate.community.dialect.SQLiteDialect
 logging:
   level:
-    root: INFO
+    root: ERROR
+    com:
+      codified:
+        esword:
+#          commands: ERROR

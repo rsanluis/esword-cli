@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-
 import com.codified.esword.model.Bible;
 import com.codified.esword.model.ScriptureId;
 

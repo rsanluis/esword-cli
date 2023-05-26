@@ -17,13 +17,13 @@ import lombok.ToString;
 @EqualsAndHashCode
 @Getter
 @Entity
-@Table(name = "Bible")
+@Table(name = "bible")
 public class Bible {
 
     @EmbeddedId
     private ScriptureId scriptureId;
 
     @NonNull
-    @Column(name = "Scripture")
+    @Column(name = "scripture")
     private String scripture;
 }

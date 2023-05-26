@@ -17,42 +17,42 @@ import lombok.ToString;
 @EqualsAndHashCode
 @Getter
 @Entity
-@Table(name = "Details")
+@Table(name = "details")
 public class Details {
     @NonNull
-    @Column(name = "Title")
+    @Column(name = "title")
     private String title;    
 
     @Id
     @NonNull
-    @Column(name = "Abbreviation")
+    @Column(name = "abbreviation")
     private String abbreviation; 
 
     @NonNull
-    @Column(name = "Information")
+    @Column(name = "information")
     private String information; 
 
     @NonNull
-    @Column(name = "Version")
+    @Column(name = "version")
     private Integer version; 
 
     @NonNull
-    @Column(name = "OldTestament")
+    @Column(name = "oldtestament")
     private Integer oldTestament; 
 
     @NonNull
-    @Column(name = "NewTestament")
+    @Column(name = "newtestament")
     private Integer newTestament;
     
     @NonNull
-    @Column(name = "Apocrypha")
+    @Column(name = "apocrypha")
     private Integer apocrypha;
 
     @NonNull
-    @Column(name = "Strongs")
+    @Column(name = "strongs")
     private Integer strongs;
 
     @NonNull
-    @Column(name = "RightToLeft")
+    @Column(name = "righttoleft")
     private Integer rightToLeft;
 }
