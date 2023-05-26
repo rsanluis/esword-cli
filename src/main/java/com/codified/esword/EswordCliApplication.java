@@ -1,7 +1,5 @@
 package com.codified.esword;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -12,6 +10,7 @@ import org.springframework.util.CollectionUtils;
 import com.codified.esword.commands.ESwordCommand;
 
 import picocli.CommandLine;
+import picocli.CommandLine.MissingParameterException;
 import picocli.CommandLine.ParseResult;
 import picocli.CommandLine.UnmatchedArgumentException;
 import picocli.spring.PicocliSpringFactory;
@@ -44,7 +43,11 @@ public class EswordCliApplication implements CommandLineRunner {
 			int exitCode = commandLine.execute(args);
 			System.exit(exitCode);
 		} catch (UnmatchedArgumentException unmatchedExc) {	
-			System.out.println("Error: Invalid argument specified: " + unmatchedExc.getUnmatched());
+			System.out.println("Error: " + unmatchedExc.getLocalizedMessage());
+			printUsage(commandLine);
+			System.exit(1);
+		} catch (MissingParameterException missingParamExc) {
+			System.out.println("Error: " + missingParamExc.getLocalizedMessage());
 			printUsage(commandLine);
 			System.exit(1);
 		}
