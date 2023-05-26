@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: esword-cli
+  main:
+    banner-mode: "off"
+  datasource:
+    url: jdbc:sqlite::resource:bibles/kjv+.bbli
+    driverClassName: org.sqlite.JDBC
+  jpa:
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.community.dialect.SQLiteDialect
+logging:
+  level:
+    root: INFO
