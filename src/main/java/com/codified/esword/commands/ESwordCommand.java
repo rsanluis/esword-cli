@@ -1,8 +1,12 @@
 package com.codified.esword.commands;
 
+import java.util.List;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.codified.esword.model.Bible;
 import com.codified.esword.model.ScriptureId;
 import com.codified.esword.repository.BibleRepository;
 
@@ -32,7 +36,10 @@ public class ESwordCommand implements Runnable {
   public void run() {
     log.debug("executing ESwordSearchSubCommand.run()...");
     
-    System.out.println(bibleRepository.findById(new ScriptureId(1,11,1)));
+    Bible bible = bibleRepository.getByScriptureId(new ScriptureId(1,1,1));
+    String verse = bible.getScripture();
+    System.out.println("verse: " + verse);
+    //try jsoup for extracting html tags
   }
     
 }

@@ -17,4 +17,4 @@ logging:
     com:
       codified:
         esword:
-#          commands: ERROR
+          commands: DEBUG
