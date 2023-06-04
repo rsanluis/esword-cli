@@ -38,18 +38,15 @@ public class EswordCliApplication implements CommandLineRunner {
 			ParseResult parseResult = commandLine.parseArgs(args);
 			if (CollectionUtils.isEmpty(parseResult.expandedArgs())) {
 				printUsage(commandLine);
-				System.exit(1);	
+			} else {
+				commandLine.execute(args);
 			}
-			int exitCode = commandLine.execute(args);
-			System.exit(exitCode);
 		} catch (UnmatchedArgumentException unmatchedExc) {	
 			System.out.println("Error: " + unmatchedExc.getLocalizedMessage());
 			printUsage(commandLine);
-			System.exit(1);
 		} catch (MissingParameterException missingParamExc) {
 			System.out.println("Error: " + missingParamExc.getLocalizedMessage());
 			printUsage(commandLine);
-			System.exit(1);
 		}
 	}
 
