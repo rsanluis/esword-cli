@@ -1,3 +1,4 @@
 #!/bin/bash
 
-./esword --context=NT --search-str=bla
+echo "Running esword..."
+time ./esword --context=NT --search-str=bla

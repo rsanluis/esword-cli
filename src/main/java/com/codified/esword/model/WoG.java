@@ -17,10 +17,18 @@ import lombok.ToString;
 @EqualsAndHashCode
 @Getter
 @Entity
-@Table(name = "bible")
-public class Bible {
+@Table(name = "wog")
+public class WoG {
     @EmbeddedId
     private ScriptureId scriptureId;
+
+    @NonNull
+    @Column(name = "title")
+    private String title;
+
+    @NonNull
+    @Column(name = "short_title")
+    private String short_title;
 
     @NonNull
     @Column(name = "scripture")

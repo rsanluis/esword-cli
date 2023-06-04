@@ -5,7 +5,9 @@ import org.springframework.stereotype.Component;
 
 import com.codified.esword.model.Bible;
 import com.codified.esword.model.ScriptureId;
+import com.codified.esword.model.WoG;
 import com.codified.esword.repository.BibleRepository;
+import com.codified.esword.repository.WoGRepository;
 
 import lombok.extern.slf4j.Slf4j;
 import picocli.CommandLine.Command;
@@ -28,6 +30,9 @@ public class ESwordCommand implements Runnable {
   
   @Autowired
   BibleRepository bibleRepository;
+
+  @Autowired
+  WoGRepository woGRepository;
   
   @Override
   public void run() {
@@ -36,7 +41,10 @@ public class ESwordCommand implements Runnable {
     Bible bible = bibleRepository.getByScriptureId(new ScriptureId(1,1,1));
     String verse = bible.getScripture();
     System.out.println("verse: " + verse);
-    //try jsoup for extracting html tags
+
+    WoG woG = woGRepository.getByScriptureId(new ScriptureId(1,1,1));
+    verse = woG.getScripture();
+    System.out.println("woG: " + woG);
   }
     
 }
