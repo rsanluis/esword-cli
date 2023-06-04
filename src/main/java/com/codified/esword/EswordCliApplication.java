@@ -55,3 +55,15 @@ public class EswordCliApplication implements CommandLineRunner {
 		System.out.println();
 	}
 }
+
+/*
+ drop table if exists WoG;
+create virtual table if not exists WoG using fts5(b,c,v,s);
+insert into WoG select * from Bible;
+
+select count(*) from Bible;
+select count(*) from WoG;
+
+select highlight(verses,3,'<b>','</b>') s from WoG where s match 'H7093';
+ 
+ */

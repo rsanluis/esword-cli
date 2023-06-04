@@ -4,13 +4,18 @@ spring:
   main:
     banner-mode: "off"
   datasource:
-    url: jdbc:sqlite::resource:bibles/kjv+.bbli
+    url: jdbc:sqlite:kjv+.bbli
     driverClassName: org.sqlite.JDBC
   jpa:
+    defer-datasource-initialization: true
     open-in-view: false
     properties:
       hibernate:
         dialect: org.hibernate.community.dialect.SQLiteDialect
+  sql:
+    init:
+      mode: always
+  
 logging:
   level:
     root: ERROR

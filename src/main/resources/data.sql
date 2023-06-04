@@ -1,0 +1,1 @@
+insert into WoG select * from Bible;
