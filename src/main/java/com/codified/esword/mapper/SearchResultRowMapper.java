@@ -1,4 +1,4 @@
-package com.codified.esword.dao;
+package com.codified.esword.mapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
