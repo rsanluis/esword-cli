@@ -19,5 +19,4 @@ public class SearchResultRowMapper implements RowMapper<SearchResult> {
         searchResult.setScripture(rs.getString("scripture"));
         return searchResult;
     }
-    
 }
