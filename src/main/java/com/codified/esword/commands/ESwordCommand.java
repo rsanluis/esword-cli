@@ -23,7 +23,7 @@ import picocli.CommandLine.Option;
 @Component
 public class ESwordCommand implements Runnable {
 
-  @Option(names = {"-c","--context"}, description = "the quick brown fox jumps over the lazy dog", required = true)
+  @Option(names = {"-c","--context"}, description = "the search context", required = true)
   private String context;
   
   @Option(names = {"-s","--search-str"}, required = true)
@@ -44,7 +44,7 @@ public class ESwordCommand implements Runnable {
     System.out.println("P1 *** verse: " + verse);
 
     List<SearchResult> resultList = searchDAO.searchByKeyword("blood");
-    
+
     log.info("results.size(): {}", resultList.size());
     
   }
