@@ -1,3 +1,7 @@
+-- Insert contents of kjv+ bible into SQLite virtual table BibleFTS
+-- This virtual table will be used for full text searching capabilities using FTS5
+insert into BibleFTS select * from Bible;
+
 -- Insert Bible info into Books table
 insert or ignore into Book (id,title,short_title,chapters) values (1,'Genesis','Gen',50);
 insert or ignore into Book (id,title,short_title,chapters) values (2,'Exodus','Exo',40);
@@ -65,7 +69,3 @@ insert or ignore into Book (id,title,short_title,chapters) values (63,'2 John','
 insert or ignore into Book (id,title,short_title,chapters) values (64,'3 John','3Jn',1);
 insert or ignore into Book (id,title,short_title,chapters) values (65,'Jude','Jud',1);
 insert or ignore into Book (id,title,short_title,chapters) values (66,'Revelation','Rev',22);
-
--- Insert contents of kjv+ bible into SQLite virtual table WoG (Word of God); 
--- This virtual table will be used for full text searching capabilities using FTS5
-insert into WoG select bible.book,book.title,book.short_title,bible.chapter,bible.verse,bible.scripture from Bible bible, Book book where bible.book = book.id;

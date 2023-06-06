@@ -1,14 +1,15 @@
 package com.codified.esword.commands;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.codified.esword.dao.SearchDAO;
 import com.codified.esword.model.Bible;
 import com.codified.esword.model.ScriptureId;
-import com.codified.esword.model.WoG;
-import com.codified.esword.repository.BibleRepository;
-import com.codified.esword.repository.WoGRepository;
-
+import com.codified.esword.model.SearchResult;
+import com.codified.esword.dao.BibleDAO;
 import lombok.extern.slf4j.Slf4j;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
@@ -29,10 +30,10 @@ public class ESwordCommand implements Runnable {
   private String searchStr;
   
   @Autowired
-  BibleRepository bibleRepository;
+  BibleDAO bibleRepository;
 
   @Autowired
-  WoGRepository woGRepository;
+  SearchDAO searchDAO;
   
   @Override
   public void run() {
@@ -40,11 +41,11 @@ public class ESwordCommand implements Runnable {
     
     Bible bible = bibleRepository.getByScriptureId(new ScriptureId(1,1,1));
     String verse = bible.getScripture();
-    System.out.println("verse: " + verse);
+    System.out.println("P1 *** verse: " + verse);
 
-    WoG woG = woGRepository.getByScriptureId(new ScriptureId(1,1,1));
-    verse = woG.getScripture();
-    System.out.println("woG: " + woG);
-  }
+    List<SearchResult> resultList = searchDAO.searchByKeyword("blood");
     
+    log.info("results.size(): {}", resultList.size());
+    
+  }
 }

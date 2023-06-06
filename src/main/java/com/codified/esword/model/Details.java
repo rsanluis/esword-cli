@@ -17,7 +17,7 @@ import lombok.ToString;
 @EqualsAndHashCode
 @Getter
 @Entity
-@Table(name = "details")
+@Table(name = "Details")
 public class Details {
     @NonNull
     @Column(name = "title")

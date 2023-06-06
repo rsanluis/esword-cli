@@ -17,7 +17,7 @@ import lombok.ToString;
 @EqualsAndHashCode
 @Getter
 @Entity
-@Table(name = "book")
+@Table(name = "Book")
 public class Book {
     @Id
     @NonNull
@@ -30,7 +30,7 @@ public class Book {
 
     @NonNull
     @Column(name = "short_title")
-    private String short_title; 
+    private String shortTitle; 
 
     @NonNull
     @Column(name = "chapters")

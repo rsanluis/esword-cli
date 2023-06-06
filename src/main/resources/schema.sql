@@ -1,8 +1,8 @@
--- Drop virtual table WoG (Word of God)
-drop table if exists WoG;
+-- Drop virtual table BibleFTS
+drop table if exists BibleFTS;
 
--- Create virtual table WoG (Word of God)
-create virtual table WoG using fts5(book,title,short_title,chapter,verse,scripture);
+-- Create virtual table BibleFTS
+create virtual table BibleFTS using FTS5(book,chapter,verse,scripture);
 
 -- Create table Books
 create table if not exists Book (

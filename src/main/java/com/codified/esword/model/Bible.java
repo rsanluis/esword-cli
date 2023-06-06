@@ -17,7 +17,7 @@ import lombok.ToString;
 @EqualsAndHashCode
 @Getter
 @Entity
-@Table(name = "bible")
+@Table(name = "BibleFTS")
 public class Bible {
     @EmbeddedId
     private ScriptureId scriptureId;

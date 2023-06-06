@@ -17,8 +17,8 @@ spring:
       mode: always
 logging:
   level:
-    root: ERROR
+    root: INFO
     com:
       codified:
         esword:
-          commands: DEBUG
+          commands: INFO

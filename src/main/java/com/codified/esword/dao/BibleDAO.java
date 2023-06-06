@@ -1,4 +1,4 @@
-package com.codified.esword.repository;
+package com.codified.esword.dao;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import com.codified.esword.model.Bible;
 import com.codified.esword.model.ScriptureId;
 
-public interface BibleRepository extends JpaRepository<Bible, ScriptureId> {
+public interface BibleDAO extends JpaRepository<Bible, ScriptureId> {
 
     Bible getByScriptureId(ScriptureId scriptureId);
 
