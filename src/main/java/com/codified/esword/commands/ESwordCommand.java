@@ -2,6 +2,7 @@ package com.codified.esword.commands;
 
 import java.util.List;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -44,8 +45,14 @@ public class ESwordCommand implements Runnable {
     System.out.println("P1 *** verse: " + verse);
 
     List<SearchResult> resultList = searchDAO.searchByKeyword("blood");
-
-    log.info("results.size(): {}", resultList.size());
+    int matches = 0;
+    for (SearchResult searchResult : resultList) {
+      String scripture = searchResult.getScripture();
+      String findStr = "<match>";
+      matches += StringUtils.countMatches(scripture, findStr);
+    }
+    log.info("verses: {}", resultList.size());
+    log.info("matches: {}", matches);
     
   }
 }

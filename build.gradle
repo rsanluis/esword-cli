@@ -18,6 +18,7 @@ dependencies {
 	implementation 'info.picocli:picocli-spring-boot-starter:4.7.0'
 	implementation 'org.xerial:sqlite-jdbc:3.25.2'
 	implementation 'org.hibernate.orm:hibernate-community-dialects'
+	implementation 'org.apache.commons:commons-lang3'
     compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
