@@ -14,6 +14,7 @@ import com.codified.esword.model.SearchResult;
 
 @Service
 public class SearchDAOImpl implements SearchDAO {
+
   @Autowired
   DataSource dataSource;
 
@@ -21,9 +22,12 @@ public class SearchDAOImpl implements SearchDAO {
   JdbcTemplate jdbcTemplate;
 
   @Override
-  public List<SearchResult> searchByKeyword(String keyword) {
-    String sql = "select bible.book,book.title,book.short_title,bible.chapter,bible.verse,highlight(BibleFTS,3,'<match>','</match>') scripture from BibleFTS bible, Book book where bible.scripture match 'blood' and bible.book >= 1 and bible.book<=66 and bible.book = book.id";
-    List<SearchResult> searchResultList = jdbcTemplate.query(sql, new SearchResultRowMapper());
+  public List<SearchResult> searchByKeywordAndContext(String keyword, String context) {
+    String sql = "select bible.book,book.title,book.short_title,bible.chapter,bible.verse,highlight(BibleFTS,3,'" 
+      + MATCH_START_TAG + "','" + MATCH_END_TAG + "') scripture from BibleFTS bible, Book book, Context context where " +
+      "bible.scripture match :keyword and bible.book >= context.start_id and bible.book <= context.end_id and " +
+      "bible.book = book.id and context.context=:context";
+    List<SearchResult> searchResultList = jdbcTemplate.query(sql, new SearchResultRowMapper(), keyword, context);
     return searchResultList;
   }
 }

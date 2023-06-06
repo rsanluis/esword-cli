@@ -69,3 +69,17 @@ insert or ignore into Book (id,title,short_title,chapters) values (63,'2 John','
 insert or ignore into Book (id,title,short_title,chapters) values (64,'3 John','3Jn',1);
 insert or ignore into Book (id,title,short_title,chapters) values (65,'Jude','Jud',1);
 insert or ignore into Book (id,title,short_title,chapters) values (66,'Revelation','Rev',22);
+
+-- Insert search context info into Context table
+insert or ignore into Context (id,context,context_desc,start_id,end_id) values (1,'Bible','Search Entire Bible',1,66);
+insert or ignore into Context (id,context,context_desc,start_id,end_id) values (2,'OldTestament','Search Old Testament',1,39);
+insert or ignore into Context (id,context,context_desc,start_id,end_id) values (3,'Pentateuch','Search Pentateuch (Gen - Deu)',1,5);
+insert or ignore into Context (id,context,context_desc,start_id,end_id) values (4,'History','Search History (Jos - Est)',6,17);
+insert or ignore into Context (id,context,context_desc,start_id,end_id) values (5,'Wisdom','Search Wisdom (Job - Son)',18,22);
+insert or ignore into Context (id,context,context_desc,start_id,end_id) values (6,'MajorProphets','Search Major Prophets (Isa - Dan)',23,27);
+insert or ignore into Context (id,context,context_desc,start_id,end_id) values (7,'MinorProphets','Search Minor Prophets (Hos - Mal)',28,39);
+insert or ignore into Context (id,context,context_desc,start_id,end_id) values (8,'NewTestament','Search New Testament',40,66);
+insert or ignore into Context (id,context,context_desc,start_id,end_id) values (9,'GospelsActs','Search Gospels & Acts (Mat - Act)',40,44);
+insert or ignore into Context (id,context,context_desc,start_id,end_id) values (10,'PaulsLetters','Search Paul''s Letters (Rom - Heb)',45,58);
+insert or ignore into Context (id,context,context_desc,start_id,end_id) values (11,'GeneralLetters','Search General Letters (Jas - Jud)',59,65);
+insert or ignore into Context (id,context,context_desc,start_id,end_id) values (12,'Apocalypse','Search History (Rev)',66,66);

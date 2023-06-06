@@ -44,7 +44,7 @@ public class ESwordCommand implements Runnable {
     String verse = bible.getScripture();
     System.out.println("P1 *** verse: " + verse);
 
-    List<SearchResult> resultList = searchDAO.searchByKeyword("blood");
+    List<SearchResult> resultList = searchDAO.searchByKeywordAndContext("blood","PaulsLetters");
     int matches = 0;
     for (SearchResult searchResult : resultList) {
       String scripture = searchResult.getScripture();

@@ -1,4 +1,4 @@
--- Drop virtual table BibleFTS
+-- Drop the following tables if they exist
 drop table if exists BibleFTS;
 
 -- Create virtual table BibleFTS
@@ -16,7 +16,7 @@ create table if not exists Book (
 create table if not exists Context (
     id integer not null primary key,
     context text not null,
-    short_context text not null,
+    context_desc text not null,
     start_id integer not null,
     end_id integer not null
 );
