@@ -54,30 +54,27 @@ public class SearchDAOImpl_86_Matches_Test {
     void testSearchByKeyword_Vision_Visions_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("vision", "OldTestament");
         int verses  = 0;
-        int matches = 0;
         int matchesForVision  = 0;
         int matchesForVisions = 0;
         for (SearchResult searchResult : resultsList) {
-            matches += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
+            matchesForVision += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
         }
         verses = resultsList.size();
         log.info("verses:  {}", verses);
-        log.info("matches: {}", matches);
+        log.info("matches: {}", matchesForVision);
         assertTrue(verses == 58);
-        assertTrue(matches == 64);
-        matchesForVision = matches;
+        assertTrue(matchesForVision == 64);
         verses  = 0;
-        matches = 0;
+        matchesForVisions = 0;
         resultsList = searchDAO.searchByKeywordAndContext("visions", "OldTestament");
         for (SearchResult searchResult : resultsList) {
-            matches += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
+            matchesForVisions += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
         }
         verses = resultsList.size();
         log.info("verses:  {}", verses);
-        log.info("matches: {}", matches);
-        matchesForVisions = matches;
+        log.info("matches: {}", matchesForVisions);
         assertTrue(verses == 22);
-        assertTrue(matches == 22);
+        assertTrue(matchesForVisions == 22);
         // 64 + 22 = 86 total matches for vision/visons in the Old Testament
         assertTrue((matchesForVision + matchesForVisions) == 86);
     }
