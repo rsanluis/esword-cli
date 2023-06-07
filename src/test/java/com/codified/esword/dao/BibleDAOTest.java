@@ -36,9 +36,11 @@ public class BibleDAOTest {
 
     @Test
     void testGetByScriptureId() {
+        String expectedVerse = "In the beginning<num>H7225</num> God<num>H430</num> created<num>H1254</num> " +
+        "<sup>(</sup><num>H853</num><sup>)</sup> the heaven<num>H8064</num> and the earth.<num>H776</num>";
+
         Bible bible = bibleDAO.getByScriptureId(new ScriptureId(1,1,1));
         String verse = bible.getScripture();
-        String expectedVerse = "In the beginning<num>H7225</num> God<num>H430</num> created<num>H1254</num> <sup>(</sup><num>H853</num><sup>)</sup> the heaven<num>H8064</num> and the earth.<num>H776</num>";
         assertTrue(expectedVerse.equals(verse));
     }
 }
