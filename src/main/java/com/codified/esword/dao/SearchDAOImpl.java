@@ -27,6 +27,7 @@ public class SearchDAOImpl implements SearchDAO {
       + MATCH_START_TAG + "','" + MATCH_END_TAG + "') scripture from BibleFTS bible, Book book, Context context where " +
       "bible.scripture match :keyword and bible.book >= context.start_id and bible.book <= context.end_id and " +
       "bible.book = book.id and context.context=:context";
+      
     List<SearchResult> searchResultList = jdbcTemplate.query(sql, new SearchResultRowMapper(), keyword, context);
     return searchResultList;
   }
