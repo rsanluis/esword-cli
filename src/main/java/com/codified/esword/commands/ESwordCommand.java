@@ -46,13 +46,12 @@ public class ESwordCommand implements Runnable {
 
     List<SearchResult> resultList = searchDAO.searchByKeywordAndContext("blood","PaulsLetters");
     int matches = 0;
+    int verses  = 0;
     for (SearchResult searchResult : resultList) {
-      String scripture = searchResult.getScripture();
-      String findStr = "<match>";
-      matches += StringUtils.countMatches(scripture, findStr);
+      matches += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
     }
-    log.info("verses: {}", resultList.size());
+    verses = resultList.size();
+    log.info("verses:  {}", verses);
     log.info("matches: {}", matches);
-    
   }
 }
