@@ -31,7 +31,7 @@ public class ESwordCommand implements Runnable {
   private String searchStr;
   
   @Autowired
-  BibleDAO bibleRepository;
+  BibleDAO bibleDAO;
 
   @Autowired
   SearchDAO searchDAO;
@@ -40,7 +40,7 @@ public class ESwordCommand implements Runnable {
   public void run() {
     log.debug("executing ESwordSearchSubCommand.run()...");
     
-    Bible bible = bibleRepository.getByScriptureId(new ScriptureId(1,1,1));
+    Bible bible = bibleDAO.getByScriptureId(new ScriptureId(1,1,1));
     String verse = bible.getScripture();
     System.out.println("P1 *** verse: " + verse);
 
