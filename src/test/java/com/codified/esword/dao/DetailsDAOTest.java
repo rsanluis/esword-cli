@@ -16,7 +16,7 @@ public class DetailsDAOTest {
     DetailsDAO detailsDAO;
 
     @Test
-    public void testGetDetailsById() {
+    public void testFindById() {
         String expectedInfo = "<p>This is the 1769 King James Version of the Holy Bible (also known as the Authorized Version) " +
         "with the words of Jesus Christ in red.  Includes Strong's numbers for looking up the original Hebrew or Greek word " +
         "in a lexicon.</p><p>Derivative Work, Copyright &copy; 2002-2019 by Rick Meyers. All rights reserved.</p>";

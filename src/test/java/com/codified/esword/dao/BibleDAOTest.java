@@ -24,13 +24,13 @@ public class BibleDAOTest {
 
     @Test
     void testGetByBookId() {
-        List<Bible> bibleList = bibleDAO.getByBookId(31);
+        List<Bible> bibleList = bibleDAO.findByBookId(31);
         assertTrue(bibleList.size()==21);
     }
 
     @Test
     void testGetByBookIdAndChapterId() {
-        List<Bible> bibleList = bibleDAO.getByBookIdAndChapterId(31,1);
+        List<Bible> bibleList = bibleDAO.findByBookIdAndChapterId(31,1);
         assertTrue(bibleList.size()==21);
     }
 

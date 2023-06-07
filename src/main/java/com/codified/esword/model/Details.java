@@ -38,7 +38,7 @@ public class Details {
 
     @NonNull
     @Column(name = "oldtestament")
-    private Integer oldTestament; 
+    private Integer oldTestament;
 
     @NonNull
     @Column(name = "newtestament")
