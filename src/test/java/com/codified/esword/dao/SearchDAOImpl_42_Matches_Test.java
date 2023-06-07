@@ -4,12 +4,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
 
-import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.codified.esword.model.SearchResult;
+import com.codified.esword.util.BibleUtils;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -37,9 +37,7 @@ public class SearchDAOImpl_42_Matches_Test {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("G5056", "NewTestament");
         int verses  = 0;
         int matches = 0;
-        for (SearchResult searchResult : resultsList) {
-            matches += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
-        }
+        matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
         log.info("verses:  {}", verses);
         log.info("matches: {}", matches);

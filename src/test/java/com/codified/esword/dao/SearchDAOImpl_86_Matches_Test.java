@@ -4,12 +4,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
 
-import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.codified.esword.model.SearchResult;
+import com.codified.esword.util.BibleUtils;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -25,9 +25,7 @@ public class SearchDAOImpl_86_Matches_Test {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("H3925", "OldTestament");
         int verses  = 0;
         int matches = 0;
-        for (SearchResult searchResult : resultsList) {
-            matches += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
-        }
+        matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
         log.info("verses:  {}", verses);
         log.info("matches: {}", matches);
@@ -40,9 +38,7 @@ public class SearchDAOImpl_86_Matches_Test {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("vanity", "Bible");
         int verses  = 0;
         int matches = 0;
-        for (SearchResult searchResult : resultsList) {
-            matches += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
-        }
+        matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
         log.info("verses:  {}", verses);
         log.info("matches: {}", matches);
@@ -55,9 +51,7 @@ public class SearchDAOImpl_86_Matches_Test {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("G2540", "NewTestament");
         int verses  = 0;
         int matches = 0;
-        for (SearchResult searchResult : resultsList) {
-            matches += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
-        }
+        matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
         log.info("verses:  {}", verses);
         log.info("matches: {}", matches);
@@ -70,9 +64,7 @@ public class SearchDAOImpl_86_Matches_Test {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("H7891", "OldTestament");
         int verses  = 0;
         int matches = 0;
-        for (SearchResult searchResult : resultsList) {
-            matches += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
-        }
+        matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
         log.info("verses:  {}", verses);
         log.info("matches: {}", matches);
@@ -86,9 +78,7 @@ public class SearchDAOImpl_86_Matches_Test {
         int verses  = 0;
         int matchesForVision  = 0;
         int matchesForVisions = 0;
-        for (SearchResult searchResult : resultsList) {
-            matchesForVision += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
-        }
+        matchesForVision += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
         log.info("verses:  {}", verses);
         log.info("matches: {}", matchesForVision);
@@ -97,9 +87,7 @@ public class SearchDAOImpl_86_Matches_Test {
         verses  = 0;
         matchesForVisions = 0;
         resultsList = searchDAO.searchByKeywordAndContext("visions", "OldTestament");
-        for (SearchResult searchResult : resultsList) {
-            matchesForVisions += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
-        }
+        matchesForVisions += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
         log.info("verses:  {}", verses);
         log.info("matches: {}", matchesForVisions);
