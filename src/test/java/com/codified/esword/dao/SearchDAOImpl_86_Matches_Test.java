@@ -36,6 +36,21 @@ public class SearchDAOImpl_86_Matches_Test {
     }
 
     @Test
+    void testSearchByKeyword_Vanity_AndContext_OldTestament() {
+        List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("vanity", "Bible");
+        int verses  = 0;
+        int matches = 0;
+        for (SearchResult searchResult : resultsList) {
+            matches += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
+        }
+        verses = resultsList.size();
+        log.info("verses:  {}", verses);
+        log.info("matches: {}", matches);
+        assertTrue(verses == 79);
+        assertTrue(matches == 86);
+    }
+
+    @Test
     void testSearchByKeyword_G2540_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("G2540", "NewTestament");
         int verses  = 0;
@@ -47,6 +62,21 @@ public class SearchDAOImpl_86_Matches_Test {
         log.info("verses:  {}", verses);
         log.info("matches: {}", matches);
         assertTrue(verses == 81);
+        assertTrue(matches == 86);
+    }
+
+    @Test
+    void testSearchByKeyword_H7891_AndContext_OldTestament() {
+        List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("H7891", "OldTestament");
+        int verses  = 0;
+        int matches = 0;
+        for (SearchResult searchResult : resultsList) {
+            matches += StringUtils.countMatches(searchResult.getScripture(), SearchDAO.MATCH_START_TAG);
+        }
+        verses = resultsList.size();
+        log.info("verses:  {}", verses);
+        log.info("matches: {}", matches);
+        assertTrue(verses == 78);
         assertTrue(matches == 86);
     }
 
