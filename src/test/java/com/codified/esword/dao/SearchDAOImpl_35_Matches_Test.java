@@ -47,7 +47,7 @@ public class SearchDAOImpl_35_Matches_Test {
     }
 
     @Test
-    void testSearchByKeyword_Flood_AndContext_PaulsLetters() {
+    void testSearchByKeyword_Flood_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("flood", "OldTestament");
         int verses  = 0;
         int matches = 0;

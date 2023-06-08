@@ -1,5 +1,6 @@
 -- Drop the following tables if they exist
 drop table if exists BibleFTS;
+drop table if exists WordDan;
 
 -- Create virtual table BibleFTS
 create virtual table BibleFTS using FTS5(book,chapter,verse,scripture);
@@ -20,3 +21,10 @@ create table if not exists Context (
     start_id integer not null,
     end_id integer not null
 );
+
+-- Create table Words
+create table if not exists WordDan (
+    id integer not null primary key autoincrement,
+    word text not null unique,
+    matches integer default 0
+)
