@@ -23,7 +23,7 @@ public class SearchDAOImpl_35_Matches_Test {
     @Test
     void testSearchByKeyword_H7093_AndContext_MajorProphets() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("H7093", "MajorProphets");
-        int verses  = 0;
+        int verses = 0;
         int matches = 0;
         matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
@@ -36,7 +36,7 @@ public class SearchDAOImpl_35_Matches_Test {
     @Test
     void testSearchByKeyword_Authority_AndContext_NewTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("authority", "NewTestament");
-        int verses  = 0;
+        int verses = 0;
         int matches = 0;
         matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
@@ -49,7 +49,7 @@ public class SearchDAOImpl_35_Matches_Test {
     @Test
     void testSearchByKeyword_Flood_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("flood", "OldTestament");
-        int verses  = 0;
+        int verses = 0;
         int matches = 0;
         matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
@@ -62,7 +62,7 @@ public class SearchDAOImpl_35_Matches_Test {
     @Test
     void testSearchByKeyword_Blood_AndContext_PaulsLetters() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("blood", "PaulsLetters");
-        int verses  = 0;
+        int verses = 0;
         int matches = 0;
         matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();

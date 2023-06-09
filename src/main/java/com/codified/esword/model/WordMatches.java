@@ -5,7 +5,7 @@ import lombok.ToString;
 
 @ToString
 @Data
-public class WordDan {
+public class WordMatches {
     private Integer id;
     private String word; 
     private Integer matches; 

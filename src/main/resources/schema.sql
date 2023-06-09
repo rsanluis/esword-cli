@@ -22,9 +22,14 @@ create table if not exists Context (
     end_id integer not null
 );
 
--- Create table Words
+-- Create table Word
 create table if not exists WordDan (
     id integer not null primary key autoincrement,
     word text not null unique,
     matches integer default 0
-)
+);
+
+drop index word_idx;
+drop index matches_idx;
+create index word_idx on WordDan (word);
+create index matches_idx on WordDan (matches);

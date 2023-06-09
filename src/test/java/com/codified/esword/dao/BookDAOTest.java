@@ -22,7 +22,7 @@ public class BookDAOTest {
     @Test
     public void testFindAll() {
         List<Book> bookList = bookDAO.findAll();
-        assertTrue(bookList.size()==66);
+        assertTrue(bookList.size() == 66);
     }
 
     @Test

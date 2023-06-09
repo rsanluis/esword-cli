@@ -23,7 +23,7 @@ public class SearchDAOImpl_86_Matches_Test {
     @Test
     void testSearchByKeyword_H3925_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("H3925", "OldTestament");
-        int verses  = 0;
+        int verses = 0;
         int matches = 0;
         matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
@@ -36,7 +36,7 @@ public class SearchDAOImpl_86_Matches_Test {
     @Test
     void testSearchByKeyword_Vanity_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("vanity", "Bible");
-        int verses  = 0;
+        int verses = 0;
         int matches = 0;
         matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
@@ -49,7 +49,7 @@ public class SearchDAOImpl_86_Matches_Test {
     @Test
     void testSearchByKeyword_G2540_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("G2540", "NewTestament");
-        int verses  = 0;
+        int verses = 0;
         int matches = 0;
         matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
@@ -62,7 +62,7 @@ public class SearchDAOImpl_86_Matches_Test {
     @Test
     void testSearchByKeyword_H7891_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("H7891", "OldTestament");
-        int verses  = 0;
+        int verses = 0;
         int matches = 0;
         matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
@@ -75,8 +75,8 @@ public class SearchDAOImpl_86_Matches_Test {
     @Test
     void testSearchByKeyword_Vision_Visions_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("vision", "OldTestament");
-        int verses  = 0;
-        int matchesForVision  = 0;
+        int verses = 0;
+        int matchesForVision = 0;
         int matchesForVisions = 0;
         matchesForVision += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
@@ -84,7 +84,7 @@ public class SearchDAOImpl_86_Matches_Test {
         log.info("matches: {}", matchesForVision);
         assertTrue(verses == 58);
         assertTrue(matchesForVision == 64);
-        verses  = 0;
+        verses = 0;
         matchesForVisions = 0;
         resultsList = searchDAO.searchByKeywordAndContext("visions", "OldTestament");
         matchesForVisions += BibleUtils.countMatches(resultsList);
@@ -97,4 +97,3 @@ public class SearchDAOImpl_86_Matches_Test {
         assertTrue((matchesForVision + matchesForVisions) == 86);
     }
 }
-

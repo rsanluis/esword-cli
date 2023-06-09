@@ -23,7 +23,7 @@ public class SearchDAOImpl_69_Matches_Test {
     @Test
     void testSearchByKeyword_Obey_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("obey", "Bible");
-        int verses  = 0;
+        int verses = 0;
         int matches = 0;
         matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
@@ -33,4 +33,3 @@ public class SearchDAOImpl_69_Matches_Test {
         assertTrue(matches == 69);
     }
 }
-

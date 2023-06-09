@@ -19,7 +19,7 @@ public class ContextDAOTest {
     @Test
     public void testFindAll() {
         List<Context> contextList = contextDAO.findAll();
-        assertTrue(contextList.size()==12);
+        assertTrue(contextList.size() == 12);
     }
 
     @Test
@@ -28,7 +28,7 @@ public class ContextDAOTest {
         assertTrue(contextOpt.isPresent());
         Context context = contextOpt.get();
         assertTrue(context.getContext().equals("Wisdom"));
-        assertTrue(context.getStartId()==18);
-        assertTrue(context.getEndId()==22);
+        assertTrue(context.getStartId() == 18);
+        assertTrue(context.getEndId() == 22);
     }
 }
