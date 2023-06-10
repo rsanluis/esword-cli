@@ -15,7 +15,6 @@ import org.springframework.jdbc.core.RowMapper;
 
 import com.codified.esword.mapper.WordMatchesRowMapper;
 import com.codified.esword.model.Bible;
-import com.codified.esword.model.SearchResult;
 import com.codified.esword.model.WordMatches;
 
 import lombok.extern.slf4j.Slf4j;
