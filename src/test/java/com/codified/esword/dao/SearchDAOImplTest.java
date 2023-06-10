@@ -37,7 +37,5 @@ public class SearchDAOImplTest {
         log.info("matches: {}", matches);
         assertTrue(verses == 33);
         assertTrue(matches == 41);
-
-        log.info("size: {}", resultsList.size());
     }
 }
