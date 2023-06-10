@@ -3,6 +3,8 @@ package com.codified.esword.dao;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.stream.Stream;
+
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +13,9 @@ import org.springframework.jdbc.UncategorizedSQLException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 
+import com.codified.esword.mapper.WordMatchesRowMapper;
 import com.codified.esword.model.Bible;
+import com.codified.esword.model.SearchResult;
 import com.codified.esword.model.WordMatches;
 
 import lombok.extern.slf4j.Slf4j;
@@ -27,14 +31,45 @@ public class WordMatchesTest {
 
   @Test
   public void testWordMatchesTest() {
-    String tableName = "WordDan";
+
+    String tableName = "WordMatchesDan";
     List<Bible> bibleList = bibleDAO.findByBookId(27);
+    List<WordMatches> wordMatchesList = jdbcTemplate.query("select * from " + tableName + "",
+        new WordMatchesRowMapper());
+    if (wordMatchesList.size() != 2383) {
+      log.info("Populating table: {}", tableName);
+      populateTable(tableName, bibleList);
+    }
 
-    // List<Bible> bibleRevList = bibleDAO.findByBookId(66);
-    // Combine 2 lists into 1
-    // List<Bible> bibleList = Stream.concat(bibleDanList.stream(),
-    // bibleRevList.stream()).toList();
+    tableName = "WordMatchesRev";
+    wordMatchesList = jdbcTemplate.query("select * from " + tableName + "",
+        new WordMatchesRowMapper());
+    if (wordMatchesList.size() != 2258) {
+      bibleList = bibleDAO.findByBookId(66);
+      log.info("Populating table: {}", tableName);
+      populateTable(tableName, bibleList);
+    }
 
+    tableName = "WordMatchesDanRev";
+    wordMatchesList = jdbcTemplate.query("select * from " + tableName + "",
+        new WordMatchesRowMapper());
+    if (wordMatchesList.size() != 4036) {
+      bibleList = Stream.concat(bibleDAO.findByBookId(27).stream(), bibleDAO.findByBookId(66).stream()).toList();
+      log.info("Populating table: {}", tableName);
+      populateTable(tableName, bibleList);
+    }
+
+    tableName = "WordMatchesBible";
+    wordMatchesList = jdbcTemplate.query("select * from " + tableName + "",
+        new WordMatchesRowMapper());
+    if (wordMatchesList.size() != 26971) {
+      bibleList = bibleDAO.findAll();
+      log.info("Populating table: {}", tableName);
+      populateTable(tableName, bibleList);
+    }
+  }
+
+  private void populateTable(String tableName, List<Bible> bibleList) {
     int wordCount = 0;
     for (int i = 0; i < bibleList.size(); i++) {
       String verse = bibleList.get(i).getScripture().toLowerCase();
@@ -74,9 +109,8 @@ public class WordMatchesTest {
           }
         }
         if (isAlphaNumeric) {
-          String sql = "insert into " + tableName + " (word,matches) values (?,1)";
           try {
-            jdbcTemplate.update(sql, new Object[] { tok });
+            jdbcTemplate.update("insert into " + tableName + " (word,matches) values (?,1)", new Object[] { tok });
           } catch (UncategorizedSQLException ex) {
             WordMatches word = jdbcTemplate.queryForObject("select * from " + tableName + " where word = ?",
                 new RowMapper<WordMatches>() {
