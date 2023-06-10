@@ -28,7 +28,6 @@ public class SearchDAOImplTest {
         List<Integer> bookIDList = new ArrayList<>();
         bookIDList.add(5);
         bookIDList.add(66);
-
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndBookIDs("blood", bookIDList);
         int verses = 0;
         int matches = 0;
