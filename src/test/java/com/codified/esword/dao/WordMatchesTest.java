@@ -64,6 +64,7 @@ public class WordMatchesTest {
     if (wordMatchesList.size() != 26971) {
       bibleList = bibleDAO.findAll();
       log.info("Populating table: {}", tableName);
+      log.info("Warning: This may take up to 20-30 minutes");
       populateTable(tableName, bibleList);
     }
   }

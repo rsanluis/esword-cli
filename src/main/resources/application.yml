@@ -4,7 +4,7 @@ spring:
   main:
     banner-mode: "off"
   datasource:
-    url: jdbc:sqlite:kjv+.bbli
+    url: jdbc:sqlite:kjv+matches.bbli
     driverClassName: org.sqlite.JDBC
   jpa:
     defer-datasource-initialization: true

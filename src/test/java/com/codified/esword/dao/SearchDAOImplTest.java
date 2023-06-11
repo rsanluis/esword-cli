@@ -20,19 +20,20 @@ public class SearchDAOImplTest {
     @Autowired
     SearchDAO searchDAO;
 
-    @Test // TODO: change into a different test
-    void testSearchByKeyword_Blood_AndBookIDs_5_66() { 
+    @Test
+    void testSearchByKeyword_Blood_AndBookIDs_27_66() {
+        // Search both Daniel and Revelation
         List<Integer> bookIDList = new ArrayList<>();
-        bookIDList.add(5);
+        bookIDList.add(27);
         bookIDList.add(66);
-        List<SearchResult> resultsList = searchDAO.searchByKeywordAndBookIDs("blood", bookIDList);
+        List<SearchResult> resultsList = searchDAO.searchByKeywordAndBookIDs("end", bookIDList);
         int verses = 0;
         int matches = 0;
         matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
         log.info("verses:  {}", verses);
         log.info("matches: {}", matches);
-        assertTrue(verses == 33);
-        assertTrue(matches == 41);
+        assertTrue(verses == 27);
+        assertTrue(matches == 30);
     }
 }
