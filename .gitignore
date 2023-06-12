@@ -41,3 +41,5 @@ out/
 
 ### Bible files ###
 *.bbli
+*.dzip
+*.zip
