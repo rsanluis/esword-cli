@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,13 +16,13 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @SpringBootTest
-public class SearchDAOImplTest {
+public class SearchDAOImpl_30_Matches_Test {
 
     @Autowired
     SearchDAO searchDAO;
 
     @Test
-    void testSearchByKeyword_Blood_AndBookIDs_27_66() {
+    void testSearchByKeyword_End_AndBookIDs_27_66() {
         // Search both Daniel and Revelation
         List<Integer> bookIDList = new ArrayList<>();
         bookIDList.add(27);
