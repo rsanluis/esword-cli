@@ -70,6 +70,34 @@ public class WordMatchesTest {
     assertTrue(wordMatchesList.get(0).getMatches()==26);
   }
 
+  @Test
+  public void testWordMatchesDanRev_30_Matches_Test() {
+    List<WordMatches> wordMatchesList = wordMatchesDanRevDAO.getWordMatchesByMatches(30);
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size()==12);
+    // h3605            whole,one,all,every,open
+    // end              end
+    // ye               ye
+    // h413             unto,to,in,at,for,into
+    // give             give
+    // interpretation   interpretation
+    // h6032            answered
+    // h2370            see,seen,sawest
+    // book             book
+    // g4160            did,make,forth,causeth,do,doest,doeth,forth
+    // g2400            behold,lo
+    // g5064            four
+    //
+    //    Behold, ye sawest book answered.
+    //    Do give interpretation to all four end.
+    //
+    //    Behold, ye sawest book answered.
+    //    Do give end interpretation to all four.
+    //
+    //    Behold, you saw (the) book answered.                                 (inserting 'The')
+    //    Do give (the) end interpretation to all four (winds,corners,parts).  (as in Matthew 24:31)
+  }
+
   // Define Order(0) to force the check of DB population before running any word match tests
   @Test
   @Order(0) 
