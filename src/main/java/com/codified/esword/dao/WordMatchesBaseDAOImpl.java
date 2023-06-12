@@ -18,11 +18,13 @@ public abstract class WordMatchesBaseDAOImpl implements WordMatchesBaseDAO {
   JdbcTemplate jdbcTemplate;
 
   public List<WordMatches> getWordMatchesByMatches(Integer matches) {
-    return jdbcTemplate.query("select id, word, matches from "+ tableName + " where matches = :matches", new WordMatchesRowMapper(), matches);
+    return jdbcTemplate.query("select id, word, matches from " + tableName + " where matches = :matches",
+        new WordMatchesRowMapper(), matches);
   }
 
   public List<WordMatches> getWordMatchesByWord(String word) {
-    return jdbcTemplate.query("select id, word, matches from "+ tableName + " where word = :word", new WordMatchesRowMapper(), word);
+    return jdbcTemplate.query("select id, word, matches from " + tableName + " where word = :word",
+        new WordMatchesRowMapper(), word);
   }
 
 }
