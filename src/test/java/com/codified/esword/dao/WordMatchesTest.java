@@ -1,5 +1,8 @@
 package com.codified.esword.dao;
 
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
@@ -29,7 +32,7 @@ public class WordMatchesTest {
   JdbcTemplate jdbcTemplate;
 
   @Test
-  public void testWordMatchesTest() {
+  public void testWordMatches_000_PopulateDBs() {
 
     String tableName = "WordMatchesDan";
     List<Bible> bibleList = bibleDAO.findByBookId(27);
@@ -38,6 +41,8 @@ public class WordMatchesTest {
     if (wordMatchesList.size() != 2383) {
       log.info("Populating table: {}", tableName);
       populateTable(tableName, bibleList);
+    } else {
+      log.info("Table "+tableName+" is already populated");
     }
 
     tableName = "WordMatchesRev";
@@ -47,6 +52,8 @@ public class WordMatchesTest {
       bibleList = bibleDAO.findByBookId(66);
       log.info("Populating table: {}", tableName);
       populateTable(tableName, bibleList);
+    } else {
+      log.info("Table "+tableName+" is already populated");
     }
 
     tableName = "WordMatchesDanRev";
@@ -56,6 +63,8 @@ public class WordMatchesTest {
       bibleList = Stream.concat(bibleDAO.findByBookId(27).stream(), bibleDAO.findByBookId(66).stream()).toList();
       log.info("Populating table: {}", tableName);
       populateTable(tableName, bibleList);
+    } else {
+      log.info("Table "+tableName+" is already populated");
     }
 
     tableName = "WordMatchesBible";
@@ -66,7 +75,18 @@ public class WordMatchesTest {
       log.info("Populating table: {}", tableName);
       log.info("Warning: This may take up to 20-30 minutes");
       populateTable(tableName, bibleList);
+    } else {
+      log.info("Table "+tableName+" is already populated");
     }
+  }
+
+  @Test
+  public void testWordMatches_555_Matches_Test() {
+    String tableName = "WordMatchesBible";
+    String word = jdbcTemplate.queryForObject("select word from "+tableName+" where matches = 555", String.class);
+    log.info("word: {}", word);
+    assertNotNull(word);
+    assertTrue(word.equals("christ"));
   }
 
   private void populateTable(String tableName, List<Bible> bibleList) {
