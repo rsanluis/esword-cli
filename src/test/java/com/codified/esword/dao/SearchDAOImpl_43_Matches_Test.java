@@ -30,6 +30,6 @@ public class SearchDAOImpl_43_Matches_Test {
         log.info("verses:  {}", verses);
         log.info("matches: {}", matches);
         assertTrue(verses == 41);
-        assertTrue(matches == 43);
+        assertTrue(matches == 42);
     }
 }

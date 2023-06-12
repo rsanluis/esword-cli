@@ -1,6 +1,5 @@
 package com.codified.esword.dao;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.sql.ResultSet;
@@ -9,7 +8,10 @@ import java.util.List;
 import java.util.stream.Stream;
 
 import org.apache.commons.lang3.StringUtils;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.UncategorizedSQLException;
@@ -24,15 +26,54 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @SpringBootTest
+@TestMethodOrder(OrderAnnotation.class)
 public class WordMatchesTest {
   @Autowired
   BibleDAO bibleDAO;
 
   @Autowired
+  WordMatchesBibleDAO wordMatchesBibleDAO;
+
+  @Autowired
+  WordMatchesDanDAO wordMatchesDanDAO;
+
+  @Autowired
+  WordMatchesRevDAO wordMatchesRevDAO;
+
+  @Autowired
+  WordMatchesDanRevDAO wordMatchesDanRevDAO;
+
+  @Autowired
   JdbcTemplate jdbcTemplate;
 
   @Test
-  public void testWordMatches_000_PopulateDBs() {
+  public void testWordMatchesBible_555_Matches_Test() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(555);
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size()==1);
+    assertTrue(wordMatchesList.get(0).getWord().equals("christ"));
+  }
+
+  @Test
+  public void testWordMatchesBible_4444_Matches_Test() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByWord("god");
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size()==1);
+    assertTrue(wordMatchesList.get(0).getMatches()==4444);
+  }
+
+  @Test
+  public void testWordMatchesBible_26_Matches_Test() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByWord("god's");
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size()==1);
+    assertTrue(wordMatchesList.get(0).getMatches()==26);
+  }
+
+  // Define Order(0) to force the check of DB population before running any word match tests
+  @Test
+  @Order(0) 
+  public void testWordMatchesPopulateDBs() {
 
     String tableName = "WordMatchesDan";
     List<Bible> bibleList = bibleDAO.findByBookId(27);
@@ -78,15 +119,6 @@ public class WordMatchesTest {
     } else {
       log.info("Table "+tableName+" is already populated");
     }
-  }
-
-  @Test
-  public void testWordMatches_555_Matches_Test() {
-    String tableName = "WordMatchesBible";
-    String word = jdbcTemplate.queryForObject("select word from "+tableName+" where matches = 555", String.class);
-    log.info("word: {}", word);
-    assertNotNull(word);
-    assertTrue(word.equals("christ"));
   }
 
   private void populateTable(String tableName, List<Bible> bibleList) {
