@@ -20,6 +20,14 @@ public class SearchDAOImpl_35_Matches_Test {
     @Autowired
     SearchDAO searchDAO;
 
+    /*
+        H7093
+        קֵץ
+        qêts
+        kates
+        Contracted from H7112; an extremity; adverbially (with prepositional prefix) after: -  + after, (utmost) border, end, [in-] finite, X process.
+        Total KJV occurrences within Major Prophets: 35
+     */
     @Test
     void testSearchByKeyword_H7093_AndContext_MajorProphets() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("H7093", "MajorProphets");

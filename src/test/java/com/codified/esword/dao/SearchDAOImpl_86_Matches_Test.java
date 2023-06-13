@@ -46,6 +46,14 @@ public class SearchDAOImpl_86_Matches_Test {
         assertTrue(matches == 86);
     }
 
+    /*
+        G2540
+        καιρός
+        kairos
+        kahee-ros'
+        Of uncertain affinity; an occasion, that is, set or proper time: - X always, opportunity, (convenient, due) season, (due, short, while) time, a while. Compare G5550.
+        Total KJV occurrences: 86
+     */
     @Test
     void testSearchByKeyword_G2540_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("G2540", "NewTestament");
