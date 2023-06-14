@@ -71,6 +71,27 @@ public class WordMatchesTest {
   }
 
   @Test
+  public void testWordMatchesBible_42_Matches_Test() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(35);
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size()==42);
+  }
+
+  @Test
+  public void testWordMatchesBible_23_Matches_Test() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(69);
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size()==23);
+  }
+
+  @Test
+  public void testWordMatchesBible_69_Matches_Test() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(42);
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size()==69);
+  }
+
+  @Test
   public void testWordMatchesBible_105_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByWord("prince");
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
