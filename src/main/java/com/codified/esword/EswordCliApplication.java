@@ -16,7 +16,7 @@ import picocli.CommandLine.UnmatchedArgumentException;
 import picocli.spring.PicocliSpringFactory;
 
 @SpringBootApplication
-public class ESwordCLIApplication implements CommandLineRunner {
+public class EswordCliApplication implements CommandLineRunner {
 
 	@Autowired
 	ESwordCommand eSwordCommand;
@@ -25,7 +25,7 @@ public class ESwordCLIApplication implements CommandLineRunner {
 	ApplicationContext appContext;
 
 	public static void main(String[] args) {
-		SpringApplication.run(ESwordCLIApplication.class, args);
+		SpringApplication.run(EswordCliApplication.class, args);
 	}
 
 	@Override
