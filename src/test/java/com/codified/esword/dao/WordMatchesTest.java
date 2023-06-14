@@ -47,19 +47,17 @@ public class WordMatchesTest {
   JdbcTemplate jdbcTemplate;
 
   @Test
-  public void testWordMatchesBible_555_Matches_Test() {
-    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(555);
+  public void testWordMatchesBible_11_Matches_Test() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(96);
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==1);
-    assertTrue(wordMatchesList.get(0).getWord().equals("christ"));
+    assertTrue(wordMatchesList.size()==11);
   }
 
   @Test
-  public void testWordMatchesBible_4444_Matches_Test() {
-    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByWord("god");
+  public void testWordMatchesBible_23_Matches_Test() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(69);
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==1);
-    assertTrue(wordMatchesList.get(0).getMatches()==4444);
+    assertTrue(wordMatchesList.size()==23);
   }
 
   @Test
@@ -76,14 +74,7 @@ public class WordMatchesTest {
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
     assertTrue(wordMatchesList.size()==42);
   }
-
-  @Test
-  public void testWordMatchesBible_23_Matches_Test() {
-    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(69);
-    log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==23);
-  }
-
+  
   @Test
   public void testWordMatchesBible_69_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(42);
@@ -101,6 +92,22 @@ public class WordMatchesTest {
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
     assertTrue(wordMatchesList.size()==1);
     assertTrue(wordMatchesList.get(0).getMatches()==3);
+  }
+
+  @Test
+  public void testWordMatchesBible_555_Matches_Test() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(555);
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size()==1);
+    assertTrue(wordMatchesList.get(0).getWord().equals("christ"));
+  }
+
+  @Test
+  public void testWordMatchesBible_4444_Matches_Test() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByWord("god");
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size()==1);
+    assertTrue(wordMatchesList.get(0).getMatches()==4444);
   }
 
   @Test
