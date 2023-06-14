@@ -1,5 +1,6 @@
 package com.codified.esword.dao;
 
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.sql.ResultSet;
@@ -18,7 +19,6 @@ import org.springframework.jdbc.UncategorizedSQLException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 
-import com.codified.esword.mapper.WordMatchesRowMapper;
 import com.codified.esword.model.Bible;
 import com.codified.esword.model.WordMatches;
 
@@ -74,7 +74,7 @@ public class WordMatchesTest {
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
     assertTrue(wordMatchesList.size()==42);
   }
-  
+
   @Test
   public void testWordMatchesBible_69_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(42);
@@ -145,9 +145,9 @@ public class WordMatchesTest {
 
     String tableName = "WordMatchesDan";
     List<Bible> bibleList = bibleDAO.findByBookId(27);
-    List<WordMatches> wordMatchesList = jdbcTemplate.query("select * from " + tableName + "",
-        new WordMatchesRowMapper());
-    if (wordMatchesList.size() != 2383) {
+    Integer rowSize = jdbcTemplate.queryForObject("select count(*) from " + tableName + "", Integer.class);
+    assertNotNull(rowSize);
+    if (rowSize != 2383) {
       log.info("Populating table: {}", tableName);
       populateTable(tableName, bibleList);
     } else {
@@ -155,9 +155,9 @@ public class WordMatchesTest {
     }
 
     tableName = "WordMatchesRev";
-    wordMatchesList = jdbcTemplate.query("select * from " + tableName + "",
-        new WordMatchesRowMapper());
-    if (wordMatchesList.size() != 2258) {
+    rowSize = jdbcTemplate.queryForObject("select count(*) from " + tableName + "", Integer.class);
+    assertNotNull(rowSize);
+    if (rowSize != 2258) {
       bibleList = bibleDAO.findByBookId(66);
       log.info("Populating table: {}", tableName);
       populateTable(tableName, bibleList);
@@ -166,9 +166,9 @@ public class WordMatchesTest {
     }
 
     tableName = "WordMatchesDanRev";
-    wordMatchesList = jdbcTemplate.query("select * from " + tableName + "",
-        new WordMatchesRowMapper());
-    if (wordMatchesList.size() != 4036) {
+    rowSize = jdbcTemplate.queryForObject("select count(*) from " + tableName + "", Integer.class);
+    assertNotNull(rowSize);
+    if (rowSize != 4036) {
       bibleList = Stream.concat(bibleDAO.findByBookId(27).stream(), bibleDAO.findByBookId(66).stream()).toList();
       log.info("Populating table: {}", tableName);
       populateTable(tableName, bibleList);
@@ -177,9 +177,9 @@ public class WordMatchesTest {
     }
 
     tableName = "WordMatchesBible";
-    wordMatchesList = jdbcTemplate.query("select * from " + tableName + "",
-        new WordMatchesRowMapper());
-    if (wordMatchesList.size() != 26971) {
+    rowSize = jdbcTemplate.queryForObject("select count(*) from " + tableName + "", Integer.class);
+    assertNotNull(rowSize);
+    if (rowSize != 26971) {
       bibleList = bibleDAO.findAll();
       log.info("Populating table: {}", tableName);
       log.info("Warning: This may take up to 20-30 minutes");
