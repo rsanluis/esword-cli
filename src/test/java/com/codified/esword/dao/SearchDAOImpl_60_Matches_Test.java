@@ -29,7 +29,7 @@ public class SearchDAOImpl_60_Matches_Test {
         Total KJV occurrences: 60
      */
     @Test
-    void testSearchByKeyword_H3925_AndContext_OldTestament() {
+    void testSearchByKeyword_H2555_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("H2555", "OldTestament");
         int verses = 0;
         int matches = 0;
@@ -39,5 +39,6 @@ public class SearchDAOImpl_60_Matches_Test {
         log.info("matches: {}", matches);
         assertTrue(verses == 59);
         assertTrue(matches == 60);
+        // Uses of h2555: {violence,wrong,cruelty,unrighteous,false,violent,injustice,cruel,oppressor,damage}
     }
 }
