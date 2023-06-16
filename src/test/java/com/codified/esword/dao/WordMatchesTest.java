@@ -104,9 +104,22 @@ public class WordMatchesTest {
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
     assertTrue(wordMatchesList.size()==1);
     assertTrue(wordMatchesList.get(0).getWord().equals("h3519"));
-    // All uses of H3519 in the entire KJV+ Bible: {glory,glorious,gloriously,honour,honourable}
+    // All possible uses of H3519 in the entire KJV+ Bible: {glory,glorious,gloriously,honour,honourable}
   }
 
+  /*
+    Rev_14:8 
+    And there followed another angel, saying, Babylon is fallen, is fallen, that great city, because she made all nations 
+    *drink* of the wine of the wrath of her fornication.
+   */
+  @Test
+  public void testWordMatchesBible_369_Matches_Test() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(369);
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size()==1);
+    assertTrue(wordMatchesList.get(0).getWord().equals("drink"));
+  }
+  
   @Test
   public void testWordMatchesBible_555_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(555);
