@@ -40,4 +40,17 @@ public class SearchDAOImpl_10_Matches_Test {
         assertTrue(verses == 10);
         assertTrue(matches == 10);
     }
+
+    @Test
+    void testSearchByKeyword_Revelation_AndContext_Bible() {
+        List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("revelation", "Bible");
+        int verses = 0;
+        int matches = 0;
+        matches += BibleUtils.countMatches(resultsList);
+        verses = resultsList.size();
+        log.info("verses:  {}", verses);
+        log.info("matches: {}", matches);
+        assertTrue(verses == 10);
+        assertTrue(matches == 10);
+    }
 }
