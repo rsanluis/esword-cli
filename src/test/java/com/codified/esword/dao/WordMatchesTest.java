@@ -50,101 +50,114 @@ public class WordMatchesTest {
   public void testWordMatchesBible_11_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(96);
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==11);
+    assertTrue(wordMatchesList.size() == 11);
   }
 
   @Test
   public void testWordMatchesBible_23_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(69);
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==23);
+    assertTrue(wordMatchesList.size() == 23);
   }
 
   @Test
   public void testWordMatchesBible_26_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByWord("god's");
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==1);
-    assertTrue(wordMatchesList.get(0).getMatches()==26);
+    assertTrue(wordMatchesList.size() == 1);
+    assertTrue(wordMatchesList.get(0).getMatches() == 26);
   }
 
   @Test
   public void testWordMatchesBible_42_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(35);
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==42);
+    assertTrue(wordMatchesList.size() == 42);
+  }
+
+  @Test
+  void testDerivedMatch_I_AM_69_Test() {
+    String exodus3_14 = "And God said unto Moses, I AM THAT I AM: and he said, " +
+        "Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.";
+    int matches = StringUtils.countMatches(exodus3_14, "I AM");
+    assertTrue(matches == 3);
+    int simpleGematriaValueForIam = 23;
+    assertTrue(3 * simpleGematriaValueForIam == 69);
+    // Compare to testWordMatchesBible_23_Matches_Test
   }
 
   @Test
   public void testWordMatchesBible_69_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(42);
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==69);
+    assertTrue(wordMatchesList.size() == 69);
   }
 
   @Test
   public void testWordMatchesBible_105_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByWord("prince");
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==1);
-    assertTrue(wordMatchesList.get(0).getMatches()==102);
+    assertTrue(wordMatchesList.size() == 1);
+    assertTrue(wordMatchesList.get(0).getMatches() == 102);
     wordMatchesList = wordMatchesBibleDAO.getWordMatchesByWord("prince's");
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==1);
-    assertTrue(wordMatchesList.get(0).getMatches()==3);
+    assertTrue(wordMatchesList.size() == 1);
+    assertTrue(wordMatchesList.get(0).getMatches() == 3);
   }
 
   @Test
   public void testWordMatchesBible_555_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(555);
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==1);
+    assertTrue(wordMatchesList.size() == 1);
     assertTrue(wordMatchesList.get(0).getWord().equals("christ"));
   }
 
   /*
-    https://www.youtube.com/watch?v=DQIabITex8w
-    Biblical Number #4444 in the Bible – Meaning and Symbolism
+   * https://www.youtube.com/watch?v=DQIabITex8w
+   * Biblical Number #4444 in the Bible – Meaning and Symbolism
    */
   @Test
   public void testWordMatchesBible_4444_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByWord("god");
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==1);
-    assertTrue(wordMatchesList.get(0).getMatches()==4444);
+    assertTrue(wordMatchesList.size() == 1);
+    assertTrue(wordMatchesList.get(0).getMatches() == 4444);
   }
 
   @Test
   public void testWordMatchesDanRev_30_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesDanRevDAO.getWordMatchesByMatches(30);
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==12);
-    // h3605            whole,one,all,every,open
-    // end              end
-    // ye               ye
-    // h413             unto,to,in,at,for,into
-    // give             give
-    // interpretation   interpretation
-    // h6032            answered
-    // h2370            see,seen,sawest
-    // book             book
-    // g4160            did,make,forth,causeth,do,doest,doeth,forth
-    // g2400            behold,lo
-    // g5064            four
+    assertTrue(wordMatchesList.size() == 12);
+    // h3605 whole,one,all,every,open
+    // end end
+    // ye ye
+    // h413 unto,to,in,at,for,into
+    // give give
+    // interpretation interpretation
+    // h6032 answered
+    // h2370 see,seen,sawest
+    // book book
+    // g4160 did,make,forth,causeth,do,doest,doeth,forth
+    // g2400 behold,lo
+    // g5064 four
     //
-    //    Behold, ye sawest book answered.
-    //    Do give interpretation to all four end.
+    // Behold, ye sawest book answered.
+    // Do give interpretation to all four end.
     //
-    //    Behold, ye sawest book answered.
-    //    Do give end interpretation to all four.
+    // Behold, ye sawest book answered.
+    // Do give end interpretation to all four.
     //
-    //    Behold, you saw (the) book answered.                                 (inserting 'The')
-    //    Do give (the) end interpretation to all four (winds,corners,parts).  (as in Matthew 24:31)
+    // Behold, you saw (the) book answered. (inserting 'The')
+    // Do give (the) end interpretation to all four (winds,corners,parts). (as in
+    // Matthew 24:31)
   }
 
-  // Define Order(0) to force the check of DB population before running any word match tests
+  // Define Order(0) to force the check of DB population before running any word
+  // match tests
   @Test
-  @Order(0) 
+  @Order(0)
   public void testWordMatchesPopulateDBs() {
 
     String tableName = "WordMatchesDan";
@@ -155,7 +168,7 @@ public class WordMatchesTest {
       log.info("Populating table: {}", tableName);
       populateTable(tableName, bibleList);
     } else {
-      log.info("Table "+tableName+" is already populated");
+      log.info("Table " + tableName + " is already populated");
     }
 
     tableName = "WordMatchesRev";
@@ -166,7 +179,7 @@ public class WordMatchesTest {
       log.info("Populating table: {}", tableName);
       populateTable(tableName, bibleList);
     } else {
-      log.info("Table "+tableName+" is already populated");
+      log.info("Table " + tableName + " is already populated");
     }
 
     tableName = "WordMatchesDanRev";
@@ -177,7 +190,7 @@ public class WordMatchesTest {
       log.info("Populating table: {}", tableName);
       populateTable(tableName, bibleList);
     } else {
-      log.info("Table "+tableName+" is already populated");
+      log.info("Table " + tableName + " is already populated");
     }
 
     tableName = "WordMatchesBible";
@@ -189,7 +202,7 @@ public class WordMatchesTest {
       log.info("Warning: This may take up to 20-30 minutes");
       populateTable(tableName, bibleList);
     } else {
-      log.info("Table "+tableName+" is already populated");
+      log.info("Table " + tableName + " is already populated");
     }
   }
 
