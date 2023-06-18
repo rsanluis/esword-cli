@@ -22,6 +22,15 @@ public class SearchDAOImpl implements SearchDAO {
   JdbcTemplate jdbcTemplate;
 
   @Override
+  public List<SearchResult> searchByBookChapterAndVerse(String bookName, Integer chapterId, Integer verseId) {
+    String sql = "select bible.book,book.title,book.short_title,bible.chapter,bible.verse,bible.scripture from " + 
+      "BibleFTS bible, Book book where bible.book = book.id and book.title = :bookName and " + 
+      "bible.chapter = :chapterId and bible.verse = :verseId";
+    List<SearchResult> searchResultList = jdbcTemplate.query(sql, new SearchResultRowMapper(), bookName, chapterId, verseId);
+    return searchResultList;
+  }
+
+  @Override
   public List<SearchResult> searchByKeywordAndContext(String keyword, String context) {
     String sql = "select bible.book,book.title,book.short_title,bible.chapter,bible.verse,highlight(BibleFTS,3,'"
         + MATCH_START_TAG + "','" + MATCH_END_TAG
