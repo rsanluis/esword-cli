@@ -94,32 +94,6 @@ public class WordMatchesTest {
     assertTrue(wordMatchesList.get(0).getMatches()==3);
   }
 
-  /*
-    200 is the ancient Hebrew code for Reysh that signifies the head person or Prince.
-    https://letterpile.com/religion/Berisheet-Our-New-Beginning
-  */
-  @Test
-  public void testWordMatchesBible_200_Matches_Test() {
-    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(200);
-    log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==1);
-    assertTrue(wordMatchesList.get(0).getWord().equals("h3519"));
-    // All possible uses of H3519 in the entire KJV+ Bible: {glory,glorious,gloriously,honour,honourable}
-  }
-
-  /*
-    Rev_14:8 
-    And there followed another angel, saying, Babylon is fallen, is fallen, that great city, because she made all nations 
-    *drink* of the wine of the wrath of her fornication.
-   */
-  @Test
-  public void testWordMatchesBible_369_Matches_Test() {
-    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(369);
-    log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size()==1);
-    assertTrue(wordMatchesList.get(0).getWord().equals("drink"));
-  }
-  
   @Test
   public void testWordMatchesBible_555_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(555);

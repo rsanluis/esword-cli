@@ -50,7 +50,7 @@ public class SearchDAOImpl_09_Matches_Test {
         Total KJV occurrences: 14
      */
     @Test
-    void testSearchByKeyword_Babes_AndContext_OldTestament() {
+    void testSearchByKeyword_Babes_AndContext_Bible() {
         // 3-6-9 match
         // 3 matches in Old Testament
         // 6 matches in New Testament
