@@ -80,6 +80,8 @@ public class WordMatchesTest {
     String exodus3_14 = "And God said unto Moses, I AM THAT I AM: and he said, " +
         "Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.";
     int matches = StringUtils.countMatches(exodus3_14, "I AM");
+    // Notice that I AM is repeated exactly 3 times for this 1 verse and is equivalent to the value
+    // of PI; indicating what is to become at full circle
     assertTrue(matches == 3);
     int simpleGematriaValueForIam = 23;
     assertTrue(3 * simpleGematriaValueForIam == 69);
