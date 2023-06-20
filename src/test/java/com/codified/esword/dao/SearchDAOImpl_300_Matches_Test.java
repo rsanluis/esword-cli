@@ -25,7 +25,7 @@ public class SearchDAOImpl_300_Matches_Test {
      * In the New Testament, the words (me or I) are used interchangeably for g3165
      */
     @Test
-    void testSearchByKeyword_G3165_AndContext_OldTestament() {
+    void testSearchByKeyword_G3165_AndContext_NewTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("g3165", "NewTestament");
         int verses = 0;
         int matches = 0;
