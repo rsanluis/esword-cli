@@ -27,7 +27,7 @@ public class SearchDAOImpl_369_Matches_Test {
      * **drink** of the wine of the wrath of her fornication.
      */
     @Test
-    void testSearchByKeyword_Drink_AndContext_OldTestament() {
+    void testSearchByKeyword_Drink_AndContext_Bible() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("drink", "Bible");
         int verses = 0;
         int matches = 0;
