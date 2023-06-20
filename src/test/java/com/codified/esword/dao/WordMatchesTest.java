@@ -114,23 +114,50 @@ public class WordMatchesTest {
     assertTrue(wordMatchesList.get(0).getMatches() == 4444);
   }
 
+  /*
+   * https://web.archive.org/web/20230620142124/https://livingwordin3d.com/discovery/2017/02/27/hebrew-word-study-the-number-300-sheen/
+   * 
+   * The Letter Sheen is also a Number – 300
+   * 300 the Unique Signature of God
+   * The Number 300 magnifies the Number 3
+   * 
+   * The number 3 is the first of four sacred numbers and it means DIVINE PERFECTION.
+   * 
+   * 3 = Divine Perfection
+   * 7 = Divine Completion
+   * 10 = Ordinal Perfection
+   * 12 = Governmental Perfection 
+   * A Divinely Appointed Period of Time – Election
+   * Number Connected to the “Children of Promise”
+   * Supernatural Victory Over Enemies Including Death
+   * Number connected with The Death, Burial, and Resurrection of Messiah
+   * Signifies final Blood Sacrifice Made by the Perfect Lamb of God.
+   * 
+   * 300 divided by Divine Perfection 3 = 100
+   * 100 divided by Ordinal Perfection = 10
+   * God's Perfect Clock Ends at 10 + 10 + 10 = 30
+   * 
+   * The 30th day of the 10th month of the appointed year (2030)
+   */
   @Test
   public void testWordMatchesDanRev_30_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesDanRevDAO.getWordMatchesByMatches(30);
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
     assertTrue(wordMatchesList.size() == 12);
-    // h3605 whole,one,all,every,open
-    // end end
-    // ye ye
-    // h413 unto,to,in,at,for,into
-    // give give
-    // interpretation interpretation
-    // h6032 answered
-    // h2370 see,seen,sawest
-    // book book
-    // g4160 did,make,forth,causeth,do,doest,doeth,forth
-    // g2400 behold,lo
-    // g5064 four
+    // The combined book of matches for Daniel & Revelation yields 12 words that have 30 matches
+    //
+    // 1.  h3605    whole,one,all,every,open
+    // 2.           end 
+    // 3.           ye 
+    // 4.  h413     unto,to,in,at,for,into
+    // 5.           give
+    // 6.           interpretation
+    // 7.  h6032    answered
+    // 8.  h2370    see,seen,sawest
+    // 9.           book
+    // 10. g4160    did,make,forth,causeth,do,doest,doeth,forth
+    // 11. g2400    behold,lo
+    // 12. g5064    four
     //
     // Behold, ye sawest book answered.
     // Do give interpretation to all four end.
@@ -139,8 +166,7 @@ public class WordMatchesTest {
     // Do give end interpretation to all four.
     //
     // Behold, you saw (the) book answered. (inserting 'The')
-    // Do give (the) end interpretation to all four (winds,corners,parts). (as in
-    // Matthew 24:31)
+    // Do give (the) end interpretation to all four (winds,corners,parts). (as in Matthew 24:31)
   }
 
   // Define Order(0) to force the check of DB population before running any word
