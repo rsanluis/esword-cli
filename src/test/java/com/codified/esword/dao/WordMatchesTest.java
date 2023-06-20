@@ -133,12 +133,15 @@ public class WordMatchesTest {
    * 10 = Ordinal Perfection
    * 12 = Governmental Perfection 
    * 
-   * 300 divided by Divine  Perfection  3     = 100
-   * 300 divided by Ordinal Perfection 10     =  30
-   * 100 divided by Ordinal Perfection 10     =  10
-   * God's Perfect Clock Ends at 10 + 10 + 10 =  30
+   * 300 divided by Divine  Perfection  3                = 100
+   * 300 divided by Ordinal Perfection 10                =  30
+   * 100 divided by Ordinal Perfection 10                =  10
+   * God's Perfect Clock Ends at 10 + 10 + 10            =  30
+   * 10/3 = (3 and 1/3) = 3 * (3 and 1/3)                =  10
+   * Ordinal Perfection divided by Divine Perfection * 3 =  10
    * 
-   * The 30th day of the 10th month of the appointed year (2030)
+   * The end will happen on the 30th day of the 10th month of the appointed year (2030)
+   * This will be date of the 2nd coming of our Lord and Savior, Jesus Christ
    */
   @Test
   public void testWordMatchesDanRev_30_Matches_Test() {
