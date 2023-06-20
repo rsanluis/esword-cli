@@ -41,8 +41,7 @@ public class SearchDAOImpl_69_Matches_Test {
         String scripture = resultsList.get(0).getScripture();
         log.info("scripture: {}", scripture);
         int matches = StringUtils.countMatches(scripture, "I AM");
-        // Notice that I AM is repeated exactly 3 times for this 1 verse and is equivalent to the value
-        // of PI; prophesying what is to become at full circle
+        // Notice that I AM is repeated exactly 3 times for this 1 verse
         assertTrue(matches == 3);
         int simpleGematriaValueForIam = 23;
         assertTrue(3 * simpleGematriaValueForIam == 69);
