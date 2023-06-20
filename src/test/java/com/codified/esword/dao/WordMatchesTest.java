@@ -119,7 +119,12 @@ public class WordMatchesTest {
    * 
    * The Letter Sheen is also a Number – 300
    * 300 the Unique Signature of God
-   * The Number 300 magnifies the Number 3
+   * - The Number 300 magnifies the Number 3
+   * - A Divinely Appointed Period of Time – Election
+   * - Number Connected to the “Children of Promise”
+   * - Supernatural Victory Over Enemies Including Death
+   * - Number connected with The Death, Burial, and Resurrection of Messiah
+   * - Signifies final Blood Sacrifice Made by the Perfect Lamb of God.
    * 
    * The number 3 is the first of four sacred numbers and it means DIVINE PERFECTION.
    * 
@@ -127,15 +132,11 @@ public class WordMatchesTest {
    * 7 = Divine Completion
    * 10 = Ordinal Perfection
    * 12 = Governmental Perfection 
-   * A Divinely Appointed Period of Time – Election
-   * Number Connected to the “Children of Promise”
-   * Supernatural Victory Over Enemies Including Death
-   * Number connected with The Death, Burial, and Resurrection of Messiah
-   * Signifies final Blood Sacrifice Made by the Perfect Lamb of God.
    * 
-   * 300 divided by Divine Perfection 3 = 100
-   * 100 divided by Ordinal Perfection = 10
-   * God's Perfect Clock Ends at 10 + 10 + 10 = 30
+   * 300 divided by Divine  Perfection  3     = 100
+   * 300 divided by Ordinal Perfection 10     =  30
+   * 100 divided by Ordinal Perfection 10     =  10
+   * God's Perfect Clock Ends at 10 + 10 + 10 =  30
    * 
    * The 30th day of the 10th month of the appointed year (2030)
    */
