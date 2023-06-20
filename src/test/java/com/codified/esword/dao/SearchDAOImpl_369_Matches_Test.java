@@ -24,7 +24,7 @@ public class SearchDAOImpl_369_Matches_Test {
      * Rev_14:8
      * And there followed another angel, saying, Babylon is fallen, is fallen, that
      * great city, because she made all nations
-     * drink* of the wine of the wrath of her fornication.
+     * **drink** of the wine of the wrath of her fornication.
      */
     @Test
     void testSearchByKeyword_Drink_AndContext_OldTestament() {
