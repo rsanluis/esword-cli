@@ -12,4 +12,6 @@ public final class BibleConstants {
     public static final int NUMBER_DIVINE_COMPLETION_7 = 7;
     public static final int NUMBER_ORDINAL_PERFECTION_10 = 10;
     public static final int NUMBER_GOVERNMENTAL_PERFECTION_12 = 12;
+    // https://web.archive.org/web/20230320154733/https://www.biblestudy.org/bibleref/meaning-of-numbers-in-bible/25.html
+    public static final int NUMBER_GRACE_UPON_GRACE_25 = 25;
 }
