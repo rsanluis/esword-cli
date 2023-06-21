@@ -17,6 +17,31 @@ public class BibleUtils {
         return matches;
     }
 
+    public static int getHebrewGematriaValue(String word) {
+        int hebrewGematriaValue = 0;
+        for (int i=0; i<word.length(); i++) {
+            String charStr = "" + word.charAt(i);
+            charStr = charStr.toUpperCase();
+            if (BibleUtils.hebrewGematriaMap.containsKey(charStr)) {
+                hebrewGematriaValue += BibleUtils.hebrewGematriaMap.get(charStr).intValue();
+            }
+        }
+        return hebrewGematriaValue;
+    }
+
+    public static int getSimpleGematriaValue(String word) {
+        int simpleGematriaValue = 0;
+        for (int i=0; i<word.length(); i++) {
+            String charStr = "" + word.charAt(i);
+            charStr = charStr.toUpperCase();
+            if (BibleUtils.simpleGematriaMap.containsKey(charStr)) {
+                simpleGematriaValue += BibleUtils.simpleGematriaMap.get(charStr).intValue();
+            }
+        }
+        return simpleGematriaValue;
+    }
+
+    // Hebrew Gematria Table obtained from https://www.gematrix.org/gematria/#jewish_gematria
     public static final Map<String, Integer> hebrewGematriaMap = Map.ofEntries(
         Map.entry("A",1),
         Map.entry("א",1),
