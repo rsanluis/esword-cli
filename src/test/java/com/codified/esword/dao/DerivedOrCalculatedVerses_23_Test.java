@@ -8,7 +8,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
+import static com.codified.esword.constants.BibleConstants.*;
 import com.codified.esword.model.SearchResult;
 import com.codified.esword.util.BibleUtils;
 
@@ -29,10 +29,10 @@ public class DerivedOrCalculatedVerses_23_Test {
         log.info("scripture: {}", scripture);
         int matches = StringUtils.countMatches(scripture, "I AM");
         // Notice that I AM is repeated exactly 3 times for this 1 verse
-        assertTrue(matches == 3);
+        assertTrue(matches == NUMBER_DIVINE_PERFECTION_3);
         int simpleGematriaValue = BibleUtils.getSimpleGematriaValue("I AM");
         assertTrue(simpleGematriaValue == 23);
-        assertTrue(3 * simpleGematriaValue == 69);
+        assertTrue(NUMBER_DIVINE_PERFECTION_3 * simpleGematriaValue == 69);
         // Compare to testWordMatchesBible_23_Matches_Test
     }
 }
