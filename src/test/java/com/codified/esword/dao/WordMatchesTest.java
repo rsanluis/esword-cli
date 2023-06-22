@@ -115,7 +115,7 @@ public class WordMatchesTest {
   }
 
   /*
-   * https://web.archive.org/web/20230620142124/https://livingwordin3d.com/discovery/2017/02/27/hebrew-word-study-the-number-300-sheen/
+   * https://livingwordin3d.com/discovery/2017/02/27/hebrew-word-study-the-number-300-sheen/
    * 
    * The Letter Sheen is also a Number – 300
    * 300 the Unique Signature of God
