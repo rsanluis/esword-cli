@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 ESWORD_CLI_DIR=../esword-db
 pushd .
