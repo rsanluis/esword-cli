@@ -7,6 +7,7 @@ if not exist %ESWORD_DB_DIR% (
   git clone https://github.com/rsanluis/esword-db.git
 )
 cd %ESWORD_DB_DIR%
+git pull
 call build.bat
 popd
 xcopy /Y %ESWORD_DB_DIR%kjv+matches.bbli %CURDIR%

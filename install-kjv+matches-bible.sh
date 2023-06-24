@@ -12,6 +12,7 @@ else
   git clone https://github.com/rsanluis/esword-db.git
 fi
 cd esword-db
+git pull
 ./build.sh
 popd
 cp ../esword-db/*.bbli .
