@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.stream.Stream;
-
+import static com.codified.esword.constants.BibleConstants.*;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -115,7 +115,7 @@ public class WordMatchesTest {
   }
 
   /*
-   * https://web.archive.org/web/20230620142124/https://livingwordin3d.com/discovery/2017/02/27/hebrew-word-study-the-number-300-sheen/
+   * https://livingwordin3d.com/discovery/2017/02/27/hebrew-word-study-the-number-300-sheen/
    * 
    * The Letter Sheen is also a Number – 300
    * 300 the Unique Signature of God
@@ -147,7 +147,7 @@ public class WordMatchesTest {
   public void testWordMatchesDanRev_30_Matches_Test() {
     List<WordMatches> wordMatchesList = wordMatchesDanRevDAO.getWordMatchesByMatches(30);
     log.info("wordMatchesList.size: {}", wordMatchesList.size());
-    assertTrue(wordMatchesList.size() == 12);
+    assertTrue(wordMatchesList.size() == NUMBER_GOVERNMENTAL_PERFECTION_12);
     // The combined book of matches for Daniel & Revelation yields 12 words that have 30 matches
     //
     // 1.  h3605    whole,one,all,every,open
