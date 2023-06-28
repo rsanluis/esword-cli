@@ -27,7 +27,7 @@
    - Gradle for Java
    - Gitlens
 
-#### Using File Explorer, create a folder VSCodeProjects from your C:\Users\[USERNAME] folder.
+#### Using File Explorer, create a folder VSCodeProjects from your C:\Users\\[USERNAME] folder.
 
 - This is where we will download all source projects from GitHub.
 
@@ -61,7 +61,7 @@
   - Gradle for Java
   - Gitlens
 
-- Using Finder, create a folder VSCodeProjects from your /Users/[USERNAME] folder.
+#### Using Finder, create a folder VSCodeProjects from your /Users/[USERNAME] folder.
   - This is where we will download all source projects from GitHub.
 
 #### Close VSCode and relaunch VSCode
