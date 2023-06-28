@@ -9,10 +9,12 @@ then
 else
   echo "$ESWORD_CLI_DIR directory does not exist."
   cd ..
+  echo "Downloading esword-db project..."
   git clone https://github.com/rsanluis/esword-db.git
 fi
 cd esword-db
 git pull
+echo "Generating kjv+matches.bbli bible database file. Please wait..."
 ./build.sh
 popd
 cp ../esword-db/*.bbli .
