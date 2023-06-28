@@ -50,9 +50,9 @@
 - Download Visual Code from https://code.visualstudio.com/
 - Download and Install Java from the following link:
   - https://corretto.aws/downloads/latest/amazon-corretto-17-x64-macos-jdk.pkg
-- Edit your .zprofile and add the following variable export:
+- Edit your .zprofile and add the following variable exports:
   - export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-17.jdk/Contents/Home
-    PATH=$JAVA_HOME/bin:$PATH
+  - export PATH=$JAVA_HOME/bin:$PATH
 
 #### Launch Visual Studio Code
 
