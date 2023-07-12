@@ -14,9 +14,6 @@ import picocli.CommandLine.ParentCommand;
 @Command(name = "search", description = "Search the KJV+ Bible using Full Text Search")
 public class ESwordSearchSubCmd implements Callable<Integer> {
 
-    @Option(names = { "-h", "--help" }, description = "Display this help", defaultValue = "false")
-    private Boolean displayHelp;
-
     @Option(names = { "-c", "--context" }, description = "Search context: [Bible, OldTestament, Pentateuch, History, Wisdom, MajorProphets, MinorProphets, NewTestament, GospelsActs, PaulsLetters, GeneralLetters, Apocalypse]")
     private String context;
 
@@ -32,10 +29,6 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
     @Override
     public Integer call() throws Exception {
         CommandLine commandLine = new CommandLine(this);
-        if (displayHelp) {
-            printUsage(commandLine);
-            return 1;
-        }
         if (context==null) {
             System.err.println("Error: Missing search context");
             printUsage(commandLine);

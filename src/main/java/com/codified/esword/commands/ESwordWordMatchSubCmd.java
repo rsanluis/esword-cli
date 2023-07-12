@@ -10,9 +10,6 @@ import picocli.CommandLine.ParentCommand;
 @Command(name= "wordmatch", description = "Search the KJV+ Bible using Word Matches")
 public class ESwordWordMatchSubCmd implements Callable<Integer> {
 
-    @Option(names = { "-h", "--help" }, description = "Display this help", defaultValue = "false")
-    private Boolean displayHelp;
-
     @Option(names = { "-c", "--context" }, description = "Search context: [Bible, Dan, DanRev, Rev]")
     private String context;
 
