@@ -5,21 +5,17 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.util.CollectionUtils;
 
-import com.codified.esword.commands.ESwordCommand;
+import com.codified.esword.commands.ESwordCmd;
 
 import picocli.CommandLine;
-import picocli.CommandLine.MissingParameterException;
-import picocli.CommandLine.ParseResult;
-import picocli.CommandLine.UnmatchedArgumentException;
 import picocli.spring.PicocliSpringFactory;
 
 @SpringBootApplication
 public class EswordCliApplication implements CommandLineRunner {
 
 	@Autowired
-	ESwordCommand eSwordCommand;
+	ESwordCmd eSwordCmd;
 
 	@Autowired
 	ApplicationContext appContext;
@@ -30,28 +26,7 @@ public class EswordCliApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		
-		CommandLine commandLine = new CommandLine(eSwordCommand, new PicocliSpringFactory(appContext));
-		System.out.println();
-
-		try {
-			ParseResult parseResult = commandLine.parseArgs(args);
-			if (CollectionUtils.isEmpty(parseResult.expandedArgs())) {
-				printUsage(commandLine);
-			} else {
-				commandLine.execute(args);
-			}
-		} catch (UnmatchedArgumentException unmatchedExc) {	
-			System.out.println("Error: " + unmatchedExc.getLocalizedMessage());
-			printUsage(commandLine);
-		} catch (MissingParameterException missingParamExc) {
-			System.out.println("Error: " + missingParamExc.getLocalizedMessage());
-			printUsage(commandLine);
-		}
-	}
-
-	private void printUsage(CommandLine commandLine) {
-		CommandLine.usage(commandLine, System.out);
-		System.out.println();
+		CommandLine commandLine = new CommandLine(eSwordCmd, new PicocliSpringFactory(appContext));
+		commandLine.execute(args);
 	}
 }
