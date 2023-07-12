@@ -1,5 +1,6 @@
 package com.codified.esword.dao;
 
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
@@ -42,5 +43,11 @@ public class BibleDAOTest {
         Bible bible = bibleDAO.getByScriptureId(new ScriptureId(1, 1, 1));
         String verse = bible.getScripture();
         assertTrue(expectedVerse.equals(verse));
+    }
+
+    @Test
+    void testGetByScriptureIdNotFound() {
+        Bible bible = bibleDAO.getByScriptureId(new ScriptureId(0, 1, 1));
+        assertNull(bible);
     }
 }
