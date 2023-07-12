@@ -47,7 +47,8 @@ public class ESwordWordMatchSubCmd implements Callable<Integer> {
         return 0;
     }
 
-    private void printUsage(CommandLine commandLine) {
+    public void printUsage(CommandLine commandLine) {
+        System.out.println();
         CommandLine parentCmdLine = new CommandLine(eSwordCmd);
         commandLine.setCommandName(parentCmdLine.getCommandName() + " " + commandLine.getCommandName());
         CommandLine.usage(commandLine, System.out);
