@@ -2,6 +2,10 @@ package com.codified.esword.commands;
 
 import java.util.concurrent.Callable;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.codified.esword.dao.ContextDAO;
+
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
@@ -22,6 +26,9 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
     @ParentCommand
     private ESwordCmd eSwordCmd;
 
+    @Autowired
+    ContextDAO contextDAO;
+
     @Override
     public Integer call() throws Exception {
         CommandLine commandLine = new CommandLine(this);
@@ -36,6 +43,11 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
         }
         if (searchStr==null) {
             System.err.println("Error: Missing search string");
+            printUsage(commandLine);
+            return 1;
+        }
+        if (contextDAO.findByContext(context).isEmpty()) {
+            System.err.println("Error: Invalid search context [" + context + "]");
             printUsage(commandLine);
             return 1;
         }
