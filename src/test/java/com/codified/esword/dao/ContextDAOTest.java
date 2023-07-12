@@ -31,4 +31,16 @@ public class ContextDAOTest {
         assertTrue(context.getStartId() == 18);
         assertTrue(context.getEndId() == 22);
     }
+
+    @Test
+    void testFindByContext() {
+        List<Context> contextList = contextDAO.findByContext("NewTestament");
+        assertTrue(contextList.size()==1);
+    }
+
+    @Test
+    void testFindByContextNotFound() {
+        List<Context> contextList = contextDAO.findByContext("ContextNotFound");
+        assertTrue(contextList.isEmpty());
+    }
 }
