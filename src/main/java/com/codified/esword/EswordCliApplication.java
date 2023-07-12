@@ -30,7 +30,7 @@ public class EswordCliApplication implements CommandLineRunner {
 		CommandLine commandLine = new CommandLine(eSwordCmd, new PicocliSpringFactory(appContext));
 		ParseResult parseResult = commandLine.parseArgs(args);
 		if (!parseResult.hasSubcommand()) {
-			System.err.println("Error: Missing commands");
+			System.err.println("Error: Missing command");
 			printUsage(commandLine);
 		} else {
 			commandLine.execute(args);
