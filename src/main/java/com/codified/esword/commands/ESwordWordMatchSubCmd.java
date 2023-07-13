@@ -41,6 +41,12 @@ public class ESwordWordMatchSubCmd implements Callable<Integer> {
             printUsage(commandLine);
             return 1;
         }
+        if (!context.equals("Bible") && !context.equals("Dan") 
+            && !context.equals("DanRev") && !context.equals("Rev")) {
+            System.err.println("Error: Invalid search context [" + context + "]");
+            printUsage(commandLine);
+            return 1;
+        }
         return 0;
     }
 
