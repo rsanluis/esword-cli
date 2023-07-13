@@ -1,10 +1,14 @@
 package com.codified.esword.commands;
 
+import java.util.List;
 import java.util.concurrent.Callable;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.codified.esword.dao.ContextDAO;
+import com.codified.esword.dao.SearchDAO;
+import com.codified.esword.model.SearchResult;
+import com.codified.esword.util.BibleUtils;
 
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
@@ -26,6 +30,9 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
     @Autowired
     ContextDAO contextDAO;
 
+    @Autowired
+    SearchDAO searchDAO;
+
     @Override
     public Integer call() throws Exception {
         CommandLine commandLine = new CommandLine(this);
@@ -44,6 +51,13 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
             printUsage(commandLine);
             return 1;
         }
+        List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext(searchStr, context);
+        int verses = 0;
+        int matches = 0;
+        matches += BibleUtils.countMatches(resultsList);
+        verses = resultsList.size();
+        System.out.println("verses: " + verses);
+        System.out.println("matches: " + matches);
         return 0;
     }
 
