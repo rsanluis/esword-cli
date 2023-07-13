@@ -19,6 +19,4 @@ logging:
   level:
     root: ERROR
     com:
-      codified:
-        esword:
-          commands: ERROR
+      codified: DEBUG
