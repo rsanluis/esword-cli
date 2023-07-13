@@ -30,7 +30,6 @@ public class ESwordWordMatchSubCmd implements Callable<Integer> {
             printUsage(commandLine);
             return 1;
         }
-        
         if (searchByMatches!=null && searchByWord!=null) {
             System.err.println("Error: You need to specify either --matches or --word.  Not both at the same time.");
             printUsage(commandLine);
