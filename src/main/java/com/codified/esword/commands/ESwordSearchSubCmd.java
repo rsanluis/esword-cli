@@ -30,17 +30,17 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
     public Integer call() throws Exception {
         CommandLine commandLine = new CommandLine(this);
         if (context==null) {
-            System.err.println("Error: Missing search context");
+            System.err.println("\nError: Missing search context");
             printUsage(commandLine);
             return 1;
         }
         if (searchStr==null) {
-            System.err.println("Error: Missing search string");
+            System.err.println("\nError: Missing search string");
             printUsage(commandLine);
             return 1;
         }
         if (contextDAO.findByContext(context).isEmpty()) {
-            System.err.println("Error: Invalid search context [" + context + "]");
+            System.err.println("\nError: Invalid search context [" + context + "]");
             printUsage(commandLine);
             return 1;
         }
