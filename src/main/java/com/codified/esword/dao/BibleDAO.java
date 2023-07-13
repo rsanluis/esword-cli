@@ -19,11 +19,11 @@ public interface BibleDAO extends JpaRepository<Bible, ScriptureId> {
         value = "select * from Bible bible where bible.book = :bookId",
         nativeQuery = true
     )
-    public abstract List<Bible> findByBookId(@Param("bookId") Integer bookId);
+    public List<Bible> findByBookId(@Param("bookId") Integer bookId);
 
     @Query(
         value = "select * from Bible bible where bible.book = :bookId and bible.chapter = :chapterId",
         nativeQuery = true
     )
-    public abstract List<Bible> findByBookIdAndChapterId(@Param("bookId") Integer bookId, @Param("chapterId") Integer chapterId);
+    public List<Bible> findByBookIdAndChapterId(@Param("bookId") Integer bookId, @Param("chapterId") Integer chapterId);
 }

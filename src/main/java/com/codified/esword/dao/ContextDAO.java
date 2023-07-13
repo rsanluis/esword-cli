@@ -12,6 +12,5 @@ import com.codified.esword.model.Context;
 @Service
 public interface ContextDAO extends JpaRepository<Context, Integer> {
     @Query(value = "select ctx from Context ctx where ctx.context = :context")
-    List<Context> findByContext(@Param("context") String context);
-
+    public List<Context> findByContext(@Param("context") String context);
 }
