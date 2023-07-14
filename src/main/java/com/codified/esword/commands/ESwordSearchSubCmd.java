@@ -24,6 +24,9 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
     @Option(names = { "-s", "--search-str" }, description = "Search string")
     private String searchStr;
 
+    @Option(names = { "-v", "--verbose" }, description = "Verbose mode.  Show Bible verses", defaultValue = "false")
+    private Boolean verbose;
+
     @ParentCommand
     private ESwordCmd eSwordCmd;
 
@@ -56,7 +59,12 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
         int matches = 0;
         matches += BibleUtils.countMatches(resultsList);
         verses = resultsList.size();
-        System.out.println("verses: " + verses);
+        if (verbose) {
+            for (SearchResult searchResult : resultsList) {
+                System.out.println(searchResult.getScripture());
+            }
+        }
+        System.out.print("verses: " + verses + "   ");
         System.out.println("matches: " + matches);
         return 0;
     }
