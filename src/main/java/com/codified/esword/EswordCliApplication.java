@@ -6,7 +6,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-
+import com.codified.esword.util.PrintUtils;
 import com.codified.esword.commands.ESwordCmd;
 
 import picocli.CommandLine;
@@ -32,7 +32,8 @@ public class EswordCliApplication implements CommandLineRunner {
 		CommandLine commandLine = new CommandLine(eSwordCmd, new PicocliSpringFactory(appContext));
 		ParseResult parseResult = commandLine.parseArgs(args);
 		if (!parseResult.hasSubcommand()) {
-			System.err.println("\nError: Missing command");
+			System.out.println();
+			PrintUtils.printErr("Error: Missing command");
 			printUsage(commandLine);
 		} else {
 			commandLine.execute(args);

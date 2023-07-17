@@ -10,6 +10,7 @@ import com.codified.esword.dao.ContextDAO;
 import com.codified.esword.dao.SearchDAO;
 import com.codified.esword.model.SearchResult;
 import com.codified.esword.util.BibleUtils;
+import com.codified.esword.util.PrintUtils;
 
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
@@ -42,17 +43,17 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
         System.out.println();
         CommandLine commandLine = new CommandLine(this);
         if (context==null) {
-            System.err.println("Error: Missing search context");
+            PrintUtils.printErr("Error: Missing search context");
             printUsage(commandLine);
             return 1;
         }
         if (searchStr==null) {
-            System.err.println("Error: Missing search string");
+            PrintUtils.printErr("Error: Missing search string");
             printUsage(commandLine);
             return 1;
         }
         if (contextDAO.findByContext(context).isEmpty()) {
-            System.err.println("Error: Invalid search context [" + context + "]");
+            PrintUtils.printErr("Error: Invalid search context [" + context + "]");
             printUsage(commandLine);
             return 1;
         }

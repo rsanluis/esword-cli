@@ -9,6 +9,7 @@ import com.codified.esword.dao.SearchDAO;
 import com.codified.esword.model.SearchResult;
 
 public class BibleUtils {
+
     public static int countMatches(List<SearchResult> resultsList) {
         int matches =0;
         for (SearchResult searchResult : resultsList) {
