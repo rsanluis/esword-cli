@@ -12,6 +12,9 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.community.dialect.SQLiteDialect
+  output:
+    ansi:
+      enabled: always
   sql:
     init:
       mode: always

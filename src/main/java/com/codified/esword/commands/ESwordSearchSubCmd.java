@@ -3,8 +3,9 @@ package com.codified.esword.commands;
 import java.util.List;
 import java.util.concurrent.Callable;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-
+import static com.codified.esword.constants.BibleConstants.*;
 import com.codified.esword.dao.ContextDAO;
 import com.codified.esword.dao.SearchDAO;
 import com.codified.esword.model.SearchResult;
@@ -61,11 +62,27 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
         verses = resultsList.size();
         if (verbose) {
             for (SearchResult searchResult : resultsList) {
-                System.out.println(searchResult.getScripture());
+                String scripture = searchResult.getScripture();
+                scripture = StringUtils.replace(scripture, "<match>", ANSI_COLOR_YELLOW + ANSI_BOLD);
+                scripture = StringUtils.replace(scripture, "</match>", ANSI_RESET);
+                scripture = StringUtils.replace(scripture, "<num>", ANSI_COLOR_CYAN);
+                scripture = StringUtils.replace(scripture, "</num>", ANSI_RESET);
+                scripture = StringUtils.replace(scripture, "<i>", ANSI_ITALICIZED);
+                scripture = StringUtils.replace(scripture, "</i>", ANSI_RESET);
+                scripture = StringUtils.replace(scripture, "<red>", ANSI_COLOR_RED);
+                scripture = StringUtils.replace(scripture, "</red>", ANSI_RESET);
+                scripture = StringUtils.replace(scripture, "<sup>", StringUtils.EMPTY);
+                scripture = StringUtils.replace(scripture, "</sup>", StringUtils.EMPTY);
+                System.out.println(
+                    ANSI_FG_WHITE_BG_BLUE +
+                    searchResult.getTitle() + " " + searchResult.getChapter() + ":" + searchResult.getVerse() + 
+                    ANSI_RESET + "  " +
+                    scripture
+                );
             }
         }
-        System.out.print("verses: " + verses + "   ");
-        System.out.println("matches: " + matches);
+        System.out.print("\n" + ANSI_COLOR_WHITE + ANSI_BOLD + "verses: " + verses + "   ");
+        System.out.println("matches: " + matches + ANSI_RESET + "\n");
         return 0;
     }
 

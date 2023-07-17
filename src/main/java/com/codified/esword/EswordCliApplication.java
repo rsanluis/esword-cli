@@ -1,5 +1,6 @@
 package com.codified.esword;
 
+import org.fusesource.jansi.AnsiConsole;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -27,6 +28,7 @@ public class EswordCliApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
+		AnsiConsole.systemInstall();
 		CommandLine commandLine = new CommandLine(eSwordCmd, new PicocliSpringFactory(appContext));
 		ParseResult parseResult = commandLine.parseArgs(args);
 		if (!parseResult.hasSubcommand()) {
@@ -35,6 +37,7 @@ public class EswordCliApplication implements CommandLineRunner {
 		} else {
 			commandLine.execute(args);
 		}
+		AnsiConsole.systemUninstall();
 	}
 
 	public void printUsage(CommandLine commandLine) {

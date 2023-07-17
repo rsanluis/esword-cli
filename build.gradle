@@ -21,6 +21,7 @@ dependencies {
 	implementation 'org.hibernate.orm:hibernate-community-dialects'
 	implementation 'org.apache.commons:commons-lang3'
 	implementation 'org.yaml:snakeyaml:2.0' // Upgrading due to CVE-2022-1471
+	implementation 'org.fusesource.jansi:jansi:2.4.0'
     compileOnly 'org.projectlombok:lombok'
 	testCompileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
