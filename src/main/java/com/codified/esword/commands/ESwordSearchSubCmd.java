@@ -11,7 +11,6 @@ import com.codified.esword.dao.SearchDAO;
 import com.codified.esword.model.SearchResult;
 import com.codified.esword.util.BibleUtils;
 
-import ch.qos.logback.core.pattern.color.ANSIConstants;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
@@ -64,7 +63,7 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
         if (verbose) {
             for (SearchResult searchResult : resultsList) {
                 String scripture = searchResult.getScripture();
-                scripture = StringUtils.replace(scripture, "<match>", ANSI_COLOR_YELLOW);
+                scripture = StringUtils.replace(scripture, "<match>", ANSI_COLOR_YELLOW + ANSI_BOLD);
                 scripture = StringUtils.replace(scripture, "</match>", ANSI_RESET);
                 scripture = StringUtils.replace(scripture, "<num>", ANSI_COLOR_CYAN);
                 scripture = StringUtils.replace(scripture, "</num>", ANSI_RESET);
@@ -72,8 +71,8 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
                 scripture = StringUtils.replace(scripture, "</i>", ANSI_RESET);
                 scripture = StringUtils.replace(scripture, "<red>", ANSI_COLOR_RED);
                 scripture = StringUtils.replace(scripture, "</red>", ANSI_RESET);
-                scripture = StringUtils.replace(scripture, "<sup>", "");
-                scripture = StringUtils.replace(scripture, "</sup>", "");
+                scripture = StringUtils.replace(scripture, "<sup>", StringUtils.EMPTY);
+                scripture = StringUtils.replace(scripture, "</sup>", StringUtils.EMPTY);
                 System.out.println(
                     ANSI_FG_WHITE_BG_BLUE +
                     searchResult.getTitle() + " " + searchResult.getChapter() + ":" + searchResult.getVerse() + 
