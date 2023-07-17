@@ -104,7 +104,7 @@ public class ESwordWordMatchSubCmd implements Callable<Integer> {
             }
         }
         if (wordMatchesList!=null) {
-            System.out.println(ANSI_BOLD + ANSI_COLOR_CYAN);
+            System.out.print(ANSI_BOLD + ANSI_COLOR_CYAN);
             switch(context) {
                 case "Bible" : {
                     System.out.println("Matching context is for entire Bible");        
@@ -123,11 +123,14 @@ public class ESwordWordMatchSubCmd implements Callable<Integer> {
                     break;
                 }
             }
-            System.out.println();
             System.out.println(ANSI_RESET);
             System.out.println(ANSI_FG_WHITE_BG_BLUE + PrintUtils.padRight("WORD", 20) + "MATCHES" + ANSI_RESET);
             for (WordMatches wordMatches : wordMatchesList) {
                 System.out.println(PrintUtils.padRight(wordMatches.getWord(),20) + ANSI_COLOR_WHITE + ANSI_BOLD + wordMatches.getMatches().toString() + ANSI_RESET);
+            }
+            if (searchByMatches!=null) {
+                System.out.println();
+                System.out.println(ANSI_FG_WHITE_BG_BLUE + wordMatchesList.size() + " words in total with " + searchByMatches + " occurrences/matches" + ANSI_RESET);
             }
             System.out.println();
         }
