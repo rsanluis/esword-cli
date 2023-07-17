@@ -82,7 +82,7 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
                 );
             }
         }
-        System.out.print("\n" + ANSI_COLOR_WHITE + "verses: " + verses + "   ");
+        System.out.print("\n" + ANSI_COLOR_WHITE + ANSI_BOLD + "verses: " + verses + "   ");
         System.out.println("matches: " + matches + ANSI_RESET + "\n");
         return 0;
     }
