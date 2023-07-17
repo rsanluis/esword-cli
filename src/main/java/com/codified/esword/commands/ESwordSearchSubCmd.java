@@ -5,7 +5,7 @@ import java.util.concurrent.Callable;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import static com.codified.esword.constants.BibleConstants.*;
+import static com.codified.esword.constants.AnsiConstants.*;
 import com.codified.esword.dao.ContextDAO;
 import com.codified.esword.dao.SearchDAO;
 import com.codified.esword.model.SearchResult;
