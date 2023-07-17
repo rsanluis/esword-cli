@@ -24,25 +24,26 @@ public class ESwordWordMatchSubCmd implements Callable<Integer> {
     
     @Override
     public Integer call() throws Exception {
+        System.out.println();
         CommandLine commandLine = new CommandLine(this);
         if (context==null) {
-            System.err.println("\nError: Missing search context");
+            System.err.println("Error: Missing search context");
             printUsage(commandLine);
             return 1;
         }
         if (searchByMatches!=null && searchByWord!=null) {
-            System.err.println("\nError: You need to specify either --matches or --word.  Not both at the same time.");
+            System.err.println("Error: You need to specify either --matches or --word.  Not both at the same time.");
             printUsage(commandLine);
             return 1;
         }
         if (searchByMatches==null && searchByWord==null) {
-            System.err.println("\nError: You need to specify either --matches or --word");
+            System.err.println("Error: You need to specify either --matches or --word");
             printUsage(commandLine);
             return 1;
         }
         if (!context.equals("Bible") && !context.equals("Dan") 
             && !context.equals("DanRev") && !context.equals("Rev")) {
-            System.err.println("\nError: Invalid search context [" + context + "]");
+            System.err.println("Error: Invalid search context [" + context + "]");
             printUsage(commandLine);
             return 1;
         }
