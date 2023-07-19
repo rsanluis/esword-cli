@@ -9,7 +9,7 @@ if not exist %ESWORD_DB_DIR% (
 )
 cd %ESWORD_DB_DIR%
 git pull
-echo Generating kjv+matches.bbli Bible database file. Please wait...
+echo Generating (kjv+matches.bbli) KJV+ Bible database file. Please wait...
 call build.bat
 popd
 xcopy /Y %ESWORD_DB_DIR%kjv+matches.bbli %CURDIR%
