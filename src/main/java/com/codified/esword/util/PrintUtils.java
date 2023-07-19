@@ -12,6 +12,6 @@ public class PrintUtils {
     }
 
     public static void printErr(String s) {
-        System.err.println(AnsiConstants.ANSI_COLOR_RED + s + AnsiConstants.ANSI_RESET);
+        System.err.println(AnsiConstants.ANSI_COLOR_RED + AnsiConstants.ANSI_BOLD + s + AnsiConstants.ANSI_RESET);
     }
 }

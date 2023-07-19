@@ -14,7 +14,7 @@ else
 fi
 cd esword-db
 git pull
-echo "Generating kjv+matches.bbli bible database file. Please wait..."
+echo "Generating kjv+matches.bbli Bible database file. Please wait..."
 ./build.sh
 popd
 cp ../esword-db/*.bbli .

@@ -11,6 +11,7 @@ import com.codified.esword.commands.ESwordCmd;
 
 import picocli.CommandLine;
 import picocli.CommandLine.ParseResult;
+import picocli.CommandLine.UnmatchedArgumentException;
 import picocli.spring.PicocliSpringFactory;
 
 @SpringBootApplication
@@ -30,13 +31,19 @@ public class EswordCliApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		AnsiConsole.systemInstall();
 		CommandLine commandLine = new CommandLine(eSwordCmd, new PicocliSpringFactory(appContext));
-		ParseResult parseResult = commandLine.parseArgs(args);
-		if (!parseResult.hasSubcommand()) {
+		try {
+			ParseResult parseResult = commandLine.parseArgs(args);
+			if (!parseResult.hasSubcommand()) {
+				System.out.println();
+				PrintUtils.printErr("Error: Missing command");
+				printUsage(commandLine);
+			} else {
+				commandLine.execute(args);
+			}
+		} catch (UnmatchedArgumentException unmatchedArgumentException) {
 			System.out.println();
-			PrintUtils.printErr("Error: Missing command");
+			PrintUtils.printErr("Error: Unrecognized argument");
 			printUsage(commandLine);
-		} else {
-			commandLine.execute(args);
 		}
 		AnsiConsole.systemUninstall();
 	}
