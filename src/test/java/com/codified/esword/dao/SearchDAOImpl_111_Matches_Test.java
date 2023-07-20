@@ -23,6 +23,10 @@ public class SearchDAOImpl_111_Matches_Test {
     /*
      * There are 111 matches of 'horses' in the Bible.  Horses are frequently mentioned in the Bible
      * within the context of war.
+     * To match the results using esword wordmatch do the following:
+     * ./esword wordmatch -c Bible -w horses 
+     * ./esword wordmatch -c Bible -w horses\'
+     * and add the results of the two together for a total of 111
      */
     @Test
     void testSearchByKeyword_Horses_AndContext_Bible() {
