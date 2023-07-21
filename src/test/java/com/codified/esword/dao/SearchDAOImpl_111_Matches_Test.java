@@ -26,7 +26,7 @@ public class SearchDAOImpl_111_Matches_Test {
      * To match the results using esword wordmatch do the following:
      * ./esword wordmatch -c Bible -w horses 
      * ./esword wordmatch -c Bible -w horses\'
-     * and add the results of the two together for a total of 111
+     * then add the results of the two results together for a total of 111
      */
     @Test
     void testSearchByKeyword_Horses_AndContext_Bible() {
