@@ -55,6 +55,7 @@ public class SignatureOfThisProjectTest {
         //         I followed his advice (counsel) and did the video,
         //         The Exact Date of Babylon's Destruction by Flood (Revealed) on Brighteon.com
         //         on 04/05/2023 (210 days away from D-day)
+        //         https://www.brighteon.com/01c32949-0170-4f3f-8ec2-9d76497a155b
         //
         // 46th year:11th month - By the end of April, I was shown the verses in Isaiah (46:9-11) matching
         //         this exact timing of finding God's true timeline, the prayer & fasting, and his advice to
