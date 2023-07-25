@@ -68,7 +68,7 @@ public class SignatureOfThisProjectTest {
         //         God narrowed the country by specifying ravenous bird or bird of prey.
         //         There is currently one rare bird of the east and that is only found in the country of the Philippines.
         //         https://en.wikipedia.org/wiki/Philippine_eagle
-        //         God was using that verse to show that my bloodlines were Filipino, althouth I was born & raised in the U.S.
+        //         God was using that verse to show that my bloodlines are Filipino, althouth I was born & raised in the U.S.
         //         I fled the U.S. in 2022 due to what I know after deciphering the verses in Revelation.
         //         As I'm calling him by his number and name, he is also calling me via number:
         //         1290, as this is the number of God's prophetic timeline.
