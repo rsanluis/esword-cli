@@ -17,6 +17,32 @@ public class SignatureOfThisProjectTest {
     SearchDAO searchDAO;
 
     /*
+     * Matthew 11:25 At that time Jesus answered and said, I thank thee, O Father, 
+     * Lord of heaven and earth, because thou hast hid these things from the wise 
+     * and prudent, and hast revealed them unto babes.
+     *
+     * Luk_10:21 In that hour Jesus rejoiced in spirit, and said, I thank thee, 
+     * O Father, Lord of heaven and earth, that thou hast hid these things from 
+     * the wise and prudent, and hast revealed them unto babes: even so, Father; 
+     * for so it seemed good in thy sight.
+     * 
+     * G3516
+     * νήπιος
+     * nēpios
+     * nay'-pee-os
+     * From an obsolete particle νη ne; implying negation and G2031; not speaking, 
+     * that is, an infant (minor); figuratively a simple minded person, 
+     * an immature Christian: - babe, child (+ -ish).
+     * 
+     * Babtized at Metro Church on 04/03/2016
+     * https://www.youtube.com/watch?v=D0i8YHJWW1M
+     * 
+     * Revealed these things to me, a babe or an immature Christian, which God advised me to
+     * reveal to his people on 04/05/2023. Exactly 7 years and 2 days from Baptism.
+     * https://www.brighteon.com/01c32949-0170-4f3f-8ec2-9d76497a155b
+     */
+    
+    /*
      * Isa 43:1  But now thus saith the LORD that created thee, O Jacob, and he that
      * formed thee, O Israel, Fear not: for I have redeemed thee,
      * I have called thee by thy name; thou art mine. 
