@@ -34,11 +34,12 @@ public class SignatureOfThisProjectTest {
      * that is, an infant (minor); figuratively a simple minded person, 
      * an immature Christian: - babe, child (+ -ish).
      * 
-     * Babtized at Metro Church on 04/03/2016
+     * Babtized at Metro Church on 04/03/2016 by Pastor David Stine
      * https://www.youtube.com/watch?v=D0i8YHJWW1M
      * 
-     * Revealed these things to me, a babe or an immature Christian, which God advised me to
-     * reveal to his people on 04/05/2023. Exactly 7 years and 2 days from Baptism.
+     * God had revealed these things to me, a babe or an immature Christian, which 
+     * he later advised me to reveal to his people on 04/05/2023. 
+     * Exactly 7 years and 2 days from Baptism.
      * https://www.brighteon.com/01c32949-0170-4f3f-8ec2-9d76497a155b
      */
     
