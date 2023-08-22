@@ -105,4 +105,11 @@ public class SignatureOfThisProjectTest {
         //         I'm now doing God's bidding from a far country, and he's using me as an instrument to bring about 
         //         his plan and timeline for humanity.
     }
+
+    @Test
+    void testTheReasonsForCreatingTheseTests() {
+        // 1 Thessalonians 5:21 - Prove G1381 all things; hold fast G2722 that which is good.
+        //   G1381 - to test (literally or figuratively); to discern
+        //   G2722 - to hold down (fast); keep (in memory), retain, withold
+    }
 }
