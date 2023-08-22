@@ -41,5 +41,10 @@ public class SearchDAOImpl_111_Matches_Test {
         log.info("matches: {}", matches);
         assertTrue(verses == 105);
         assertTrue(matches == 111);
+        // esword wordmatch -c Bible -w horses
+        //   109 matches
+        // esword wordmatch -c Bible -w horses\'
+        //     2 matches
+        //   111 total matches using wordmatch
     }
 }
