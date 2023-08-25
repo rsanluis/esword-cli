@@ -78,11 +78,11 @@ public class Event1101Test {
      * seven weeks                         =  7 weeks 
      * threescore and two weeks = 3*20 + 2 = 62 weeks
      *                                       69 weeks total
-     * 7/6/2022 TO 11/01/2023   = 69 weeks
-     *   add 7 weeks to 7/6/2022
-     * 7/6/2022 + 7 weeks = 8/24/2022
-     *   add 62 weeks to 8/24/2022
-     * 8/24/2022 + 62 weeks = 11/01/2023
+     * Add 7 weeks to 7/6/2022
+     *   7/6/2022 + 7 weeks                = 8/24/2022
+     * Add 62 weeks to 8/24/2022
+     *   8/24/2022 + 62 weeks              = 11/01/2023
+     * 7/6/2022 to 11/01/2023              = 69 weeks total
      */
     @Test
     public void testAdd62WeeksTo_8_24_2022() {
