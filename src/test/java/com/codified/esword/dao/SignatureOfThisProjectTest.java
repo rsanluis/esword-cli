@@ -106,6 +106,11 @@ public class SignatureOfThisProjectTest {
         //         his plan and timeline for humanity.
     }
 
+    /*
+     * Amos 3:7 - Surely the Lord GOD will do nothing, but he revealeth his secret unto 
+     * his servants the prophets.
+     */
+
     @Test
     void testTheReasonsForCreatingTheseTests() {
         // 1 Thessalonians 5:21 - Prove G1381 all things; hold fast G2722 that which is good.

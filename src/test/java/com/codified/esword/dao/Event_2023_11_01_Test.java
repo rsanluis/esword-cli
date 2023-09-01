@@ -13,29 +13,12 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @SpringBootTest
 public class Event_2023_11_01_Test {
+    
     /*
-     * By adding 62 weeks to 8/24/2022, we get 11/01/2023
-     * The seven weeks and threescore and two weeks in Daniel 9:25
-     * seven weeks                         =  7 weeks 
-     * threescore and two weeks = 3*20 + 2 = 62 weeks
-     *                                       69 weeks total
-     * Add 7 weeks to 7/6/2022
-     *   7/6/2022 + 7 weeks                = 8/24/2022
-     * Add 62 weeks to 8/24/2022
-     *   8/24/2022 + 62 weeks              = 11/01/2023
-     * 7/6/2022 to 11/01/2023              = 69 weeks total
+     * Deuteronomy 18:22  When a prophet speaketh in the name of the LORD, if the thing 
+     * follow not, nor come to pass, that is the thing which the LORD hath not spoken, 
+     * but the prophet hath spoken it presumptuously: thou shalt not be afraid of him. 
      */
-    @Test
-    public void testAdd62WeeksTo_8_24_2022() {
-        LocalDate localDate = LocalDate.of(2022,8,24).plusWeeks(62);
-        int month = localDate.getMonthValue();
-        int day = localDate.getDayOfMonth();
-        int year = localDate.getYear();
-        log.info("localDate: {}/{}/{}", month, day, year);
-        assertTrue(month==11);
-        assertTrue(day==1);
-        assertTrue(year==2023);
-    }
 
     @Test
     public void testDaysBetween9_11_2001_and_11_01_2023() {
