@@ -38,4 +38,23 @@ public class SearchDAOImpl_369_Matches_Test {
         assertTrue(verses == 327);
         assertTrue(matches == 369);
     }
+
+    // Notice that 3-6-9 becomes a full circle with 3 slices of 3's
+    // 2520 divided by 240 equals 6
+    @Test
+    void testSearchByKeyword_Flesh_AndContext_Bible() {
+        List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("flesh", "Bible");
+        int verses = 0;
+        int matches = 0;
+        matches += BibleUtils.countMatches(resultsList);
+        verses = resultsList.size();
+        log.info("verses:  {}", verses);
+        log.info("matches: {}", matches);
+        assertTrue(verses == 369);
+        assertTrue(matches == 420);
+    }
+
+    
+
+
 }
