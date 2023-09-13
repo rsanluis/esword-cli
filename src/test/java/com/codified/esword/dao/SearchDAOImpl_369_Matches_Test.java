@@ -40,7 +40,7 @@ public class SearchDAOImpl_369_Matches_Test {
     }
 
     // Notice that 3-6-9 becomes a full circle with 3 slices of 3's
-    // 2520 divided by 240 equals 6
+    // 2520 divided by 420 equals 6
     @Test
     void testSearchByKeyword_Flesh_AndContext_Bible() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("flesh", "Bible");
