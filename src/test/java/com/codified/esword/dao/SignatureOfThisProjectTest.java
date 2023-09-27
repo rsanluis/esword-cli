@@ -2,6 +2,8 @@ package com.codified.esword.dao;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import java.time.LocalDate;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,6 +19,13 @@ public class SignatureOfThisProjectTest {
     SearchDAO searchDAO;
 
     /*
+     * John 3:3  Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God. 
+     * John 3:4  Nicodemus saith unto him, How can a man be born when he is old? can he enter the second time into his mother's womb, and be born? 
+     * John 3:5  Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God. 
+     * John 3:6  That which is born of the flesh is flesh; and that which is born of the Spirit is spirit. 
+     * John 3:7  Marvel not that I said unto thee, Ye must be born again. 
+     * 
+     *
      * Matthew 11:25 At that time Jesus answered and said, I thank thee, O Father, 
      * Lord of heaven and earth, because thou hast hid these things from the wise 
      * and prudent, and hast revealed them unto babes.
@@ -34,36 +43,39 @@ public class SignatureOfThisProjectTest {
      * that is, an infant (minor); figuratively a simple minded person, 
      * an immature Christian: - babe, child (+ -ish).
      * 
-     * Babtized at Metro Church on 04/03/2016 by Pastor David Stine
-     * https://www.youtube.com/watch?v=D0i8YHJWW1M
-     * 
      * God had revealed these things to me, a babe or an immature Christian, which 
      * he later advised me to reveal to his people on 04/05/2023. 
      * Exactly 7 years and 2 days from Baptism.
+     * 
+     * Babtized at Metro Church on 04/03/2016 by Pastor David Stine
+     * https://www.youtube.com/watch?v=D0i8YHJWW1M
+     * 
+     * O Father, Lord of heaven and earth, that thou hid these things from the wise 
+     * and prudent, and hast revealed them unto babes.
+     * 
+     * I published one of these things that the Lord revealed to me on 4/5/2023
      * https://www.brighteon.com/01c32949-0170-4f3f-8ec2-9d76497a155b
      */
-    
-    /*
-     * Isa 43:1  But now thus saith the LORD that created thee, O Jacob, and he that
-     * formed thee, O Israel, Fear not: for I have redeemed thee,
-     * I have called thee by thy name; thou art mine. 
-     * 
-     * Just like how I called out God's name (I AM times 3) and his number 
-     * (23 times 3 = 69), he did the same with my name and number.
-     */
     @Test
-    void testDerivedMatch_1290_Test() {
-        String name = "Roland Resurreccion San Luis";
-        // https://www.gematrix.org/?word=Roland+Resurreccion+San+Luis
-        int hebrewGematriaValue = BibleUtils.getHebrewGematriaValue(name);
-        log.info("hebrew gematria value for {}: {}", name, hebrewGematriaValue);
-        assertTrue(hebrewGematriaValue == 1290);
+    void testBabes_Test() {
+        LocalDate localDate = LocalDate.of(2016,4,3)
+            .plusYears(7)
+            .plusDays(2);
+        int month = localDate.getMonthValue();
+        int day = localDate.getDayOfMonth();
+        int year = localDate.getYear();
+        log.info("localDate: {}/{}/{}", month, day, year);
+            assertTrue(month==4);
+            assertTrue(day==5);
+            assertTrue(year==2023);
     }
-
+    
+    
     @Test
     void testIsaiah46_9_11() {
         //
-        // This is a true story worth re-telling, otherwise it will remain forever between myself and God
+        // This is a true story worth re-telling, otherwise it will remain forever between myself and 
+        // the Lord
         //
         // Within the Year(s):Month(s) away from my birthday 05/13/1976
         //
@@ -71,15 +83,42 @@ public class SignatureOfThisProjectTest {
         //         destruction of Babylon and 12/06/2023 for being the start of tribulation.
         //         You can verify the timestamps of the timeline I created based on Daniel & Revelation:
         //         https://time.graphics/line/566988
-        //         I fasted and prayed for 10 days (03/01/2023-03/10/2023) with incense; asking God
-        //         "Should I show this info to his people?"  I told him, "They won't ever believe me"
         //
-        // 46th year:10th month - He showed me other verses that instructed me to utter this info to his people, 
-        //         no matter if they would like to hear me or not.
+
+        // Birth date of Roland Resurreccion San Luis = 05/13/1976
+        LocalDate localDate = LocalDate.of(1976,05,13)
+            .plusYears(46)
+            .plusMonths(9);
+        int month = localDate.getMonthValue();
+        int day = localDate.getDayOfMonth();
+        int year = localDate.getYear();
+        log.info("localDate: {}/{}/{}", month, day, year);
+            assertTrue(month==2);
+            assertTrue(day==13);
+            assertTrue(year==2023);
+
+        // 46th year:10th month - I prayed and fasted for 10 days (03/01/2023-03/10/2023) with ash 
+        // (incense) just like Daniel; asking God, "Should I show this info to his people?"  
+        // I prayed to him that, "They won't ever believe me"
+        //
+        // He showed me other verses that instructed me to utter this info to his people, 
+        // no matter if they would like to hear me or not.
         //         Isaiah 48:20 Go ye forth of Babylon, flee ye from the Chaldeans, with a voice of singing declare ye, 
         //         tell this, utter it even to the end of the earth; say ye, The LORD hath redeemed his servant Jacob.
         //
-        //         I followed his advice (counsel) and did the video,
+       
+        localDate = LocalDate.of(1976,05,13)
+            .plusYears(46)
+            .plusMonths(10);
+        month = localDate.getMonthValue();
+        day = localDate.getDayOfMonth();
+        year = localDate.getYear();
+        log.info("localDate: {}/{}/{}", month, day, year);
+            assertTrue(month==3);
+            assertTrue(day==13);
+            assertTrue(year==2023);
+            
+        // I followed his advice (counsel) and did the video,
         //         The Exact Date of Babylon's Destruction by Flood (Revealed) on Brighteon.com
         //         on 04/05/2023 (210 days away from D-day)
         //         https://www.brighteon.com/01c32949-0170-4f3f-8ec2-9d76497a155b
@@ -90,20 +129,45 @@ public class SignatureOfThisProjectTest {
         //         This was God telling me that the timeline I have (https://time.graphics/line/566988)
         //         is correct.
         //
-        // Isaiah 46:11 - This same verse holds different meanings for each time period.
-        //         The east in the past was Persia and Cyrus was called by name.
-        //         The east in the present day meaning is the far east which could mean any of the far east countries.
-        //         God narrowed the country by specifying ravenous bird or bird of prey.
-        //         There is currently one rare bird of the east and that is only found in the country of the Philippines.
-        //         https://en.wikipedia.org/wiki/Philippine_eagle
-        //         God was using that verse to show that my bloodlines are Filipino, althouth I was born & raised in the U.S.
-        //         I fled the U.S. in 2022 due to what I know after deciphering the verses in Revelation.
-        //         As I'm calling him by his number and name, he is also calling me via number:
-        //         1290, as this is the number of God's prophetic timeline.
-        //         1290 / 30 = 43   (4+3) = 7 # for God
-        //         1260 / 30 = 42   (4+2) = 6 # for Man
-        //         I'm now doing God's bidding from a far country, and he's using me as an instrument to bring about 
-        //         his plan and timeline for humanity.
+        localDate = LocalDate.of(1976,05,13)
+            .plusYears(46)
+            .plusMonths(11);
+        month = localDate.getMonthValue();
+        day = localDate.getDayOfMonth();
+        year = localDate.getYear();
+        log.info("localDate: {}/{}/{}", month, day, year);
+            assertTrue(month==4);
+            assertTrue(day==13);
+            assertTrue(year==2023);
+
+        // Isaiah 46:11 - Isa 46:11  Calling a ravenous bird from the east, the man that executeth my counsel from a 
+        // far country: yea, I have spoken it, I will also bring it to pass; I have purposed it, I will also do it. 
+        //
+        // This verse holds different meanings for each time period.
+        //
+        //   The east in the past was referring to Persia and Cyrus was called by name.
+        //   The east in the present day meaning is the far east which could mean any of the far east countries.
+        //   God narrowed the country by specifying ravenous bird or Bird of Prey
+        
+        //   There is currently one rare bird of the east and that is only found in the country of the Philippines.
+        //   https://en.wikipedia.org/wiki/Philippine_eagle
+        //   Bird of Prey
+        //   https://www.youtube.com/watch?v=onvsjQUjTIc&t=2590s
+        //
+        //   God was using that verse to show that the bloodlines for the Bird of Prey is derived from the Philippines.
+        //   
+        //   I was born and raised in the U.S. and lived there for 45 years until I started to decipher parts of
+        //   Revelation and Daniel.
+        //
+        //   Revelation 18:4  And I heard another voice from heaven, saying, Come out of her (Mystery Babylon aka U.S.A.), 
+        //   my people, that ye be not partakers of her sins, and that ye receive not of her plagues. 
+        //   I fled the U.S. in 2022 due to what I deciphered in Revelation.
+        //
+        //
+        //   I'm now doing God's bidding from a far country, and he's using me as an instrument to bring about 
+        //   his plan and timeline for humanity.
+        //
+        //   The man that executeth my counsel from a far country.
     }
 
     /*
@@ -116,5 +180,27 @@ public class SignatureOfThisProjectTest {
         // 1 Thessalonians 5:21 - Prove G1381 all things; hold fast G2722 that which is good.
         //   G1381 - to test (literally or figuratively); to discern
         //   G2722 - to hold down (fast); keep (in memory), retain, withold
+    }
+
+    /*
+     * Isaiah 43:1  But now thus saith the LORD that created thee, O Jacob, and he that
+     * formed thee, O Israel, Fear not: for I have redeemed thee,
+     * I have called thee by thy name; thou art mine. 
+     * 
+     * Just like how I called out God's name (I AM times 3) and his number
+     * (23 times 3 = 69) he did the same with my name and number.
+     * (See testDerivedMatch_23_69_Test and testWordMatchesBible_23_Matches_Test), 
+     * 
+     * 1290, as this is the number of God's prophetic timeline.
+     * 1290 / 30 = 43   (4 + 3) = 7  # for God
+     * 1260 / 30 = 42   (4 + 2) = 6  # for Man
+     */
+    @Test
+    void testDerivedMatch_1290_Test() {
+        String name = "Roland Resurreccion San Luis";
+        // https://www.gematrix.org/?word=Roland+Resurreccion+San+Luis
+        int hebrewGematriaValue = BibleUtils.getHebrewGematriaValue(name);
+        log.info("hebrew gematria value for {}: {}", name, hebrewGematriaValue);
+        assertTrue(hebrewGematriaValue == 1290);
     }
 }
