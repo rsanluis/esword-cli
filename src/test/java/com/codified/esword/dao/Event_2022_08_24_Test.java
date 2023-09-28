@@ -30,7 +30,7 @@ public class Event_2022_08_24_Test {
      * This is signaling that the close of the 69th week of Daniel is nearby.
      * The prior week of (abundance or plenty) before the week of (famine).
      * 
-     * images/2030_second_coming_2023_tribulation.png
+     * https://github.com/rsanluis/esword-cli/blob/main/images/2030_second_coming_2023_tribulation.png
      */
     @Test
     public void testDaysBetweenJuly_6_2022_and_Aug_24_2022() {

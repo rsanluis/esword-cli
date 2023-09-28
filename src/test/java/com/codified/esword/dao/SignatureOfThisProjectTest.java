@@ -176,6 +176,8 @@ public class SignatureOfThisProjectTest {
         //   my people, that ye be not partakers of her sins, and that ye receive not of her plagues. 
         //
         //   I fled the U.S. in 2022 due to what I deciphered in Revelation.
+        //   https://github.com/rsanluis/esword-cli/blob/main/images/last_photos_taken_in_2022a.jpg
+        //   https://github.com/rsanluis/esword-cli/blob/main/images/last_photos_taken_in_2022b.jpg
         //
         //   I'm now doing God's bidding from a far country, and he's using me as an instrument to bring about 
         //   his plan and timeline for humanity.
@@ -194,10 +196,8 @@ public class SignatureOfThisProjectTest {
         // 1290 / 30 = 43   (4 + 3) = 7  # for God
         // 1260 / 30 = 42   (4 + 2) = 6  # for Man
 
-        // 
-
-        //   Yes, that man, that ravenous bird that executees my God's advice from a far country is me.
-        //   Roland Resurreccion San Luis (equals 1290 in Gematria)
+        // Yes, that man, that ravenous bird that executes my God's advice from a far country is me.
+        // Roland Resurreccion San Luis (equals 1290 in Gematria)
     }
 
     @Test
