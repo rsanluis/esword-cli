@@ -34,6 +34,6 @@ public class DerivedOrCalculatedVerses_23_69_Test {
         int simpleGematriaValue = BibleUtils.getSimpleGematriaValue("I AM");
         assertTrue(simpleGematriaValue == 23);
         assertTrue(NUMBER_DIVINE_PERFECTION_3 * simpleGematriaValue == 69);
-        // Compare to testWordMatchesBible_23_Matches_Test
+        // Confirmatory test: WordMatchesTest.testWordMatchesBible_23_Matches_Test
     }
 }
