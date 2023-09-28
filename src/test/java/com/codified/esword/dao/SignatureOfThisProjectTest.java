@@ -25,12 +25,11 @@ public class SignatureOfThisProjectTest {
      * John 3:6  That which is born of the flesh is flesh; and that which is born of the Spirit is spirit. 
      * John 3:7  Marvel not that I said unto thee, Ye must be born again. 
      * 
-     *
      * Matthew 11:25 At that time Jesus answered and said, I thank thee, O Father, 
      * Lord of heaven and earth, because thou hast hid these things from the wise 
      * and prudent, and hast revealed them unto babes.
      *
-     * Luk_10:21 In that hour Jesus rejoiced in spirit, and said, I thank thee, 
+     * Luke 10:21 In that hour Jesus rejoiced in spirit, and said, I thank thee, 
      * O Father, Lord of heaven and earth, that thou hast hid these things from 
      * the wise and prudent, and hast revealed them unto babes: even so, Father; 
      * for so it seemed good in thy sight.
@@ -41,7 +40,7 @@ public class SignatureOfThisProjectTest {
      * nay'-pee-os
      * From an obsolete particle νη ne; implying negation and G2031; not speaking, 
      * that is, an infant (minor); figuratively a simple minded person, 
-     * an immature Christian: - babe, child (+ -ish).
+     *          an immature Christian: - babe, child (+ -ish).
      * 
      * God had revealed these things to me, a babe or an immature Christian, which 
      * he later advised me to reveal to his people on 04/05/2023. 
@@ -51,7 +50,7 @@ public class SignatureOfThisProjectTest {
      * https://www.youtube.com/watch?v=D0i8YHJWW1M
      * 
      * O Father, Lord of heaven and earth, that thou hid these things from the wise 
-     * and prudent, and hast revealed them unto babes.
+     * and prudent, and hast revealed them unto ***babes***.
      * 
      * I published one of these things that the Lord revealed to me on 4/5/2023
      * https://www.brighteon.com/01c32949-0170-4f3f-8ec2-9d76497a155b
@@ -70,20 +69,23 @@ public class SignatureOfThisProjectTest {
             assertTrue(year==2023);
     }
     
+    /*
+     * Amos 3:7 - Surely the Lord GOD will do nothing, but he revealeth his secret unto 
+     * his servants the prophets.
+     */
     
     @Test
     void testIsaiah46_9_11() {
         //
-        // This is a true story worth re-telling, otherwise it will remain forever between myself and 
+        // This is a true story worth retelling, otherwise it will remain forever between myself and 
         // the Lord
         //
         // Within the Year(s):Month(s) away from my birthday 05/13/1976
         //
         // 46th year:9th month - At this time, I had already derived of the 11/01/2023 date for the 
-        //         destruction of Babylon and 12/06/2023 for being the start of tribulation.
-        //         You can verify the timestamps of the timeline I created based on Daniel & Revelation:
+        //         destruction of Babylon (America) and 12/06/2023 for being the start of tribulation.
+        //         You can verify the dates on the timeline I created based on Daniel & Revelation:
         //         https://time.graphics/line/566988
-        //
 
         // Birth date of Roland Resurreccion San Luis = 05/13/1976
         LocalDate localDate = LocalDate.of(1976,05,13)
@@ -98,7 +100,7 @@ public class SignatureOfThisProjectTest {
             assertTrue(year==2023);
 
         // 46th year:10th month - I prayed and fasted for 10 days (03/01/2023-03/10/2023) with ash 
-        // (incense) just like Daniel; asking God, "Should I show this info to his people?"  
+        // (incense) just like Daniel; asking God, "Should I show this info to your people?"  
         // I prayed to him that, "They won't ever believe me"
         //
         // He showed me other verses that instructed me to utter this info to his people, 
@@ -149,52 +151,55 @@ public class SignatureOfThisProjectTest {
         //   The east in the present day meaning is the far east which could mean any of the far east countries.
         //   God narrowed the country by specifying ravenous bird or Bird of Prey
         
-        //   There is currently one rare bird of the east and that is only found in the country of the Philippines.
+        //   There is currently one rare Bird of Prey of the East.
+        //   And this Bird of Prey is only found in one country. The Philippines.
         //   https://en.wikipedia.org/wiki/Philippine_eagle
+        //     The Philippine eagle was officially declared the national bird of the Philippines 
+        //     on July 4, 1995, by President Fidel V. Ramos under Proclamation No. 615, 
+        //     series of 1995. Due to the eagle's size and rarity, it is also a coveted species 
+        //     for birdwatchers.
+        //
         //   Bird of Prey
         //   https://www.youtube.com/watch?v=onvsjQUjTIc&t=2590s
         //
-        //   God was using that verse to show that the bloodlines for the Bird of Prey is derived from the Philippines.
+        //   God was using that verse to show that the bloodlines for the Bird of Prey is derived from
+        //   a specific place; and that man from that same verse will exist after the 1995 national bird 
+        //   declaration for that specific country.
         //   
+        //   Both my parents are originally from the Philippines and migrated to Guam, 
+        //   a territory of the U.S., where I and my siblings were born. 
+        //
         //   I was born and raised in the U.S. and lived there for 45 years until I started to decipher parts of
         //   Revelation and Daniel.
         //
-        //   Revelation 18:4  And I heard another voice from heaven, saying, Come out of her (Mystery Babylon aka U.S.A.), 
+        //   Revelation 18:4  And I heard another voice from heaven, saying, Come out of her, 
         //   my people, that ye be not partakers of her sins, and that ye receive not of her plagues. 
-        //   I fled the U.S. in 2022 due to what I deciphered in Revelation.
         //
+        //   I fled the U.S. in 2022 due to what I deciphered in Revelation.
         //
         //   I'm now doing God's bidding from a far country, and he's using me as an instrument to bring about 
         //   his plan and timeline for humanity.
         //
-        //   The man that executeth my counsel from a far country.
+        
+        //
+        // Isaiah 43:1  But now thus saith the LORD that created thee, O Jacob, and he that
+        //     formed thee, O Israel, Fear not: for I have redeemed thee,
+        //     I have called thee by thy name; thou art mine.
+       
+        // Just like how I called out God's name (I AM times 3) and his number
+        // (23 times 3 = 69) he did the same with my name and number.
+        // (See testDerivedMatch_23_69_Test and testWordMatchesBible_23_Matches_Test), 
+        //
+        // 1290, as this is the number of God's prophetic timeline.
+        // 1290 / 30 = 43   (4 + 3) = 7  # for God
+        // 1260 / 30 = 42   (4 + 2) = 6  # for Man
+
+        // 
+
+        //   Yes, that man, that ravenous bird that executees my God's advice from a far country is me.
+        //   Roland Resurreccion San Luis (equals 1290 in Gematria)
     }
 
-    /*
-     * Amos 3:7 - Surely the Lord GOD will do nothing, but he revealeth his secret unto 
-     * his servants the prophets.
-     */
-
-    @Test
-    void testTheReasonsForCreatingTheseTests() {
-        // 1 Thessalonians 5:21 - Prove G1381 all things; hold fast G2722 that which is good.
-        //   G1381 - to test (literally or figuratively); to discern
-        //   G2722 - to hold down (fast); keep (in memory), retain, withold
-    }
-
-    /*
-     * Isaiah 43:1  But now thus saith the LORD that created thee, O Jacob, and he that
-     * formed thee, O Israel, Fear not: for I have redeemed thee,
-     * I have called thee by thy name; thou art mine. 
-     * 
-     * Just like how I called out God's name (I AM times 3) and his number
-     * (23 times 3 = 69) he did the same with my name and number.
-     * (See testDerivedMatch_23_69_Test and testWordMatchesBible_23_Matches_Test), 
-     * 
-     * 1290, as this is the number of God's prophetic timeline.
-     * 1290 / 30 = 43   (4 + 3) = 7  # for God
-     * 1260 / 30 = 42   (4 + 2) = 6  # for Man
-     */
     @Test
     void testDerivedMatch_1290_Test() {
         String name = "Roland Resurreccion San Luis";
@@ -202,5 +207,12 @@ public class SignatureOfThisProjectTest {
         int hebrewGematriaValue = BibleUtils.getHebrewGematriaValue(name);
         log.info("hebrew gematria value for {}: {}", name, hebrewGematriaValue);
         assertTrue(hebrewGematriaValue == 1290);
+    }
+
+    @Test
+    void testTheReasonsForCreatingTheseTests() {
+        // 1 Thessalonians 5:21 - Prove G1381 all things; hold fast G2722 that which is good.
+        //   G1381 - to test (literally or figuratively); to discern
+        //   G2722 - to hold down (fast); keep (in memory), retain, withold
     }
 }
