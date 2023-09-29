@@ -57,7 +57,10 @@ public class WordMatchesTest {
    * Exodus 3:14  And God said unto Moses, I AM THAT I AM: and he said, 
    * Thus shalt thou say unto the children of Israel, I AM hath sent me unto you. 
    * https://www.gematrix.org/?word=Pi
+   * Notice how Pi aligns with the chapter & verse # 3:14
    * 69 / 3 = 23
+   * The KJV+ Bible confirms this with 23 words total with 69 matches
+   * 
    */
   @Test
   public void testWordMatchesBible_23_Matches_Test() {

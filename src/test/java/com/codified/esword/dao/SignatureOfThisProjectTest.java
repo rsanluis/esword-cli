@@ -142,7 +142,7 @@ public class SignatureOfThisProjectTest {
             assertTrue(day==13);
             assertTrue(year==2023);
 
-        // Isaiah 46:11 - Isa 46:11  Calling a ravenous bird from the east, the man that executeth my counsel from a 
+        // Isaiah 46:11 - Calling a ravenous bird from the east, the man that executeth my counsel from a 
         // far country: yea, I have spoken it, I will also bring it to pass; I have purposed it, I will also do it. 
         //
         // This verse holds different meanings for each time period.
@@ -179,10 +179,12 @@ public class SignatureOfThisProjectTest {
         //   https://github.com/rsanluis/esword-cli/blob/main/images/last_photos_taken_in_2022a.jpg
         //   https://github.com/rsanluis/esword-cli/blob/main/images/last_photos_taken_in_2022b.jpg
         //
+        //   Isaiah 46:11 - Calling a ravenous bird from the east, the man that executeth my counsel 
+        //   from a far country
+        //
         //   I'm now doing God's bidding from a far country, and he's using me as an instrument to bring about 
         //   his plan and timeline for humanity.
         //
-        
         //
         // Isaiah 43:1  But now thus saith the LORD that created thee, O Jacob, and he that
         //     formed thee, O Israel, Fear not: for I have redeemed thee,
@@ -190,7 +192,10 @@ public class SignatureOfThisProjectTest {
        
         // Just like how I called out God's name (I AM times 3) and his number
         // (23 times 3 = 69) he did the same with my name and number.
-        // (See testDerivedMatch_23_69_Test and testWordMatchesBible_23_Matches_Test), 
+        // (See confirmatory tests:
+        //   DerivedOrCalculatedVerses_23_69_Test.testDerivedMatch_23_69_Test &
+        //   WordMatchesTest.testWordMatchesBible_23_Matches_Test
+        // ) 
         //
         // 1290, as this is the number of God's prophetic timeline.
         // 1290 / 30 = 43   (4 + 3) = 7  # for God
