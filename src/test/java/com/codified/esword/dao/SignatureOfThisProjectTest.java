@@ -176,6 +176,7 @@ public class SignatureOfThisProjectTest {
         //   my people, that ye be not partakers of her sins, and that ye receive not of her plagues. 
         //
         //   I fled the U.S. in 2022 due to what I deciphered in Revelation.
+        //   These were the last photos I took while I was in the U.S. in 2022
         //   https://github.com/rsanluis/esword-cli/blob/main/images/last_photos_taken_in_2022a.jpg
         //   https://github.com/rsanluis/esword-cli/blob/main/images/last_photos_taken_in_2022b.jpg
         //

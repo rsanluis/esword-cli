@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @SpringBootTest
 public class Event_2023_10_07_Test {
     /* 
-     * Event 10/07/2023 - The start of the (1290 * 2) timeline
+     * Event 10/07/2023 - October 7th, 2023 - The start of the (1290 * 2) timeline
     */
      
     @Test
