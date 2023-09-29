@@ -147,9 +147,9 @@ public class SignatureOfThisProjectTest {
         //
         // This verse holds different meanings for each time period.
         //
-        //   The east in the past was referring to Persia and Cyrus was called by name.
-        //   The east in the present day meaning is the far east which could mean any of the far east countries.
-        //   God narrowed the country by specifying ravenous bird or Bird of Prey
+        //   The east in the past was referring to Persia and Cyrus was called by name back then.
+        //   The east in the present day meaning is referring to the far east which could mean any of the far east countries.
+        //   God narrowed the country by specifying Ravenous Bird or Bird of Prey
         
         //   There is currently one rare Bird of Prey of the East.
         //   And this Bird of Prey is only found in one country. The Philippines.
@@ -166,8 +166,8 @@ public class SignatureOfThisProjectTest {
         //   a specific place; and that man from that same verse will exist after the 1995 national bird 
         //   declaration for that specific country.
         //   
-        //   Both my parents are originally from the Philippines and migrated to Guam, 
-        //   a territory of the U.S., where I and my siblings were born. 
+        //   My parents are both from the Philippines and migrated to Guam 
+        //   (a territory of the U.S.), where my siblings and I were born. 
         //
         //   I was born and raised in the U.S. and lived there for 45 years until I started to decipher parts of
         //   Revelation and Daniel.
@@ -182,8 +182,8 @@ public class SignatureOfThisProjectTest {
         //   Isaiah 46:11 - Calling a ravenous bird from the east, the man that executeth my counsel 
         //   from a far country
         //
-        //   I'm now doing God's bidding from a far country, and he's using me as an instrument to bring about 
-        //   his plan and timeline for humanity.
+        //   I'm now doing God's bidding from a far country, and he's using me as an instrument 
+        //   to bring about his plan and timeline for humanity.
         //
         //
         // Isaiah 43:1  But now thus saith the LORD that created thee, O Jacob, and he that

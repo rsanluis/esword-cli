@@ -58,7 +58,7 @@ public class WordMatchesTest {
    * Thus shalt thou say unto the children of Israel, I AM hath sent me unto you. 
    * https://www.gematrix.org/?word=Pi
    * Notice how Pi aligns with the chapter & verse # 3:14
-   * 69 / 3 = 23
+   * 69 divided by 3 parts = 23
    * The KJV+ Bible confirms this with 23 words total with 69 matches
    * esword wordmatch -c Bible -m 69
    * 23 words in total with 69 occurrences/matches
