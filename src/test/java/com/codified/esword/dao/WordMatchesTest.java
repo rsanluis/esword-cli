@@ -60,7 +60,9 @@ public class WordMatchesTest {
    * Notice how Pi aligns with the chapter & verse # 3:14
    * 69 / 3 = 23
    * The KJV+ Bible confirms this with 23 words total with 69 matches
-   * 
+   * esword wordmatch -c Bible -m 69
+   * 23 words in total with 69 occurrences/matches
+   * https://github.com/rsanluis/esword-cli/blob/main/images/testWordMatchesBible_23_Matches_Test.png
    */
   @Test
   public void testWordMatchesBible_23_Matches_Test() {
