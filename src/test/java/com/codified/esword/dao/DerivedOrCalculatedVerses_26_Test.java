@@ -35,7 +35,7 @@ public class DerivedOrCalculatedVerses_26_Test {
      * for I am God, and there is none else. 
      * 
      * https://www.biblegematria.com/pi-and-the-bible.html
-     * 
+     * https://github.com/rsanluis/esword-cli/blob/main/images/testDerivedMatch_26_VerseNumber_18584_Test.png
      */
     @Test
     void testDerivedMatch_26_VerseNumber_18584_Test() {
