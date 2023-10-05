@@ -23,8 +23,8 @@ public class Event_2022_08_24_Test {
      * https://www.youtube.com/watch?v=IU8p_nuK6Yw
      * https://web.archive.org/web/20220824222755/https://www.france24.com/en/france/20220824-macron-warns-french-of-tough-times-ahead-end-to-energy-price-cap
      * 
-     * Gen 41:29  Behold, there come seven years of great plenty throughout all the land of Egypt: 
-     * Gen 41:30  And there shall arise after them seven years of famine; and all the plenty shall
+     * Genesis 41:29  Behold, there come seven years of great plenty throughout all the land of Egypt: 
+     * Genesis 41:30  And there shall arise after them seven years of famine; and all the plenty shall
      *   be forgotten in the land of Egypt; and the famine shall consume the land; 
      * 
      * This is signaling that the close of the 69th week of Daniel is nearby.
