@@ -35,6 +35,6 @@ public class Event_2007_09_30_Test {
     // 
     // Man has written that these Four are not    the Four Horsemen of the Apocalypse
     // God has written that these Four are indeed the Four Horsemen of the Apocalypse
-    //
+    // 
     // 
 }
