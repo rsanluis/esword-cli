@@ -52,7 +52,8 @@ public class SignatureOfThisProjectTest {
      * O Father, Lord of heaven and earth, that thou hid these things from the wise 
      * and prudent, and hast revealed them unto ***babes***.
      * 
-     * I published one of these things that the Lord revealed to me on 4/5/2023
+     * I published one of these things that the Lord revealed to me on 4/5/2023.
+     * Again, exactly 7 years and 2 days from Baptism.
      * https://www.brighteon.com/01c32949-0170-4f3f-8ec2-9d76497a155b
      */
     @Test
