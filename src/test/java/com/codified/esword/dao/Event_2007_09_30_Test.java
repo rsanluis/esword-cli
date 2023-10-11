@@ -33,8 +33,20 @@ public class Event_2007_09_30_Test {
     //
     // https://web.archive.org/web/20230829061516/http://en.wikipedia.org:80/wiki/New_atheism
     // 
-    // Man has written that these Four are not    the Four Horsemen of the Apocalypse
-    // God has written that these Four are indeed the Four Horsemen of the Apocalypse
+    // The "Apocalypse" commencement starts with the arrival of the Four Horsemen.
+    // Although the Word of Man states that they are not the horsemen from the Apocalypse,
+    // the Word of God does indeed point to this very day as a significant event in the 
+    // Revelations Timeline.
     // 
+    // Revelation 9:18-19
+    // Rev 9:18  By these three was the third part of men killed, by the fire, and by the smoke,
+    //   and by the brimstone, which issued out of their mouths. 
+    // Rev 9:19  For their power is in their mouth, and in their tails: for their 
+    //   tails were like unto serpents, and had heads, and with them they do hurt. 
+    // The important keywords to extract from Revelation 6:2-8, 9:1-19 based on the context
+    // of all verses are: HORSES, MEN, HORSEMEN
     // 
+    // By these three was the third part of men killed 
+    // By these three - since we extracted the root context word HORSEMEN from
+    // Revelation 9:1-18, The Bible is inferring to the 3 horsemen
 }
