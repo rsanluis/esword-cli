@@ -17,6 +17,29 @@ public class Event_2017_09_23_Test {
     // Revelation 12:1 - And there appeared a great wonder in heaven; a woman
     //   clothed with the sun, and the moon under her feet, and upon her head
     //   a crown of twelve stars.
+    //
+    // Revelation 12 Sign in 5 Minutes! September 23 2017 Alignment
+    // https://www.youtube.com/watch?v=ZSqPiR2EK2s
+    // https://github.com/rsanluis/esword-cli/blob/main/images/Event_2017_09_23_Test.png
+    // 
+    @Test
+    public void testDaysBetweenSeptember_23_2017_and_November_1_2023() {
+        long daysBetween = DAYS.between(
+            LocalDate.of(2017,9,23),
+            LocalDate.of(2023,11,1)
+        );
+        log.info("daysBetween: {}", daysBetween);
+        assertTrue(daysBetween==2230);
+        // What is the significance of 2230?
+        // The Hebrew code points to a flood, overflowing, storm
+        //
+        // H2230
+        // זֶרֶם
+        // zerem
+        // zeh'-rem
+        // From H2229; a gush of water: - flood, overflowing, shower, storm, tempest.
+        // Total KJV occurrences: 9
+    }
+
     
- 
 }
