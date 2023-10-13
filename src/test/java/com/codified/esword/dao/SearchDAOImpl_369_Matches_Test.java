@@ -54,6 +54,27 @@ public class SearchDAOImpl_369_Matches_Test {
         assertTrue(matches == 420);
     }
 
+    // G326
+    // ἀναζάω
+    // anazaō
+    // an-ad-zah'-o
+    // From G303 and G2198; to recover life (literally or figuratively): - (be a-) live again, revive.
+    // Total KJV occurrences: 5
+    //   esword search -c Bible -w g326
+    //   verses: 5  matches: 5
+    @Test
+    void testSearchByKeyword_Father_AndContext_NewTestament() {
+        List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("father", "NewTestament");
+        int verses = 0;
+        int matches = 0;
+        matches += BibleUtils.countMatches(resultsList);
+        verses = resultsList.size();
+        log.info("verses:  {}", verses);
+        log.info("matches: {}", matches);
+        assertTrue(verses == 326);
+        assertTrue(matches == 369);
+    }
+
     
 
 
