@@ -74,8 +74,4 @@ public class SearchDAOImpl_369_Matches_Test {
         assertTrue(verses == 326);
         assertTrue(matches == 369);
     }
-
-    
-
-
 }
