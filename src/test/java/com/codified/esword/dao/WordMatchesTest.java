@@ -210,6 +210,24 @@ public class WordMatchesTest {
     // I derived God's command based on the first 3 digits of my birthday, 513
     // which indicates that the Bible is telling us that one who found the end interpretation
     // is the one qualified telling the meaning of the unsealed book of Daniel and Revelation
+    //
+    // https://reasons.org/explore/publications/articles/fulfilled-prophecy-evidence-for-the-reliability-of-the-bible
+    // The acid test for identifying a prophet of God is recorded by Moses in 
+    //   Deuteronomy 18:21-22. According to this Bible passage (and others), 
+    //   God’s prophets, as distinct from Satan’s spokesmen, are 100 percent accurate
+    //   in their predictions. There is no room for error.
+    //
+    // Deu 18:18  I will raise them up a Prophet from among their brethren, like unto thee, 
+    //   and will put my words in his mouth; and he shall speak unto them all that I shall command him. 
+    // Deu 18:19  And it shall come to pass, that whosoever will not hearken unto my words which he 
+    //   shall speak in my name, I will require it of him. 
+    // Deu 18:20  But the prophet, which shall presume to speak a word in my name, which I have not 
+    //   commanded him to speak, or that shall speak in the name of other gods, even that prophet shall die. 
+    // Deu 18:21  And if thou say in thine heart, How shall we know the word which the LORD hath not 
+    //   spoken? 
+    // Deu 18:22  When a prophet speaketh in the name of the LORD, if the thing follow not, nor come 
+    //   to pass, that is the thing which the LORD hath not spoken, but the prophet hath spoken it 
+    //   presumptuously: thou shalt not be afraid of him. 
   }
   @Test
   public void testWordMatchesBible_CommandGivenFromBibleBasedOnFirst3DigitsOfMyBday() {
@@ -218,8 +236,61 @@ public class WordMatchesTest {
     assertTrue(wordMatchesList.size() == 1);
     String wordMatch = wordMatchesList.get(0).getWord();
     assertTrue(wordMatch.equals("speak"));
+    // https://github.com/rsanluis/esword-cli/blob/main/images/testWordMatchesBible_CommandGivenFromBibleBasedOnFirst3DigitsOfMyBday.png
+    // Here is the command instructed extracted from the Bible corresponding to my birth date
   }
 
+  // To have the knowledge of reversing my #, you will have to first understand reversing the
+  // # of God, which is 35 (El Deah)
+  //
+  // Gen 17:1  And when Abram was ninety years old and nine, the LORD appeared to Abram, 
+  // and said unto him, I am the Almighty God; walk before me, and be thou perfect. 
+  //
+  // The key verse to extract is: 
+  //   I am the Almighty God
+  //
+  // This is a Biblical pattern based on the knowledge of COUNTING in the present.
+  // When this was written (over 2000 years ago), it indicates a FUTURE method of counting
+  // that will be realized in the future.
+  //
+  // I is equivalent to 1
+  // AM is equivalent to 10 10
+  
+  //   as A is unto Alpha
+  //   as M is unto Omega
+
+  //   as A is unto The beginning
+  //   as M is unto The end
+
+  //   as A is unto The First
+  //   as M is unto The Last
+  
+  //   Almighty God is unto 1
+  //
+  //   The present method of counting is in binary:
+  //   I   A  M   Almighty God  (mighty one)
+  //   1  10  10  1             (in binary) = 53 (in decimal)
+  //
+  //   https://www.biblestudy.org/bibleref/meaning-of-numbers-in-bible/53.html
+  //   Fools and the Number 53
+  //   Written by King David, Psalm 53 gives us a true definition of a fool! It also reveals the 
+  //   real life consequences of humans refusing, despite the overwhelming evidence (Romans 1:19 - 22),
+  //   to acknowledge God exists and deserves to be obeyed.
+  //   
+  //   Revelation 1:8  I am Alpha and Omega, the beginning and the ending, saith the Lord, which is, 
+  //   and which was, and which is to come, the Almighty. 
+  //
+  //   I am Alpha and Omega ... which is to come/become the Almighty
+  //   1    10        10                                       1 = 110101 (in binary) = 53 (in decimal)
+
+  // Using my birth date: 05/13/76
+  // From the above knowledge of reversing God's # of 35, we do the same with the number that 
+  //   represents me: 513 (command to speak)
+  //   reversing 513, we get 315
+  // 
+  // esword wordmatch -c Bible -m 315
+  // https://github.com/rsanluis/esword-cli/blob/main/images/testWordMatchesBible_LabelGivenFromBibleBasedOnFirst3DigitsOfMyBdayReversed.png
+  //
   // H6242
   // עֶשְׂרִים
   // ‛eśrı̂ym
