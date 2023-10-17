@@ -219,7 +219,7 @@ public class SignatureOfThisProjectTest {
         assertTrue(hebrewGematriaValue == 1290);
     }
 
-    /*
+    /* 
      * Further expanding the Biblical code found in the Bible, is the
      * command that God gave me:
      * - To SPEAK of the truth that represents the Word of God
@@ -234,17 +234,20 @@ public class SignatureOfThisProjectTest {
 
     @Test
     void testTheDefinitionThatGodLabeledMe() {
-        // See validating test: WordMatchesTest.testWordMatchesBible_LabelGivenFromBibleBasedOnFirst3DigitsOfMyBdayReversed
+        // See validating test: 
+        //   WordMatchesTest.testWordMatchesBible_LabelGivenFromBibleBasedOnFirst3DigitsOfMyBdayReversed
+        //
         //   returns 2 values
-        //     1) twenty
-        //     2) prophet
+        //     1) Twenty
+        //     2) Prophet
         //
         // If we take 2520 and divide by 20, we get 126
         // https://www.biblestudy.org/bibleref/meaning-of-numbers-in-bible/126.html
         // Appointed in conjunction with God's prophetic clock of 2520 corresponds to
         //   appointed time.
         //
-        // 
+        // https://github.com/rsanluis/esword-cli/blob/main/images/appointed_time_126.png
+        //
         // Hebrews 9:27, KJV
         //   And as it is appointed unto men once to die, but after this the judgment.
     }
