@@ -254,8 +254,9 @@ public class WordMatchesTest {
   // that will be realized in the future.
   //
   // I is equivalent to 1
-  // AM is equivalent to 10 10
-  
+  //   https://github.com/rsanluis/esword-cli/blob/main/images/nth_root_comparison.png
+  //   AM is equivalent to 10 10
+
   //   as A is unto Alpha
   //   as M is unto Omega
 
@@ -282,6 +283,11 @@ public class WordMatchesTest {
   //
   //   I am Alpha and Omega ... which is to come/become the Almighty
   //   1    10        10                                       1 = 110101 (in binary) = 53 (in decimal)
+  //  
+  //   https://www.gematrix.org/?word=i%20am%20he
+  //   I am he = 53 in Hebrew Gematria
+  //   lamb    = 53 in Hebrew Gematria
+  //   
 
   // Using my birth date: 05/13/76
   // From the above knowledge of reversing God's # of 35, we do the same with the number that 
