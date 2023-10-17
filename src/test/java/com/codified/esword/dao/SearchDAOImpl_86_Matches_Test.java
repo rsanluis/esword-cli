@@ -20,6 +20,14 @@ public class SearchDAOImpl_86_Matches_Test {
     @Autowired
     SearchDAO searchDAO;
 
+    // H3925
+    // לָמַד
+    // lâmad
+    // law-mad'
+    // A primitive root; properly to goad, that is, (by implication) to teach 
+    // (the rod being an Oriental incentive): - [un-] accustomed, X diligently, expert, 
+    // instruct, learn, skilful, teach (-er, -ing).
+    // Total KJV occurrences: 86
     @Test
     void testSearchByKeyword_H3925_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("H3925", "OldTestament");
