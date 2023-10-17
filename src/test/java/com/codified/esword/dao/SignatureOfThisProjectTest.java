@@ -3,10 +3,13 @@ package com.codified.esword.dao;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import com.codified.esword.model.SearchResult;
 import com.codified.esword.util.BibleUtils;
 
 import lombok.extern.slf4j.Slf4j;
@@ -215,6 +218,25 @@ public class SignatureOfThisProjectTest {
         log.info("hebrew gematria value for {}: {}", name, hebrewGematriaValue);
         assertTrue(hebrewGematriaValue == 1290);
     }
+
+    /*
+     * Further expanding the Biblical code found in the Bible, is the
+     * command that God gave me:
+     * - To SPEAK of the truth that represents the Word of God
+     * - To SPEAK of the timeline that God has decreed for humanity
+     * - To SPEAK of the plan that God has for everyone
+     */
+    @Test
+    void testTheCommandThatGodGaveMe() {
+       // See validating test: WordMatchesTest.testWordMatchesBible_CommandGivenFromBibleBasedOnFirst3DigitsOfMyBday
+       //   returns the command to: SPEAK
+    }
+
+    @Test
+    void testTheDefinitionThatGodLabeledMe() {
+        
+    }
+
 
     @Test
     void testTheReasonsForCreatingTheseTests() {

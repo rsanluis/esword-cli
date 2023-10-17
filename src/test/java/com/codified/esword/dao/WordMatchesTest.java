@@ -22,6 +22,7 @@ import org.springframework.jdbc.core.RowMapper;
 import com.codified.esword.model.Bible;
 import com.codified.esword.model.WordMatches;
 
+import jakarta.persistence.criteria.From;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -205,6 +206,42 @@ public class WordMatchesTest {
     // Behold, you saw (the) book answered. (inserting 'The')
     // Do give (the) end interpretation to all four (winds,corners,parts). (as in
     // Matthew 24:31)
+    //
+    // I derived God's command based on the first 3 digits of my birthday, 513
+    // which indicates that the Bible is telling us that one who found the end interpretation
+    // is the one qualified telling the meaning of the unsealed book of Daniel and Revelation
+  }
+  @Test
+  public void testWordMatchesBible_CommandGivenFromBibleBasedOnFirst3DigitsOfMyBday() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(513);
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size() == 1);
+    String wordMatch = wordMatchesList.get(0).getWord();
+    assertTrue(wordMatch.equals("speak"));
+  }
+
+  // H6242
+  // עֶשְׂרִים
+  // ‛eśrı̂ym
+  // es-reem'
+  // From H6235; twenty; also (ordinal) twentieth: - [six-] score, twenty (-ieth).
+  // Total KJV occurrences: 315
+  // 
+  //  H5030
+  // נָבִיא
+  // nâbı̂y'
+  // naw-bee'
+  // From H5012; a prophet or (generally) inspired man: - prophecy, that prophesy, prophet.
+  // Total KJV occurrences: 315
+  @Test 
+  public void testWordMatchesBible_LabelGivenFromBibleBasedOnFirst3DigitsOfMyBdayReversed() {
+    List<WordMatches> wordMatchesList = wordMatchesBibleDAO.getWordMatchesByMatches(315);
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size() == 2);
+    String wordMatch1 = wordMatchesList.get(0).getWord();
+    String wordMatch2 = wordMatchesList.get(1).getWord();
+    assertTrue(wordMatch1.equals("h6242"));
+    assertTrue(wordMatch2.equals("h5030"));
   }
 
   // Define Order(0) to force the check of DB population before running any word
