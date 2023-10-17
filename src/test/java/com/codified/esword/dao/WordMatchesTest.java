@@ -336,9 +336,10 @@ public class WordMatchesTest {
     assertTrue(wordMatchesList.size() == 1);
     String wordMatch = wordMatchesList.get(0).getWord();
     assertTrue(wordMatch.equals("g32"));
+    // https://github.com/rsanluis/esword-cli/blob/main/images/testWordMatchesDanRev_LabelGivenFromBibleBasedOnYearOfMyBday.png
   }
 
-  
+
   // Define Order(0) to force the check of DB population before running any word
   // match tests
   @Test
