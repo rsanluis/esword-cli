@@ -321,6 +321,24 @@ public class WordMatchesTest {
     assertTrue(wordMatch2.equals("h5030"));
   }
 
+  // With Daniel and Revelation combined; the year (76 matches) labels me as a messenger of God
+  //
+  // G32
+  // ἄγγελος
+  // aggelos
+  // ang'-el-os
+  // From ἀγγέλλω aggellō (probably derived from G71; compare G34; to bring tidings); a messenger; especially an “angel”; by implication a pastor: - angel, messenger.
+  // Total KJV occurrences: 186
+  @Test 
+  public void testWordMatchesDanRev_LabelGivenFromBibleBasedOnYearOfMyBday() {
+    List<WordMatches> wordMatchesList = wordMatchesDanRevDAO.getWordMatchesByMatches(76);
+    log.info("wordMatchesList.size: {}", wordMatchesList.size());
+    assertTrue(wordMatchesList.size() == 1);
+    String wordMatch = wordMatchesList.get(0).getWord();
+    assertTrue(wordMatch.equals("g32"));
+  }
+
+  
   // Define Order(0) to force the check of DB population before running any word
   // match tests
   @Test
