@@ -203,19 +203,26 @@ public class WordMatchesTest {
     // Behold, ye sawest book answered.
     // Do give end interpretation to all four.
     //
-    // Behold, you saw (the) book answered. (inserting 'The')
-    // Do give (the) end interpretation to all four (winds,corners,parts). (as in
-    // Matthew 24:31)
+    //   Behold, you saw (the) book answered. (inserting 'The')
+    //   Do give (the) end interpretation to all four (winds,corners,parts)
+    //     (as in Matthew 24:31)
+    //
+    //
+    //     Behold, you saw the book answered.
+    //     Do give the END INTERPRETATION to all four corners.
+    //
     //
     // I derived God's command based on the first 3 digits of my birthday, 513
     // which indicates that the Bible is telling us that one who found the end interpretation
     // is the one qualified telling the meaning of the unsealed book of Daniel and Revelation
     //
     // https://reasons.org/explore/publications/articles/fulfilled-prophecy-evidence-for-the-reliability-of-the-bible
+    //
     // The acid test for identifying a prophet of God is recorded by Moses in 
     //   Deuteronomy 18:21-22. According to this Bible passage (and others), 
     //   God’s prophets, as distinct from Satan’s spokesmen, are 100 percent accurate
     //   in their predictions. There is no room for error.
+    //
     //
     // Deu 18:18  I will raise them up a Prophet from among their brethren, like unto thee, 
     //   and will put my words in his mouth; and he shall speak unto them all that I shall command him. 

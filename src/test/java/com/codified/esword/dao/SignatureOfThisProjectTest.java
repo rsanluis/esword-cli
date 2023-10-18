@@ -254,8 +254,9 @@ public class SignatureOfThisProjectTest {
         // Chart generated using https://www.meta-chart.com/
         // 
         // https://www.biblestudy.org/bibleref/meaning-of-numbers-in-bible/20.html
+        //
         // The number 20 conveys a meaning of a complete or perfect waiting period.
-        // 
+        // https://github.com/rsanluis/esword-cli/blob/main/images/testTheDefinitionThatGodLabeledMe.png
     }
 
     @Test
