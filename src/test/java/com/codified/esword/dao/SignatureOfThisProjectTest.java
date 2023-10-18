@@ -251,6 +251,10 @@ public class SignatureOfThisProjectTest {
         // Hebrews 9:27, KJV
         //   And as it is appointed unto men once to die, but after this the judgment.
         // https://github.com/rsanluis/esword-cli/blob/main/images/appointed_time_chart_126_of_20.png
+        // Chart generated using https://www.meta-chart.com/
+        // 
+        // https://www.biblestudy.org/bibleref/meaning-of-numbers-in-bible/20.html
+        // The number 20 conveys a meaning of a complete or perfect waiting period.
         // 
     }
 
