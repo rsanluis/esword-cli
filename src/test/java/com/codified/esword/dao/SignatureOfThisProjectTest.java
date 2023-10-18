@@ -3,13 +3,11 @@ package com.codified.esword.dao;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.time.LocalDate;
-import java.util.List;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.codified.esword.model.SearchResult;
 import com.codified.esword.util.BibleUtils;
 
 import lombok.extern.slf4j.Slf4j;
