@@ -42,4 +42,7 @@ public class Event_2023_11_01_Test {
         // esword search -c Bible -s obey
         //   verses: 66    matches: 69
     } 
+
+
+    // Luke 6:48-49
 }
