@@ -40,6 +40,24 @@ public class MarkOfTheBeastTest {
         log.info("daysBetween: {}", daysBetween);
         assertTrue(daysBetween==954);  
     }
+
+    // Little boy named El Elyon
+    // https://youtu.be/NpCxK1OkqdE?start=9&end=54
+    //
+    // Luke 21:8  And he said, Take heed that ye be not deceived: for many shall come in my name, 
+    // saying, I am Christ; and the time draweth near: go ye not therefore after them.
+    // 
+    // https://newcreeations.org/names-of-god/?gad=1
+    //
+    // El Elyon (The Most High God)
+    // 
+    // First seen in Genesis 14:18 – Used 52 times in the Bible (sometimes without El, 
+    // simply as Elyon)
+    //
+    // El is likely related to the word Elohim and is used in conjunction with other 
+    // descriptive words to specifically reference a particular characteristic of God. 
+    // Elyon means highest or most high. Used together El Elyon means The Most High God. 
+
     
     
 }
