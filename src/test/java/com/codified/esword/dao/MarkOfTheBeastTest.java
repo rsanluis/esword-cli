@@ -59,5 +59,12 @@ public class MarkOfTheBeastTest {
     // Elyon means highest or most high. Used together El Elyon means The Most High God. 
 
     
-    
+    // Revelation 13:4  And they worshipped the dragon which gave power unto the beast: 
+    // and they worshipped the beast, saying, Who is like unto the beast? who is 
+    // able to make war with him?
+    //
+    // Quis ut Deus?
+    // https://en.wikipedia.org/wiki/Quis_ut_Deus%3F
+    // 
+    // 
 }

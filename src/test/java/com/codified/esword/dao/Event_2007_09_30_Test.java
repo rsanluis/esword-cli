@@ -50,6 +50,16 @@ public class Event_2007_09_30_Test {
     // By these three - since we extracted the root context word HORSEMEN from
     // Revelation 9:1-18, The Bible is inferring to the 3 horsemen
     
+    // Christopher Hitchens
+    //   https://www.brainyquote.com/authors/christopher-hitchens-quotes
+    //   https://abcnews.go.com/blogs/headlines/2011/12/hitchens-remembered-through-15-of-his-most-memorable-quotes
+    // Richard Dawkins
+    //   https://www.brainyquote.com/authors/richard-dawkins-quotes
+    // Sam Harris
+    //   https://www.brainyquote.com/authors/sam-harris-quotes
+    // Daniel Dennett
+    //   https://www.brainyquote.com/authors/daniel-dennett-quotes
+
     
 
     
