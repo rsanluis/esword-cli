@@ -179,8 +179,8 @@ public class SignatureOfThisProjectTest {
         //
         //   I fled the U.S. in 2022 due to what I deciphered in Revelation.
         //   These were the last photos I took while I was in the U.S. in 2022
-        //   https://github.com/rsanluis/esword-cli/blob/main/images/last_photos_taken_in_2022a.jpg
-        //   https://github.com/rsanluis/esword-cli/blob/main/images/last_photos_taken_in_2022b.jpg
+        //   https://github.com/rsanluis/esword-cli/blob/main/images/my_signature/left_babylon_in_2022/last_photos_taken_in_2022a.jpg
+        //   https://github.com/rsanluis/esword-cli/blob/main/images/my_signature/left_babylon_in_2022/last_photos_taken_in_2022b.jpg
         //
         //   Isaiah 46:11 - Calling a ravenous bird from the east, the man that executeth my counsel 
         //   from a far country
