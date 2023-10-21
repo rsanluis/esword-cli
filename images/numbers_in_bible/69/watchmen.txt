@@ -1,0 +1,17 @@
+
+Timekeeping
+  8 Watchmen
+  1 for each time period
+
+G69
+  ἀγρυπνέω
+  agrupneō
+  ag-roop-neh'-o
+  Ultimately from G1 (as negative particle) and G5258; to be sleepless, that is, keep awake: - watch.
+  Total KJV occurrences: 4
+
+Night Watchman   Day Watchman
+ 6pm to  9pm      6am to  9am
+ 9pm to 12am      9am to 12pm
+12am to  3am     12pm to  3pm
+ 3am to  6am      3pm to  6pm
