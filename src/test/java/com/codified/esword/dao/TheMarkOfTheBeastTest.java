@@ -33,7 +33,24 @@ public class TheMarkOfTheBeastTest {
     // The number that represents that book is 42
     // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/42/Hitchhikers_Guide_To_The_Galaxy_Main_Point.png
 
+    // 666 is Artificial Intelligence
+
+
+    // Jesus has the dual nature of Son of God and Son of Man
+    // https://www.youtubetrimmer.com/view/?v=O81E3-6giuY&start=618&end=692&loop=0
+
+    // Knowledge is increasing by 10
+    // https://www.youtubetrimmer.com/view/?v=O81E3-6giuY&start=789&end=893&loop=0
     
+
+    // Visions and dreams
+    // Acts 2:17 - And it shall come to pass in the last days, saith God, 
+    // I will pour out of my Spirit upon all flesh: and your sons and 
+    // your daughters shall prophesy, and your young men shall see visions, and your 
+    // old men shall dream dreams:
+    // https://www.youtubetrimmer.com/view/?v=3YOQiv5XWCc&start=149&end=300&loop=0
+
+
 
     @Test
     //
