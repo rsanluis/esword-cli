@@ -20,7 +20,7 @@ public class Event_2017_09_23_Test {
     //
     // Revelation 12 Sign in 5 Minutes! September 23 2017 Alignment
     // https://www.youtube.com/watch?v=ZSqPiR2EK2s
-    // https://github.com/rsanluis/esword-cli/blob/main/images/events/Event_2017_09_23_Test.png
+    // https://github.com/rsanluis/esword-cli/blob/main/images/events/2017_09_23/Event_2017_09_23_Test.png
     // 
     @Test
     public void testDaysBetweenSeptember_23_2017_and_November_1_2023() {
