@@ -244,17 +244,18 @@ public class SignatureOfThisProjectTest {
         // Appointed in conjunction with God's prophetic clock of 2520 corresponds to
         //   appointed time.
         //
-        // https://github.com/rsanluis/esword-cli/blob/main/images/appointed_time_126.png
+        // https://github.com/rsanluis/esword-cli/blob/main/images/numbers_in_bible/126/appointed_time_126.png
         //
         // Hebrews 9:27, KJV
         //   And as it is appointed unto men once to die, but after this the judgment.
-        // https://github.com/rsanluis/esword-cli/blob/main/images/appointed_time_chart_126_of_20.png
-        // Chart generated using https://www.meta-chart.com/
         // 
         // https://www.biblestudy.org/bibleref/meaning-of-numbers-in-bible/20.html
         //
         // The number 20 conveys a meaning of a complete or perfect waiting period.
-        // https://github.com/rsanluis/esword-cli/blob/main/images/testTheDefinitionThatGodLabeledMe.png
+        // https://github.com/rsanluis/esword-cli/blob/main/images/my_signature/20/20_perfect_waiting_period.png
+        //
+        // https://github.com/rsanluis/esword-cli/blob/main/images/numbers_in_bible/126/appointed_time_chart_126_of_20.png
+        // Chart generated using https://www.meta-chart.com/
     }
 
     @Test
