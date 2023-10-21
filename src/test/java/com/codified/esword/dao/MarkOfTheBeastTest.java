@@ -25,9 +25,11 @@ public class MarkOfTheBeastTest {
     //
     // Elon Musk, was asked "If you can pick a book to add to the Bible", he answered:
     //   Hitchiker's Guide to the Galaxy
-    // The number that represents that book is 42
+    //
     // https://www.youtubetrimmer.com/view/?v=jvGnw1sHh9M&start=5092&end=5124&loop=0
-
+    //
+    // The number that represents that book is 42
+    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/42/Hitchhikers_Guide_To_The_Galaxy_Main_Point.png
 
     @Test
     //
