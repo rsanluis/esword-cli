@@ -15,7 +15,9 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @SpringBootTest
-public class MarkOfTheBeastTest {
+public class TheMarkOfTheBeastTest {
+
+    
 
     // Daniel 7:25  And he shall speak words against the Most High, and shall wear out
     // the saints of the Most High; and he shall think to change the times and the 
@@ -30,6 +32,8 @@ public class MarkOfTheBeastTest {
     //
     // The number that represents that book is 42
     // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/42/Hitchhikers_Guide_To_The_Galaxy_Main_Point.png
+
+    
 
     @Test
     //
@@ -81,5 +85,7 @@ public class MarkOfTheBeastTest {
     // https://en.wikipedia.org/wiki/Quis_ut_Deus%3F
     // 
     // 
+
+
 
 }
