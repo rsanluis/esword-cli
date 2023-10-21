@@ -17,6 +17,18 @@ import lombok.extern.slf4j.Slf4j;
 @SpringBootTest
 public class MarkOfTheBeastTest {
 
+    // Daniel 7:25  And he shall speak words against the Most High, and shall wear out
+    // the saints of the Most High; and he shall think to change the times and the 
+    // law; and they shall be given into his hand until a time and times and half a time. 
+    //
+    // ...and he shall think to change the times and the law
+    //
+    // Elon Musk, was asked "If you can pick a book to add to the Bible", he answered:
+    //   Hitchiker's Guide to the Galaxy
+    // The number that represents that book is 42
+    // https://www.youtubetrimmer.com/view/?v=jvGnw1sHh9M&start=5092&end=5124&loop=0
+
+
     @Test
     //
     // G954
@@ -67,4 +79,5 @@ public class MarkOfTheBeastTest {
     // https://en.wikipedia.org/wiki/Quis_ut_Deus%3F
     // 
     // 
+
 }
