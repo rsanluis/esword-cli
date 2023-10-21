@@ -18,6 +18,13 @@ public class Event_2007_09_30_Test {
     //
     // Event 09/30/2007 - September 30th, 2007 - The Four Horsemen meet in Washington, D.C.
     //
+    // The "Apocalypse" commencement starts with the arrival of the Four Horsemen.
+    // Although the Word of Man states that they are not the horsemen from the Apocalypse,
+    // the Word of God does indeed point to this very day as a significant event in the 
+    // Revelations Timeline.
+    // 
+    // 
+    //
     // On 30 September 2007, Dawkins, Harris, Hitchens and Dennett met at Hitchens' residence
     // in Washington, D.C., for a private two-hour unmoderated round table discussion. 
     // The event was videotaped and titled "The Four Horsemen". During "The God Debate" in 
@@ -33,10 +40,7 @@ public class Event_2007_09_30_Test {
     //
     // https://web.archive.org/web/20230829061516/http://en.wikipedia.org:80/wiki/New_atheism
     // 
-    // The "Apocalypse" commencement starts with the arrival of the Four Horsemen.
-    // Although the Word of Man states that they are not the horsemen from the Apocalypse,
-    // the Word of God does indeed point to this very day as a significant event in the 
-    // Revelations Timeline.
+    
     // 
     // Revelation 9:18-19
     // Rev 9:18  By these three was the third part of men killed, by the fire, and by the smoke,
@@ -48,7 +52,7 @@ public class Event_2007_09_30_Test {
     // 
     // By these three was the third part of men killed 
     // By these three - since we extracted the root context word HORSEMEN from
-    // Revelation 9:1-18, The Bible is inferring to the 3 horsemen
+    // Revelation 9:1-18, The Bible is inferring to the 3 out of the 4 horsemen
     
     // Christopher Hitchens
     //   https://www.brainyquote.com/authors/christopher-hitchens-quotes
