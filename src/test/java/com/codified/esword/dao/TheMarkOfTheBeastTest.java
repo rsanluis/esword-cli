@@ -16,8 +16,25 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @SpringBootTest
 public class TheMarkOfTheBeastTest {
+  
+    // Jesus has the dual nature of Son of God and Son of Man
+    // https://www.youtubetrimmer.com/view/?v=O81E3-6giuY&start=618&end=692&loop=0
 
-    
+    // Knowledge is increasing by 10
+    // https://www.youtubetrimmer.com/view/?v=O81E3-6giuY&start=789&end=893&loop=0
+  
+    //   Revelation 13:18 
+    //   Here is wisdom. Let him that hath understanding count the number of the beast: 
+    //   for it is the number of a man; and his number is Six hundred threescore and six. 
+
+    //   6    - number of man, his weakness, his creation day
+    //   60   - relating to # of cubits of the image set up by Nebuchadnezzar
+    //   600  - relating to war - # of chariots the Egyptian pharaoh sent after the Israelites
+    //
+    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_01.png
+    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_02.png
+    //   The tower of knowledge is growing at a rate of 10x or tenfold.
+
 
     // Daniel 7:25  And he shall speak words against the Most High, and shall wear out
     // the saints of the Most High; and he shall think to change the times and the 
@@ -33,23 +50,32 @@ public class TheMarkOfTheBeastTest {
     // The number that represents that book is 42
     // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/42/Hitchhikers_Guide_To_The_Galaxy_Main_Point.png
 
-    // 666 is Artificial Intelligence
-
-
-    // Jesus has the dual nature of Son of God and Son of Man
-    // https://www.youtubetrimmer.com/view/?v=O81E3-6giuY&start=618&end=692&loop=0
-
-    // Knowledge is increasing by 10
-    // https://www.youtubetrimmer.com/view/?v=O81E3-6giuY&start=789&end=893&loop=0
-    
 
     // Visions and dreams
     // Acts 2:17 - And it shall come to pass in the last days, saith God, 
-    // I will pour out of my Spirit upon all flesh: and your sons and 
-    // your daughters shall prophesy, and your young men shall see visions, and your 
-    // old men shall dream dreams:
+    //   I will pour out of my Spirit upon all flesh: and your sons and 
+    //   your daughters shall prophesy, and your young men shall see visions, and your 
+    //   old men shall dream dreams:
+    //
+    // ELON MUSK is Antichrist 666
     // https://www.youtubetrimmer.com/view/?v=3YOQiv5XWCc&start=149&end=300&loop=0
 
+    // Little boy named El Elyon
+    // https://youtu.be/NpCxK1OkqdE?start=9&end=54
+    //
+    // Luke 21:8  And he said, Take heed that ye be not deceived: for many shall come in my name, 
+    // saying, I am Christ; and the time draweth near: go ye not therefore after them.
+    // 
+    // https://newcreeations.org/names-of-god/?gad=1
+    //
+    // El Elyon (The Most High God)
+    // 
+    // First seen in Genesis 14:18 – Used 52 times in the Bible (sometimes without El, 
+    // simply as Elyon)
+    //
+    // El is likely related to the word Elohim and is used in conjunction with other 
+    // descriptive words to specifically reference a particular characteristic of God. 
+    // Elyon means highest or most high. Used together El Elyon means The Most High God. 
 
 
     @Test
@@ -76,23 +102,7 @@ public class TheMarkOfTheBeastTest {
         assertTrue(daysBetween==954);  
     }
 
-    // Little boy named El Elyon
-    // https://youtu.be/NpCxK1OkqdE?start=9&end=54
-    //
-    // Luke 21:8  And he said, Take heed that ye be not deceived: for many shall come in my name, 
-    // saying, I am Christ; and the time draweth near: go ye not therefore after them.
-    // 
-    // https://newcreeations.org/names-of-god/?gad=1
-    //
-    // El Elyon (The Most High God)
-    // 
-    // First seen in Genesis 14:18 – Used 52 times in the Bible (sometimes without El, 
-    // simply as Elyon)
-    //
-    // El is likely related to the word Elohim and is used in conjunction with other 
-    // descriptive words to specifically reference a particular characteristic of God. 
-    // Elyon means highest or most high. Used together El Elyon means The Most High God. 
-
+    
     
     // Revelation 13:4  And they worshipped the dragon which gave power unto the beast: 
     // and they worshipped the beast, saying, Who is like unto the beast? who is 

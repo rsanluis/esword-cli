@@ -7,9 +7,6 @@ import static java.time.temporal.ChronoUnit.DAYS;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.springframework.boot.test.context.SpringBootTest;
-
-import com.codified.esword.model.Book;
-
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -41,7 +38,6 @@ public class Event_2007_09_30_Test {
     // https://web.archive.org/web/20230829061516/http://en.wikipedia.org:80/wiki/New_atheism
     // 
     
-    // 
     // Revelation 9:18-19
     // Rev 9:18  By these three was the third part of men killed, by the fire, and by the smoke,
     //   and by the brimstone, which issued out of their mouths. 
@@ -63,5 +59,58 @@ public class Event_2007_09_30_Test {
     //   https://www.brainyquote.com/authors/sam-harris-quotes
     // Daniel Dennett
     //   https://www.brainyquote.com/authors/daniel-dennett-quotes
+
+    // H5876
+    // עֵין חַדָּה
+    // ‛êyn chaddâh
+    // ane khad-daw'
+    // From H5869 and the feminine of a derivative from H2300; fountain of sharpness; En-Chaddah, a place in Palestine: - En-haddah.
+    // Total KJV occurrences: 1
+    //   Look into derivative root H2300
+    // 
+    // H2300
+    // חָדַד
+    // châdad
+    // khaw-dad'
+    // A primitive root; to be (causatively make) sharp or (figuratively) severe: - be fierce, sharpen.
+    // Total KJV occurrences: 6
+    @Test
+    public void testDaysBetweenSeptember_30_2007_and_November_1_2023() {
+        long daysBetween = DAYS.between(
+            LocalDate.of(2007,9,30),
+            LocalDate.of(2023,11,1)
+        );
+        log.info("daysBetween: {}", daysBetween);
+        assertTrue(daysBetween==5876);
+        // H5876 - the root derivative meaning is H2300
+    }
+
+    // What is going to be sharpened on 11/01/2023?
+    // Isaiah 5:28  Whose arrows are sharp, and all their bows bent, their horses' hoofs 
+    //     shall be counted like flint, and their wheels like a whirlwind: 
+    // Isaiah 5:29  Their roaring shall be like a lion, they shall roar like young lions: 
+    //     yea, they shall roar, and lay hold of the prey, and shall carry it away safe, 
+    //     and none shall deliver it. 
+    // Isaiah 5:30  And in that day they shall roar against them like the roaring of the sea: 
+    //     and if one look unto the land, behold darkness and sorrow, and the light is 
+    //     darkened in the heavens thereof. 
+    //
+
+    // H8431
+    // תּוֹחֶלֶת
+    // tôcheleth
+    // to-kheh'-leth
+    // From H3176; expectation: - hope.
+    // Total KJV occurrences: 6
+    @Test
+    public void testDaysBetweenSeptember_30_2007_and_October_30_2030() {
+        long daysBetween = DAYS.between(
+            LocalDate.of(2007,9,30),
+            LocalDate.of(2030,10,30)
+        );
+        log.info("daysBetween: {}", daysBetween);
+        assertTrue(daysBetween==8431);
+        // H5876 - the root derivative meaning is H2300
+    }
 
 }
