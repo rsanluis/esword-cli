@@ -19,8 +19,6 @@ public class Event_2007_09_30_Test {
     // Although the Word of Man states that they are not the horsemen from the Apocalypse,
     // the Word of God does indeed point to this very day as a significant event in the 
     // Revelations Timeline.
-    // 
-    // 
     //
     // On 30 September 2007, Dawkins, Harris, Hitchens and Dennett met at Hitchens' residence
     // in Washington, D.C., for a private two-hour unmoderated round table discussion. 
@@ -94,7 +92,6 @@ public class Event_2007_09_30_Test {
     // Isaiah 5:30  And in that day they shall roar against them like the roaring of the sea: 
     //     and if one look unto the land, behold darkness and sorrow, and the light is 
     //     darkened in the heavens thereof. 
-    //
 
     // H8431
     // תּוֹחֶלֶת
@@ -102,6 +99,8 @@ public class Event_2007_09_30_Test {
     // to-kheh'-leth
     // From H3176; expectation: - hope.
     // Total KJV occurrences: 6
+    //
+    // https://github.com/rsanluis/esword-cli/blob/main/images/events/2007_09_30/h8431_meaning.png
     @Test
     public void testDaysBetweenSeptember_30_2007_and_October_30_2030() {
         long daysBetween = DAYS.between(
