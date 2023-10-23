@@ -100,6 +100,30 @@ public class TheMarkOfTheBeastTest {
         );
         log.info("daysBetween: {}", daysBetween);
         assertTrue(daysBetween==954);  
+        // G954
+        // Βεελζεβούλ
+        // Beelzeboul
+        // beh-el-zeb-ool'
+        // Of Chaldee origin (by parody upon [H1176]); dung god; Beelzebul, a name of Satan: - Beelzebub.
+        // Total KJV occurrences: 7
+        // 
+        // Look up H1176 which is BaalZebub
+        // H1176
+        // בַּעַל זְבוּב
+        // ba‛al zebûb
+        // bah'-al zeb-oob'
+        // From H1168 and H2070; Baal of (the) Fly; Baal Zebub, a special deity of the Ekronites: - Baal-zebub.
+        // Total KJV occurrences: 4
+        //
+        // Look up H1168 and H2070
+        // H1168 is used for Baal, Baalim
+        // H2070 is used for fly, flies
+        // H2070
+        // זְבוּב
+        // zebûb
+        // zeb-oob'
+        // From an unused root (meaning to flit); a fly (especially one of a stinging nature): - fly.
+        // Total KJV occurrences: 2
     }
 
     

@@ -39,7 +39,8 @@ public class Event_2017_09_23_Test {
         // zeh'-rem
         // From H2229; a gush of water: - flood, overflowing, shower, storm, tempest.
         // Total KJV occurrences: 9
+        //
+        // https://www.timeanddate.com/date/dateadded.html?d1=23&m1=9&y1=2017&type=add&ay=&am=&aw=&ad=2230&rec=
+        //
     }
-
-    
 }
