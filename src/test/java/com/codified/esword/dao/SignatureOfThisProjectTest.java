@@ -188,11 +188,6 @@ public class SignatureOfThisProjectTest {
         //   I'm now doing God's bidding from a far country, and he's using me as an instrument 
         //   to bring about his plan and timeline for humanity.
         //
-        // Luke 4:24  And he said, Verily I say unto you, No prophet is accepted in his own country. 
-        // John 4:44  For Jesus himself testified, that a prophet hath no honour in his own country.
-        //
-        //
-        //
         // Isaiah 43:1  But now thus saith the LORD that created thee, O Jacob, and he that
         //     formed thee, O Israel, Fear not: for I have redeemed thee,
         //     I have called thee by thy name; thou art mine.
@@ -266,6 +261,10 @@ public class SignatureOfThisProjectTest {
         // and the people be not warned; if the sword come, and take any person from 
         // among them, he is taken away in his iniquity; but his blood will I require 
         // at the watchman's hand.
+        //
+        // Luke 4:24  And he said, Verily I say unto you, No prophet is accepted in his own country. 
+        // John 4:44  For Jesus himself testified, that a prophet hath no honour in his own country.
+        //
     }
 
     // James 1:17 KJV - Every good gift and every perfect gift is from above
