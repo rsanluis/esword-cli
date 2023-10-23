@@ -4,18 +4,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
 
-import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static com.codified.esword.constants.BibleConstants.*;
-
 import com.codified.esword.model.Bible;
 import com.codified.esword.model.ScriptureId;
-import com.codified.esword.model.SearchResult;
-import com.codified.esword.util.BibleUtils;
-
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

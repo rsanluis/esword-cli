@@ -217,6 +217,7 @@ public class SignatureOfThisProjectTest {
         assertTrue(hebrewGematriaValue == 1290);
     }
 
+    
     /* 
      * Further expanding the Biblical code found in the Bible, is the
      * command that God gave me:
