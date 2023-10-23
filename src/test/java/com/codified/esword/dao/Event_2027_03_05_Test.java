@@ -59,7 +59,15 @@ public class Event_2027_03_05_Test {
     //   1332 / 2 = 666
     // 
     // So the pattern is
-    //  (666 + 666) + 3 days
+    //  (666 + 666) + 3 days   = 10/30/2027
+    //  Leaving off the 3 days = 10/27/2027
+    // 
+    // Mark 14:72  And the second time the cock crew. And Peter called to mind the word that
+    // Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. 
+    // And when he thought thereon, he wept. 
+    //
+    // Before 10/27/207 people will deny (Christos == 666) twice and will mourn the 
+    // (+ 3 Days later) when they see Him.
     //    
     // 3/5/2027 + 1332 days          = 10/27/2030 (Yah/Jah is most vehement at this point)
     // 3/5/2027 + 1332 days + 3 days = 10/30/2030
