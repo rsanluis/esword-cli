@@ -188,6 +188,10 @@ public class SignatureOfThisProjectTest {
         //   I'm now doing God's bidding from a far country, and he's using me as an instrument 
         //   to bring about his plan and timeline for humanity.
         //
+        // Luke 4:24  And he said, Verily I say unto you, No prophet is accepted in his own country. 
+        // John 4:44  For Jesus himself testified, that a prophet hath no honour in his own country.
+        //
+        //
         //
         // Isaiah 43:1  But now thus saith the LORD that created thee, O Jacob, and he that
         //     formed thee, O Israel, Fear not: for I have redeemed thee,
