@@ -257,15 +257,16 @@ public class SignatureOfThisProjectTest {
         //
         // https://github.com/rsanluis/esword-cli/blob/main/images/numbers_in_bible/126/appointed_time_chart_126_of_20.png
         // Chart generated using https://www.meta-chart.com/
+        //
+        // Ezekiel 33:6  But if the watchman see the sword come, and blow not the trumpet,
+        // and the people be not warned; if the sword come, and take any person from 
+        // among them, he is taken away in his iniquity; but his blood will I require 
+        // at the watchman's hand.
     }
 
-
-    // Ezekiel 33:6  But if the watchman see the sword come, and blow not the trumpet,
-    // and the people be not warned; if the sword come, and take any person from 
-    // among them, he is taken away in his iniquity; but his blood will I require 
-    // at the watchman's hand.
-
-    // TODO: everything good comes from God James 1:17
+    // James 1:17 KJV - Every good gift and every perfect gift is from above
+    // James 1:17 ERV - Everything good comes from God
+    
 
     @Test
     void testTheReasonsForCreatingTheseTests() {
