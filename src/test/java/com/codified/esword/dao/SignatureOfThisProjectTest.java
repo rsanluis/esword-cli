@@ -258,15 +258,19 @@ public class SignatureOfThisProjectTest {
         // Chart generated using https://www.meta-chart.com/
     }
 
-    @Test
-    void testTheReasonsForCreatingTheseTests() {
-        // 1 Thessalonians 5:21 - Prove G1381 all things; hold fast G2722 that which is good.
-        //   G1381 - to test (literally or figuratively); to discern
-        //   G2722 - to hold down (fast); keep (in memory), retain, withold
-    }
 
     // Ezekiel 33:6  But if the watchman see the sword come, and blow not the trumpet,
     // and the people be not warned; if the sword come, and take any person from 
     // among them, he is taken away in his iniquity; but his blood will I require 
     // at the watchman's hand.
+
+    // TODO: everything good comes from God James 1:17
+
+    @Test
+    void testTheReasonsForCreatingTheseTests() {
+        // 1 Thessalonians 5:21
+        //   Prove G1381 all things; hold fast G2722 that which is good.
+        //     G1381 - to test (literally or figuratively); to discern
+        //     G2722 - to hold down (fast); keep (in memory), retain, withold
+    }
 }
