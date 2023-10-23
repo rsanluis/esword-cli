@@ -22,7 +22,6 @@ import org.springframework.jdbc.core.RowMapper;
 import com.codified.esword.model.Bible;
 import com.codified.esword.model.WordMatches;
 
-import jakarta.persistence.criteria.From;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

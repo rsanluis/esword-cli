@@ -8,9 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
-import lombok.extern.slf4j.Slf4j;
-
-@Slf4j
 @SpringBootTest
 public class Event_2023_11_01_Test {
     

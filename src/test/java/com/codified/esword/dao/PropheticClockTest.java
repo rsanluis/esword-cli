@@ -1,14 +1,8 @@
 package com.codified.esword.dao;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
-import java.time.LocalDate;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 @SpringBootTest
 public class PropheticClockTest {
 

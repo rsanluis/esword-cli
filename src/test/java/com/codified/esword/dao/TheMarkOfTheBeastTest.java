@@ -7,10 +7,6 @@ import static java.time.temporal.ChronoUnit.DAYS;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.repository.query.parser.Part;
-
-import com.codified.esword.model.Book;
-
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

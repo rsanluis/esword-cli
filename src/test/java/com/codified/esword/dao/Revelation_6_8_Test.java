@@ -1,19 +1,7 @@
 package com.codified.esword.dao;
 
-import java.time.LocalDate;
-
-import org.junit.jupiter.api.Test;
-import static java.time.temporal.ChronoUnit.DAYS;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.repository.query.parser.Part;
 
-import com.codified.esword.model.Book;
-
-import lombok.extern.slf4j.Slf4j;
-
-@Slf4j
 @SpringBootTest
 public class Revelation_6_8_Test {
     // Revelation 6:8 And I looked, and behold a pale horse: and his name that sat on him
