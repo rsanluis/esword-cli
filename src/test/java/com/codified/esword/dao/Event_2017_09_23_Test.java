@@ -28,6 +28,7 @@ public class Event_2017_09_23_Test {
             LocalDate.of(2017,9,23),
             LocalDate.of(2023,11,1)
         );
+        
         log.info("daysBetween: {}", daysBetween);
         assertTrue(daysBetween==2230);
         // What is the significance of 2230?
