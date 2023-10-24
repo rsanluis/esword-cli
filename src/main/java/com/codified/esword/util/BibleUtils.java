@@ -99,6 +99,36 @@ public class BibleUtils {
         Map.entry("W",900)
     );
 
+    // English Gematria Table obtained from https://www.gematrix.org/gematria/#english_gematria
+    public static final Map<String, Integer> englishGematriaMap = Map.ofEntries(
+        Map.entry("A",6),
+        Map.entry("B",12),
+        Map.entry("C",18),
+        Map.entry("D",24),
+        Map.entry("E",30),
+        Map.entry("F",36),
+        Map.entry("G",42),
+        Map.entry("H",48),
+        Map.entry("I",54),
+        Map.entry("J",60),
+        Map.entry("K",66),
+        Map.entry("L",72),
+        Map.entry("M",78),
+        Map.entry("N",84),
+        Map.entry("O",90),
+        Map.entry("P",96),
+        Map.entry("Q",102),
+        Map.entry("R",108),
+        Map.entry("S",114),
+        Map.entry("T",120),
+        Map.entry("U",126),
+        Map.entry("V",132),
+        Map.entry("W",138),
+        Map.entry("X",144),
+        Map.entry("Y",150),
+        Map.entry("Z",156)
+    );
+
     public static final Map<String, Integer> simpleGematriaMap = Map.ofEntries(
         Map.entry("A",1),
         Map.entry("B",2),
