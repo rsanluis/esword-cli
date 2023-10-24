@@ -199,23 +199,29 @@ public class SignatureOfThisProjectTest {
         //   WordMatchesTest.testWordMatchesBible_23_Matches_Test
         // ) 
         //
+
+        String name = "Roland Resurreccion San Luis";
+        // https://www.gematrix.org/?word=Roland+Resurreccion+San+Luis
+        int hebrewGematriaValue = BibleUtils.getHebrewGematriaValue(name);
+        log.info("hebrew gematria value for {}: {}", name, hebrewGematriaValue);
+        assertTrue(hebrewGematriaValue == 1290);
+
         // 1290, as this is the number of God's prophetic timeline.
         // 1290 / 30 = 43   (4 + 3) = 7  # for God
         // 1260 / 30 = 42   (4 + 2) = 6  # for Man
 
         // Yes, that man, that ravenous bird that executes my God's advice from a far country is me.
         // Roland Resurreccion San Luis (equals 1290 in Gematria)
+        // 
+        // Olan is a childhood nickname I had while growing up and is never used while living in the U.S.
+        // I always hear that name again when I visit my parents in the Philippines.
+        //
+        // My mom derived that name by dropping the first and last letters of my first name. 
+        // She would usually repeat that name twice like a lot of names in the Philippines.
+        //
+        // God also knows my nickname since he's an all knowing God
+        // https://github.com/rsanluis/esword-cli/blob/main/images/my_signature/a_new_prophet_like_moses/a_new_prophet_like_moses.png
     }
-
-    @Test
-    void testDerivedMatch_1290_Test() {
-        String name = "Roland Resurreccion San Luis";
-        // https://www.gematrix.org/?word=Roland+Resurreccion+San+Luis
-        int hebrewGematriaValue = BibleUtils.getHebrewGematriaValue(name);
-        log.info("hebrew gematria value for {}: {}", name, hebrewGematriaValue);
-        assertTrue(hebrewGematriaValue == 1290);
-    }
-
     
     /* 
      * Further expanding the Biblical code found in the Bible, is the
