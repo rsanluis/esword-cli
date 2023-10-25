@@ -10,12 +10,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 public class Event_2023_11_01_Test {
-    
-    /*
-     * Deuteronomy 18:22  When a prophet speaketh in the name of the LORD, if the thing 
-     * follow not, nor come to pass, that is the thing which the LORD hath not spoken, 
-     * but the prophet hath spoken it presumptuously: thou shalt not be afraid of him. 
-     */
+    // 
+    // Event 11/01/2023 - November 1, 2023 - Day of the Flood
+    //
+    // Deuteronomy 18:22  When a prophet speaketh in the name of the LORD, if the thing 
+    // follow not, nor come to pass, that is the thing which the LORD hath not spoken, 
+    // but the prophet hath spoken it presumptuously: thou shalt not be afraid of him. 
+    //
 
     @Test
     public void testDaysBetween9_11_2001_and_11_01_2023() {

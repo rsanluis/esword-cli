@@ -13,7 +13,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @SpringBootTest
 public class Event_2017_09_23_Test {
+    //
     // Event 09/23/2017 - September 23rd, 2017 - A Great Wonder in Heaven
+    //
     // Revelation 12:1 - And there appeared a great wonder in heaven; a woman
     //   clothed with the sun, and the moon under her feet, and upon her head
     //   a crown of twelve stars.
@@ -30,7 +32,9 @@ public class Event_2017_09_23_Test {
         );
         log.info("daysBetween: {}", daysBetween);
         assertTrue(daysBetween==2230);
+
         // What is the significance of 2230?
+        //
         // The Hebrew code points to a flood, overflowing, storm
         //
         // H2230

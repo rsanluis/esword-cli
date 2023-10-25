@@ -12,15 +12,16 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @SpringBootTest
 public class Event_2022_07_06_Test {
-   /* Event 07/06/2022 - July 6th, 2022 - The destruction date of the Georgia Guidestones
-    *
-    * Daniel 9:25  Know therefore and understand, that from the going forth of the commandment 
-    * to restore and to build Jerusalem unto the Messiah the Prince shall be seven weeks, 
-    * and threescore and two weeks: the street shall be built again, and the wall, even in 
-    * troublous times. 
-    * 
-    * It is exactly 69 weeks (or 483 days) leading up to the 11/01/2023 date.
-    */
+    //
+    // Event 07/06/2022 - July 6th, 2022 - The destruction date of the Georgia Guidestones
+    //
+    // Daniel 9:25  Know therefore and understand, that from the going forth of the commandment 
+    // to restore and to build Jerusalem unto the Messiah the Prince shall be seven weeks, 
+    // and threescore and two weeks: the street shall be built again, and the wall, even in 
+    // troublous times. 
+    // 
+    // It is exactly 69 weeks (or 483 days) leading up to the 11/01/2023 date.
+    //
     @Test
     public void testDaysBetweenJuly_6_2022_and_November_01_2023() {
         LocalDate localDate = LocalDate.of(2022,07,06).plusWeeks(69);

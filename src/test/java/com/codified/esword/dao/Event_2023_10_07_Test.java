@@ -12,10 +12,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @SpringBootTest
 public class Event_2023_10_07_Test {
-    /* 
-     * Event 10/07/2023 - October 7th, 2023 - The start of the (1290 * 2) timeline
-    */
-     
+    // 
+    // Event 10/07/2023 - October 7th, 2023 - The start of the (1290 * 2) timeline
+    // 
     @Test
     public void testDaysBetweenOctober_7_2023_and_October_30_2030() {
         long daysBetween = DAYS.between(

@@ -12,6 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @SpringBootTest
 public class Event_2024_07_13_Test {
+    //
     // Event 07/13/2027 - July 13th, 2024 - 2300 days then shall the santuary be cleansed
     //
     // Daniel 8:13  Then I heard one saint speaking, and another saint said unto that
