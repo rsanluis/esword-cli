@@ -85,7 +85,7 @@ public class TheMarkOfTheBeastTest {
     //
     // Isaiah 66:7  Before she travailed, she brought forth; before her pain came, 
     // she was delivered of a man child. 
-    // 
+    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/man_child/a_pretribulation_birth.png
     //
     // Revelation 12:5  And she brought forth a man child, who was to rule all nations with a rod of iron: and 
     // her child was caught up unto God, and to his throne. 
