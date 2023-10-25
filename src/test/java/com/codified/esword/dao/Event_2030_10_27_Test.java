@@ -41,11 +41,15 @@ public class Event_2030_10_27_Test {
     // 
     // So the pattern is
     //  (666 + 666) + 3 days   = 10/30/2027
-    //  Leaving off the 3 days = 10/27/2027
+    //  Leaving off the 3 days = 10/27/2027     The day the 2 prophets die
     // 
     // Mark 14:72  And the second time the cock crew. And Peter called to mind the word that
     // Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. 
     // And when he thought thereon, he wept. 
+    //
+    // 666 also stands for Christos
+    // (deny Christ)|(deny Christ)=before the cock crow twice (before 10/27/2027)
+    //  
     //
     // Before 10/27/207 people will deny (Christos == 666) twice and will mourn the 
     // (+ 3 Days later) when they see Him.
