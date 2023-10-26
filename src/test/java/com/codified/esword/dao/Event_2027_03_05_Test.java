@@ -3,7 +3,7 @@ package com.codified.esword.dao;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.time.LocalDate;
-
+import static java.time.temporal.ChronoUnit.DAYS;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -33,5 +33,52 @@ public class Event_2027_03_05_Test {
     //
     //   1335 divided by 5 parts = 267
     //     g267 - witness or g3144 witnesses
+    
+    // 60 represents the man-child "X Æ A-Xii" or "X" in Revelation 12:5
+    @Test
+    public void testDaysBetweenMarch_5_2027_and_May_4() {
+        long daysBetween = DAYS.between(
+            LocalDate.of(2027,3,5),
+            LocalDate.of(2027,5,4)
+        );
+        log.info("daysBetween: {}", daysBetween);
+        assertTrue(daysBetween==60);
+    }
+    
+    // G69
+    // ἀγρυπνέω
+    // agrupneō
+    // ag-roop-neh'-o
+    // Ultimately from G1 (as negative particle) and G5258; to be sleepless, that is, keep awake: - watch.
+    // Total KJV occurrences: 4
     //
+    // 69 represents the prophet Roland Resurreccion San Luis in the following verses:
+    //
+    // Deuteronomy 18:15  The LORD thy God will raise up unto thee a Prophet from 
+    // the midst of thee, of thy brethren, like unto me; unto him ye shall hearken; 
+    // 
+    // Deuteronomy 18:18  I will raise them up a Prophet from among their brethren, like unto
+    // thee, and will put my words in his mouth; and he shall speak unto them all that 
+    // I shall command him. 
+    //
+    // Deuteronomy 18:19  And it shall come to pass, that whosoever will not hearken unto my
+    // words which he shall speak in my name, I will require it of him. 
+    // 
+    // Deuteronomy 18:22  When a prophet speaketh in the name of the LORD, if the thing follow
+    // not, nor come to pass, that is the thing which the LORD hath not spoken, but the prophet 
+    // hath spoken it presumptuously: thou shalt not be afraid of him. 
+    //
+    // Isaiah 46:11  Calling a ravenous bird from the east, the man that executeth my counsel
+    // from a far country: yea, I have spoken it, I will also bring it to pass; I have 
+    // purposed it, I will also do it. 
+    @Test
+    public void testDaysBetweenMarch_5_2027_and_May_13() {
+        long daysBetween = DAYS.between(
+            LocalDate.of(2027,3,5),
+            LocalDate.of(2027,5,13)
+        );
+        log.info("daysBetween: {}", daysBetween);
+        assertTrue(daysBetween==69);
+    }
+    
 }
