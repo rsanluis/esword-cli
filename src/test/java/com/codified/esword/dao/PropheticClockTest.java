@@ -115,6 +115,26 @@ public class PropheticClockTest {
     // Now doing an occurence match for 60 from the King James Bible gives us something 
     // interesting:
     // 
+    // https://github.com/rsanluis/esword-cli/blob/main/images/prophetic_clock/wordmatch_context_bible_matches_60.png
+    //
+    // We get a list of words with an occurrence rate of exactly 60 in the King James Version Bible
+    // One of the few words that catches my attention is h2555, nebuchandnezzar, h7379
+    //   h2555 - cruelty, wrong, false, violence
+    //   nebuchandnezzar - which represents worshipping a false idol of 60 cubits
+    //   h3739 - contest, strife, controversy
+    //
+    // 60 units represents the threshold for cruelty, wrongdoing, strife, false worship, etc.
+    //
+    // At 60*43 God's clock expires (in the Midnight position) 
+    // At 60*42 Man's clock expires (in the Midnight position)
     // 
-    
+    // 2580 God's timeline
+    // 2520 Man's timeline
+    // ---- subtract
+    //   60 units ahead (for God's timeline)
+    //
+    // https://time.graphics/line/566988
+    // In the timeline I created above, you'll see the start dates for the
+    // Both (1290 * 43) and (1260 * 42) timelines start on different dates but
+    // converge or land on the same date 10/30/2030
 }

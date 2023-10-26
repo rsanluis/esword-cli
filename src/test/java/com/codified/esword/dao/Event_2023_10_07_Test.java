@@ -57,6 +57,20 @@ public class Event_2023_10_07_Test {
     }
 
     @Test
+    public void testDaysBetweenOctober_7_2023_and_December_6_2023() {
+        // Confirm and validate the start dates for both timelines
+        // (1290*2 [God's timeline]) vs. (1260*2 [Man's timeline]) is 60 days apart
+        LocalDate localDate = LocalDate.of(2023,10,07).plusDays(60);
+        int month = localDate.getMonthValue();
+        int day = localDate.getDayOfMonth();
+        int year = localDate.getYear();
+        log.info("localDate: {}/{}/{}", month, day, year);
+        assertTrue(month==12);
+        assertTrue(day==6);
+        assertTrue(year==2023);
+    }
+
+    @Test
     public void testDaysBetweenOctober_7_2023_and_November_1_2023() {
         long daysBetween = DAYS.between(
             LocalDate.of(2023,10,7),
