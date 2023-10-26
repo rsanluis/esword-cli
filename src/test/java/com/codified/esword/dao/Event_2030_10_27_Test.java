@@ -8,12 +8,17 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import lombok.extern.slf4j.Slf4j;
-
 @Slf4j
 @SpringBootTest
 public class Event_2030_10_27_Test {
     //
     // Event 10/27/2030 - October 27th, 2030
+    //
+    // This date is a derived and calculated date based on the 3/5/2027 date.
+    // Dan 12:12  Blessed is he that waiteth, and cometh to the thousand three hundred and
+    //   five and thirty days. 
+    //
+    // The 3/5/2027 date is 1335 days before the day of the Lord.
     //
     // From Daniel *** 12:12 *** we see the emphasis of seeing 12 twice; it's a sign to divide
     // 1335 / 12 = (111 & 1/4)
@@ -37,25 +42,25 @@ public class Event_2030_10_27_Test {
     // 
     // Inspecting G1332 leads to G1364, which means twice: - again, twice
     //   That leads us into splitting God's name into 2
-    //   1332 / 2 = 666
+    //   1332 / 2 = 666   which is the number for Christos
     // 
-    // So the pattern is
-    //  (666 + 666) + 3 days   = 10/30/2027
-    //  Leaving off the 3 days = 10/27/2027     The day the 2 prophets die
+    // Since H1335 is a part; a piece, a section
+    //
+    // So the pattern is 2 parts of 666 + 3 days
+    //  |666| + |666| + 3 days  = 10/30/2027     The second coming of Christ
+    //  Leaving off the 3 days  = 10/27/2027     The day the 2 prophets die
     // 
     // Mark 14:72  And the second time the cock crew. And Peter called to mind the word that
     // Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. 
     // And when he thought thereon, he wept. 
     //
     // 666 also stands for Christos
-    // (deny Christ)|(deny Christ)=before the cock crow twice (before 10/27/2027)
-    //  
-    //
-    // Before 10/27/207 people will deny (Christos == 666) twice and will mourn the 
-    // (+ 3 Days later) when they see Him.
+    // |Deny Christ|+|Deny Christ|=Before the cock crow twice 
+    // From March 5, 2027 to 10/27/2030 is 1332 day which represents the 2 date ranges
+    //   for people to deny Christ
     //    
     // 3/5/2027 + 1332 days          = 10/27/2030 (Yah/Jah is most vehement at this point)
-    // 3/5/2027 + 1332 days + 3 days = 10/30/2030
+    // 3/5/2027 + 1332 days + 3 days = 10/30/2030 Christ returns to raise the dead and judge the living
     @Test
     public void testAdd_1332_Days_from_March_5th_2027() {
         LocalDate localDate = LocalDate.of(2027,3,5).plusDays(1332);
@@ -66,5 +71,8 @@ public class Event_2030_10_27_Test {
         assertTrue(month==10);
         assertTrue(day==27);
         assertTrue(year==2030);
+        // Since H1335 is a part; a piece, a section
+        int oneOfTwoParts = 1332 / 2; 
+        assert(oneOfTwoParts == 666);
     }
 }

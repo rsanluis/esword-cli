@@ -213,6 +213,11 @@ public class SignatureOfThisProjectTest {
         // Yes, that man, that ravenous bird that executes my God's advice from a far country is me.
         // Roland Resurreccion San Luis (equals 1290 in Gematria)
         // 
+        // El Olam is one of the many names of God, which stands for Eternal God
+        //
+        // In Deuteronomy, God says he'll raise up a Prophet....like unto me.
+        // I was shocked when I saw the connection to my nickname.
+        //
         // Olan is a childhood nickname I had while growing up and is never used while living in the U.S.
         // I always hear that name again when I visit my parents in the Philippines.
         //
