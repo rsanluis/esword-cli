@@ -14,4 +14,5 @@ public final class BibleConstants {
     public static final int NUMBER_GOVERNMENTAL_PERFECTION_12 = 12;
     // https://www.biblestudy.org/bibleref/meaning-of-numbers-in-bible/25.html
     public static final int NUMBER_GRACE_UPON_GRACE_25 = 25;
+    public static final int NUMBER_OF_MAN_6 = 6;
 }

@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class PropheticClockTest {
+public class PropheticClock_BaseTest {
 
     // God and Man's prophetic clock are key to solving and unlocking the mysteries of
     // Revelation and Daniel

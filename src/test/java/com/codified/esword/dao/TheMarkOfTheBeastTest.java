@@ -123,6 +123,21 @@ public class TheMarkOfTheBeastTest {
         // Total KJV occurrences: 2
     }
 
+    // What I (Roland Resurreccion San Luis) came to notice about the 1335 days of waiting
+    // (Daniel 12:12) is that it gave me a number of 69 when I used 3/5/2027 as the start day
+    // and my birthday but excluding the year.
+    // 
+    // 60 represents the man-child "X Æ A-Xii" or "X" in Revelation 12:5
+    @Test
+    public void testDaysBetweenMarch_5_2027_and_May_4() {
+        long daysBetween = DAYS.between(
+            LocalDate.of(2027,3,5),
+            LocalDate.of(2027,5,4)
+        );
+        log.info("daysBetween: {}", daysBetween);
+        assertTrue(daysBetween==60);
+     }
+    
     // Revelation 13:4  And they worshipped the dragon which gave power unto the beast: 
     // and they worshipped the beast, saying, Who is like unto the beast? who is 
     // able to make war with him?
@@ -130,7 +145,8 @@ public class TheMarkOfTheBeastTest {
     // Quis ut Deus?
     // https://en.wikipedia.org/wiki/Quis_ut_Deus%3F
     // 
-    // 
+    
+
 
 
 
