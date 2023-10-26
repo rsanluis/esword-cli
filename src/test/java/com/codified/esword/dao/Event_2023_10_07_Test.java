@@ -14,17 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 public class Event_2023_10_07_Test {
     // 
     // Event 10/07/2023 - October 7th, 2023 - The start of the (1290 * 2) timeline
-    // 
-    @Test
-    public void testDaysBetweenOctober_7_2023_and_October_30_2030() {
-        long daysBetween = DAYS.between(
-            LocalDate.of(2023,10,7),
-            LocalDate.of(2030,10,30)
-        );
-        log.info("daysBetween: {}", daysBetween);
-        assertTrue(daysBetween==2580);
-    }
-
+    //
     // There are 2 timelines
     // God's Timeline   1290 / 30 = 43   (4 + 3) = 7 # for God
     // Man's Timeline   1260 / 30 = 42   (4 + 2) = 6 # for Man
@@ -36,7 +26,17 @@ public class Event_2023_10_07_Test {
     //            2580 
     //     minus  2520
     //              60 days
-    //
+    // 
+    @Test
+    public void testDaysBetweenOctober_7_2023_and_October_30_2030() {
+        long daysBetween = DAYS.between(
+            LocalDate.of(2023,10,7),
+            LocalDate.of(2030,10,30)
+        );
+        log.info("daysBetween: {}", daysBetween);
+        assertTrue(daysBetween==2580);
+    }
+
     // The 2580 timeline starts 60 days in advance before Man's Timeline and it starts
     // on October 7th, 2023
     @Test
@@ -54,6 +54,24 @@ public class Event_2023_10_07_Test {
             LocalDate.of(2023,12,6)
         );
         assertTrue(daysBetween == 60);
+    }
+
+    // I created this file on 9/28/2023 before the Hamas Attack on Israel
+    // but before adding these tests, the 10/7/2023 (start of tribulation)
+    // date was already on my timeline months before the attack happened
+    // https://time.graphics/line/566988
+    // https://www.brighteon.com/4594643d-d344-472f-b8e7-3caa2238f4b2
+    @Test
+    public void testDaysBetweenSeptember_30_2007_and_October_7_2023() {
+        long daysBetween = DAYS.between(
+            LocalDate.of(2007,9,30),
+            LocalDate.of(2030,10,30)
+        );
+        log.info("daysBetween: {}", daysBetween);
+        assertTrue(daysBetween==5851);
+        // H5851 - H5850 - H5849 - a primitive root; to encircle (for attack or protection);
+        //   especially to crown (literally or figuratively): - compass, crown
+        // Total KJV occurrences: 7 
     }
 
     @Test
