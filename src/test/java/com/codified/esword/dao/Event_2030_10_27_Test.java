@@ -74,5 +74,13 @@ public class Event_2030_10_27_Test {
         // Since H1335 is a part; a piece, a section
         int oneOfTwoParts = 1332 / 2; 
         assert(oneOfTwoParts == 666);
+        int denyMe3Times  = 1332 / 3;
+        assert(denyMe3Times == 444); 
+        // G444: men will deny me three times before 10/27/2023
+        //
+        // Period of waiting starts on 3/5/2027
+        // cock crow1 | cock crow2 | 10/27/2023     | + 3 days | 10/30/2030
+        //    666     |    666     | 2 prophets die |          | 2nd coming of Christ
+        // |        666 * 2 = 1332 days             |
     }
 }
