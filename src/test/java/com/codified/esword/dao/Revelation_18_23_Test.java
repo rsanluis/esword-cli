@@ -9,6 +9,8 @@ public class Revelation_18_23_Test {
     // in thee: for thy merchants were the great men of the earth; for by thy sorceries G5331
     // were all nations deceived.         
 
+    // For by thy sorceries G5531 were all nations deceived
     // G5331 - pharmakeia - medication, sorcery, witchcraft
     
+
 }
