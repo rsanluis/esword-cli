@@ -75,6 +75,16 @@ public class TheMarkOfTheBeastTest {
     // ELON MUSK is Antichrist 666
     // https://www.youtubetrimmer.com/view/?v=3YOQiv5XWCc&start=149&end=300&loop=0
 
+    // They (as in the horsemen) of the tribulation see us like ants.
+    // Their holy grail for man's invention is Artifical General Intelligence.
+    // 
+    // 
+    // Sam Harris - Ant vs Human Analogy
+    // https://www.youtubetrimmer.com/view/?v=8nt3edWLgIg&start=200&end=244&loop=0
+    //
+    // Elon Musk on the Dangers of Artificial Intelligence (Ant Hill Analogy)
+    // https://www.youtube.com/watch?v=9F5YYZAbMuQ
+
 
     @Test
     //
@@ -129,7 +139,19 @@ public class TheMarkOfTheBeastTest {
     // (Daniel 12:12) is that it gave me a number of 69 when I used 3/5/2027 as the start day
     // and my birthday but excluding the year.
     // 
+    // 69 represents the prophet in Deuteronomy 18:18 - Roland Resurreccion San Luis
     // 60 represents the man-child "X Æ A-Xii" or "X" in Revelation 12:5
+    @Test
+    public void testDaysBetweenMarch_5_2027_and_May_13() {
+        long daysBetween = DAYS.between(
+            LocalDate.of(2027,3,5),
+            LocalDate.of(2027,5,13)
+        );
+        log.info("daysBetween: {}", daysBetween);
+        assertTrue(daysBetween==69);
+     }
+
+
     @Test
     public void testDaysBetweenMarch_5_2027_and_May_4() {
         long daysBetween = DAYS.between(
