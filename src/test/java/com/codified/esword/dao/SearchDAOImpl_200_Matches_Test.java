@@ -20,14 +20,15 @@ public class SearchDAOImpl_200_Matches_Test {
     @Autowired
     SearchDAO searchDAO;
 
-    /*
-     * 200 is the ancient Hebrew code for Reysh that signifies the head person or
-     * Prince.
-     * https://letterpile.com/religion/Berisheet-Our-New-Beginning
-     * 
-     * All possible uses of H3519 in the entire KJV+ Bible:
-     * {glory,glorious,gloriously,honour,honourable}
-     */
+    //
+    // 200 is the ancient Hebrew code for Reysh that signifies the head person or
+    // Prince.
+    // https://letterpile.com/religion/Berisheet-Our-New-Beginning
+    // https://github.com/rsanluis/esword-cli/blob/main/images/names_of_god/Reysh.png
+    // 
+    // All possible uses of H3519 in the entire KJV+ Bible:
+    // {glory,glorious,gloriously,honour,honourable}
+    //
     @Test
     void testSearchByKeyword_H3519_AndContext_OldTestament() {
         List<SearchResult> resultsList = searchDAO.searchByKeywordAndContext("h3519", "OldTestament");
