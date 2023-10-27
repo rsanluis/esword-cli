@@ -24,6 +24,7 @@ public class SearchDAOImpl_200_Matches_Test {
      * 200 is the ancient Hebrew code for Reysh that signifies the head person or
      * Prince.
      * https://letterpile.com/religion/Berisheet-Our-New-Beginning
+     * 
      * All possible uses of H3519 in the entire KJV+ Bible:
      * {glory,glorious,gloriously,honour,honourable}
      */
