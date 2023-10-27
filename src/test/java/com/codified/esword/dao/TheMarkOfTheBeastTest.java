@@ -44,23 +44,16 @@ public class TheMarkOfTheBeastTest {
     // https://www.youtubetrimmer.com/view/?v=jvGnw1sHh9M&start=5092&end=5124&loop=0
     //
     // The number that represents that book is 42
+
     // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/42/Hitchhikers_Guide_To_The_Galaxy_Main_Point.png
-
-
-    // Visions and dreams
-    // Acts 2:17 - And it shall come to pass in the last days, saith God, 
-    //   I will pour out of my Spirit upon all flesh: and your sons and 
-    //   your daughters shall prophesy, and your young men shall see visions, and your 
-    //   old men shall dream dreams:
-    //
-    // ELON MUSK is Antichrist 666
-    // https://www.youtubetrimmer.com/view/?v=3YOQiv5XWCc&start=149&end=300&loop=0
 
     // Little boy named El Elyon
     // https://youtu.be/NpCxK1OkqdE?start=9&end=54
     //
     // Luke 21:8  And he said, Take heed that ye be not deceived: for many shall come in my name, 
     // saying, I am Christ; and the time draweth near: go ye not therefore after them.
+    //
+    // Matthew 24:5  For many shall come in my name, saying, I am Christ; and shall deceive many. 
     // 
     // https://newcreeations.org/names-of-god/?gad=1
     //
@@ -72,6 +65,15 @@ public class TheMarkOfTheBeastTest {
     // El is likely related to the word Elohim and is used in conjunction with other 
     // descriptive words to specifically reference a particular characteristic of God. 
     // Elyon means highest or most high. Used together El Elyon means The Most High God. 
+
+    // Visions and dreams
+    // Acts 2:17 - And it shall come to pass in the last days, saith God, 
+    //   I will pour out of my Spirit upon all flesh: and your sons and 
+    //   your daughters shall prophesy, and your young men shall see visions, and your 
+    //   old men shall dream dreams:
+    //
+    // ELON MUSK is Antichrist 666
+    // https://www.youtubetrimmer.com/view/?v=3YOQiv5XWCc&start=149&end=300&loop=0
 
 
     @Test
