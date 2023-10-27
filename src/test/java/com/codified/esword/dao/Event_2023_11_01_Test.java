@@ -79,6 +79,7 @@ public class Event_2023_11_01_Test {
 
     // Countdown timer expiring at D-day which is 11/01/2023
     // Timer is divisible by 13 in 622 parts
+    // The number 13 - symbolizes rebellion & lawlessness
     @Test
     public void test8086CountdownClockBetween9_11_2001_and_11_1_2023() {
         // Calculate the countdown clock between 9/11/2001 and 11/1/2023
@@ -88,13 +89,13 @@ public class Event_2023_11_01_Test {
         );
         log.info("daysBetween: {}", daysBetween);
         assertTrue(daysBetween==8086);
-        // Divisible by 13 - the number of rebellion & lawlessness
         int part = 8086 / 13;
         assertTrue(part == 622);
     }
 
     // Countdown timer expiring 1 day before D-day which is 11/01/2023
     // Timer is divisible by 11 in 735 parts
+    // The number 11 - symbolizes disorder, chaos and judgment
     // Pattern for the timer is (11+1)
     @Test
     public void test8085CountdownClockBetween9_11_2001_and_10_31_2023() {
@@ -105,7 +106,6 @@ public class Event_2023_11_01_Test {
         );
         log.info("daysBetween: {}", daysBetween);
         assertTrue(daysBetween==8085);
-        // Divisible by 11 - symbolize disorder, chaos and judgment
         int part = 8085 / 11;
         assertTrue(part == 735);
         // G736 - properly something ready; something hung up, that is
