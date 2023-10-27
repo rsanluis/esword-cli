@@ -36,4 +36,18 @@ public class Event_2023_12_06_Test {
         assertTrue(day==6);
         assertTrue(year==2023);
     }
+
+    // 11/01/2023 + 35 days = 12/06/2023   Start of Tribulation - Man's (1260 * 2) Timeline
+    @Test
+    public void testDaysBetweenDecember_6_2023_and_February_4_2023() {
+        LocalDate localDate = LocalDate.of(2023,12,6).plusDays(60);
+        int month = localDate.getMonthValue();
+        int day = localDate.getDayOfMonth();
+        int year = localDate.getYear();
+        log.info("localDate: {}/{}/{}", month, day, year);
+        assertTrue(month==2);
+        assertTrue(day==4);
+        assertTrue(year==2024);
+    }
+
 }
