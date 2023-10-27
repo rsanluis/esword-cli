@@ -15,13 +15,12 @@ public class TheDifferentWaysGodWarnsUsAboutTheFloodTest {
 
     // Be watchful, alert
     
-    // like in the days of Noah
-    // These little ones & millstone around your neck warning
-    // Hagai 1 & 2
-    // sharpen, & on that day
+    // * like in the days of Noah
+    // * These little ones & millstone around your neck warning
+    // * Hagai 1 & 2
     
     // God's names and numbers (required)
-    // Revelation 12 sign
+    // * Revelation 12 sign
     // Visions & Dreams
     // Mathematical equations
     // The different methods of counting
@@ -30,9 +29,11 @@ public class TheDifferentWaysGodWarnsUsAboutTheFloodTest {
     // The use of words and the occurrence rate mattered
     // biblical code patterns like 35
 
-    
-    // John 1:1-35 - people are sick - Lazarus
+    // * H2555
+    // * John 1:1-35 - people are sick - Lazarus
     // Haggai 1 & 2
-    // arrows sharpened
+    // * arrows sharpened
     
+
+    // Luk 6:48  He is like a man which built an house, and digged deep, and laid the foundation on a rock: and when the flood arose, the stream beat vehemently upon that house, and could not shake it: for it was founded upon a rock. 
 }

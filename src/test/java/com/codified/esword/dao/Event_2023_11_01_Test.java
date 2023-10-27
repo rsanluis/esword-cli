@@ -8,6 +8,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @SpringBootTest
 public class Event_2023_11_01_Test {
     // 
@@ -31,12 +34,14 @@ public class Event_2023_11_01_Test {
     //
     // Isaiah 46:9   Remember the former things of old: for I am God, and there is none
     //   else; I am God, and there is none like me, 
+    //
     // Isaiah 46:10  Declaring the end from the beginning, and from ancient times the 
     //   things that are not yet done, saying, My counsel shall stand, and I will do all 
     //   my pleasure: 
+    //
     // Isaiah 46:11  Calling a ravenous bird from the east, the man that executeth my 
     //   counsel from a far country: yea, I have spoken it, I will also bring it to pass; 
-    //   I have purposed it, I will also do it. 
+    //   I have purposed it, I will also do it.
 
     @Test
     public void testDaysBetween9_11_2001_and_11_01_2023() {
@@ -61,6 +66,14 @@ public class Event_2023_11_01_Test {
         //   verses: 66    matches: 69
     } 
 
-
-    // Luke 6:48-49
+    @Test
+    public void testDaysBetween11_01_2001_and_10_30_2030() {
+        // Calculate the number of days between 11/01/2001 and 10/30/2030
+        long daysBetween = DAYS.between(
+            LocalDate.of(2023,11,1),
+            LocalDate.of(2030,10,30)
+        );
+        log.info("daysBetween: {}", daysBetween);
+        assertTrue(daysBetween==5851);
+    }
 }
