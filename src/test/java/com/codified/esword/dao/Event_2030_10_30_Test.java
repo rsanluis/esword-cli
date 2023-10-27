@@ -58,7 +58,7 @@ public class Event_2030_10_30_Test {
 
     @Test
     public void testDaysBetweenDecember_6_2023_and_October_30_2030() {
-        LocalDate localDate = LocalDate.of(2023,10,07).plusDays(2560);
+        LocalDate localDate = LocalDate.of(2023,12,06).plusDays(2520);
         int month = localDate.getMonthValue();
         int day = localDate.getDayOfMonth();
         int year = localDate.getYear();

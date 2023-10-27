@@ -74,7 +74,10 @@ public class Event_2023_11_01_Test {
             LocalDate.of(2030,10,30)
         );
         log.info("daysBetween: {}", daysBetween);
-        assertTrue(daysBetween==5851);
+        assertTrue(daysBetween==2555);
+        // H2555 - From H2554; violence; by implication wrong; by metonymy unjust gain: 
+        // - cruel (-ty), damage, false, injustice, X oppressor, unrighteous, 
+        // violence (against, done), violent (dealing), wrong.
     }
 
     // Countdown timer expiring at D-day which is 11/01/2023

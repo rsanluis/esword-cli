@@ -65,7 +65,7 @@ public class Event_2023_10_07_Test {
     public void testDaysBetweenSeptember_30_2007_and_October_7_2023() {
         long daysBetween = DAYS.between(
             LocalDate.of(2007,9,30),
-            LocalDate.of(2030,10,30)
+            LocalDate.of(2023,10,7)
         );
         log.info("daysBetween: {}", daysBetween);
         assertTrue(daysBetween==5851);
