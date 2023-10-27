@@ -101,7 +101,8 @@ public class PropheticClock_BaseTest {
         // 1290 days / 60 days
         // 21.5 - it matches half of a full week (43)
         double units = (1290d / 60d);
-        assertTrue((units == 21.5d));
+        assertTrue(units == 21.5d);
+        assertTrue(units * 2 == 43); // Double the units; should equal 43
         // The full clock for Man (3-7-10) is represented by 2580 / 60
         units = (2580 / 60);
         assertTrue(units == 43); 

@@ -83,6 +83,7 @@ public class Event_2023_11_01_Test {
     // Countdown timer expiring at D-day which is 11/01/2023
     // Timer is divisible by 13 in 622 parts
     // The number 13 - symbolizes rebellion & lawlessness
+    //
     @Test
     public void test8086CountdownClockBetween9_11_2001_and_11_1_2023() {
         // Calculate the countdown clock between 9/11/2001 and 11/1/2023
@@ -94,6 +95,9 @@ public class Event_2023_11_01_Test {
         assertTrue(daysBetween==8086);
         int part = 8086 / 13;
         assertTrue(part == 622);
+        // G622 - apollumi - ap-ol'-loo-mee - From G575 and the base of G3639; 
+        //   to destroy fully (reflexively to perish, or lose), 
+        //   literally or figuratively: - destroy, die, lose, mar, perish.
     }
 
     // Countdown timer expiring 1 day before D-day which is 11/01/2023
