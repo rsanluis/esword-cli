@@ -7,6 +7,7 @@ package com.codified.esword.constants;
 * 12 = Governmental Perfection 
 */
 public final class BibleConstants {
+    // https://github.com/rsanluis/esword-cli/blob/main/images/numbers_in_bible/300/300_sheen.png
     public static final int NUMBER_DIVINELY_APPOINTED_PERIOD_OF_TIME_300 = 300; // Same as the value of the letter Sheen in Ancient Hebrew
     public static final int NUMBER_DIVINE_PERFECTION_3 = 3;
     public static final int NUMBER_DIVINE_COMPLETION_7 = 7;
