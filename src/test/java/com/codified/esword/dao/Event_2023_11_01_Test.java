@@ -43,6 +43,10 @@ public class Event_2023_11_01_Test {
     //   counsel from a far country: yea, I have spoken it, I will also bring it to pass; 
     //   I have purposed it, I will also do it.
 
+    // TODO: finish the ways you derived the date
+    // The many ways I derived this date
+    
+
     @Test
     public void testDaysBetween9_11_2001_and_11_01_2023() {
         // Calculate the number of days between 9/11/2001 and 11/23/2023
