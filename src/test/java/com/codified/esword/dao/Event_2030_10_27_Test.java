@@ -54,10 +54,16 @@ public class Event_2030_10_27_Test {
     // Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. 
     // And when he thought thereon, he wept. 
     //
-    // 666 also stands for Christos
+    // 666 represents Christos in English Gematria
+    // https://www.gematrix.org/?word=christos
+    // https://github.com/rsanluis/esword-cli/blob/main/images/names_of_god/Christos.png
+    //
     // |Deny Christ|+|Deny Christ|=Before the cock crow twice 
-    // From March 5, 2027 to 10/27/2030 is 1332 day which represents the 2 date ranges
+    // From 03/05/2027 to 10/27/2030 is 1332 day which represents the 2 date ranges
     //   for people to deny Christ
+    // To get the midpoint, we add 666 days to 03/05/2027
+    // December 30, 2028 is the midpoint 
+    // https://www.timeanddate.com/date/dateadded.html?d1=5&m1=3&y1=2027&type=add&ay=&am=&aw=&ad=666&rec=
     //    
     // 3/5/2027 + 1332 days          = 10/27/2030 (Yah/Jah is most vehement at this point)
     // 3/5/2027 + 1332 days + 3 days = 10/30/2030 Christ returns to raise the dead and judge the living
