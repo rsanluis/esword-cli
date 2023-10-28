@@ -23,14 +23,15 @@ public class TheMarkOfTheBeastTest {
     //   Here is wisdom. Let him that hath understanding count the number of the beast: 
     //   for it is the number of a man; and his number is Six hundred threescore and six. 
 
-    //   6    - number of man, his weakness, his creation day
-    //   60   - relating to # of cubits of the image set up by Nebuchadnezzar
+    //     6  - number of man, his weakness, his creation day
+    //    60  - relating to # of cubits of the image set up by Nebuchadnezzar
     //   600  - relating to war - # of chariots the Egyptian pharaoh sent after the Israelites
     //
     // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_01.png
     // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_02.png
     //   The tower of knowledge is growing at a rate of 10x or tenfold.
 
+    
 
     // Daniel 7:25  And he shall speak words against the Most High, and shall wear out
     // the saints of the Most High; and he shall think to change the times and the 
