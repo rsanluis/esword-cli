@@ -55,10 +55,7 @@ public class PropheticClock_BaseTest {
     //        Find the common unit to be used between both 3-6-9 and 3-7-10 clocks 
     //        (18)                (21)
     //        ----                ----
-    //        18*70               18*70
     //        3*6*7*10            3*6*7*10
-    //        2*3*3*7*10          2*3*3*7*10    
-    //        (2*3*3)*7*10        2*3*(3*7)*10
     //        (18)*70             (21)*60
     //
     //   Notice that we don't expand 10 since it is God's ordinal value
