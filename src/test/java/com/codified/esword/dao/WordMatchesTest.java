@@ -249,7 +249,7 @@ public class WordMatchesTest {
   // To have the knowledge of reversing my #, you will have to first understand reversing the
   // # of God, which is 35 (El Deah)
   //
-  // Gen 17:1  And when Abram was ninety years old and nine, the LORD appeared to Abram, 
+  // Genesis 17:1  And when Abram was ninety years old and nine, the LORD appeared to Abram, 
   // and said unto him, I am the Almighty God; walk before me, and be thou perfect. 
   //
   // The key verse to extract is: 

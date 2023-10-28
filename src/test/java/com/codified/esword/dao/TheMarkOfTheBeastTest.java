@@ -79,15 +79,20 @@ public class TheMarkOfTheBeastTest {
     // ELON MUSK is Antichrist 666
     // https://www.youtubetrimmer.com/view/?v=3YOQiv5XWCc&start=149&end=300&loop=0
 
-    // They (as in the horsemen) of the tribulation see us like ants.
+    
     // Their holy grail for man's invention is Artifical General Intelligence.
-    // 
+    //
+    // They (as in the horsemen) of the tribulation see us like ants. 
     // 
     // Sam Harris - Ant vs Human Analogy
     // https://www.youtubetrimmer.com/view/?v=8nt3edWLgIg&start=200&end=244&loop=0
     //
     // Elon Musk on the Dangers of Artificial Intelligence (Ant Hill Analogy)
     // https://www.youtube.com/watch?v=9F5YYZAbMuQ
+
+    // Ray Kurzweil The Future of Humanity 2045
+    // Processing power for the human brain
+    // https://www.youtubetrimmer.com/view/?v=DjqX5mKDyPU&start=3726&end=3770&loop=0
 
 
     @Test
