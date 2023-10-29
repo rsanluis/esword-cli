@@ -12,6 +12,10 @@ public class NthRootTest {
     // The explanation from this video shows us a pattern of a 10-fold increase in the increase in knowledge
     // https://www.youtubetrimmer.com/view/?v=O81E3-6giuY&start=789&end=893&loop=0
     //
+    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_01.png
+    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_02.png
+    // // Knowledge is growing at a rate of 10x or tenfold.
+    //
     // This pattern was the key to solving God's prophetic clock and the
     // Mark of the Beast.
     // 
