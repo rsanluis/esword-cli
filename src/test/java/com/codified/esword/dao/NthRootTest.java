@@ -9,6 +9,9 @@ public class NthRootTest {
     //    60
     //   600
     //
+    // The explanation from this video shows us a pattern of a 10-fold increase in the increase in knowledge
+    // https://www.youtubetrimmer.com/view/?v=O81E3-6giuY&start=789&end=893&loop=0
+    //
     // This pattern was the key to solving God's prophetic clock and the
     // Mark of the Beast.
     // 
