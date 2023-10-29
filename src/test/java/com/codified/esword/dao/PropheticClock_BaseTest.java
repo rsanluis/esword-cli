@@ -8,6 +8,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 public class PropheticClock_BaseTest {
 
+    // Video explanation for 1260 and 1290 timelines
+    // https://www.brighteon.com/28395dab-b000-4206-947e-ed4939496167
+
     // God and Man's prophetic clock are key to solving and unlocking the mysteries of
     // Revelation and Daniel
     //
