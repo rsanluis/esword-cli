@@ -45,10 +45,9 @@ public class NthRootTest {
     //
     // It later struck me that it matches the pattern for I AM
     // It continually repeats with the value of 10, like how the digits of PI keeps repeating forever.
-
-
-    // Daniel 3:25  He answered and said, Lo, I see four men loose, walking in the midst of the fire, 
-    // and they have no hurt; and the form of the fourth is like the Son of God. 
+    //
+    // The pattern explains the verses in this image.
+    // https://github.com/rsanluis/esword-cli/blob/main/images/nthroot/first_and_the_last.png
 
     
 }
