@@ -15,11 +15,15 @@ public class Event_2022_07_06_Test {
     //
     // Event 07/06/2022 - July 6th, 2022 - The destruction date of the Georgia Guidestones
     //
+    // Georgia Guidestones destroyed after bombing
+    // https://www.youtube.com/watch?v=WDI_9GtiO3o
+    //
     // Daniel 9:25  Know therefore and understand, that from the going forth of the commandment 
     // to restore and to build Jerusalem unto the Messiah the Prince shall be seven weeks, 
     // and threescore and two weeks: the street shall be built again, and the wall, even in 
     // troublous times. 
     // 
+    // https://www.timeanddate.com/date/dateadded.html?d1=6&m1=7&y1=2022&type=add&ay=&am=&aw=&ad=483&rec=
     // It is exactly 69 weeks (or 483 days) leading up to the 11/01/2023 date.
     //
     @Test
