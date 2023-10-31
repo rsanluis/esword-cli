@@ -14,5 +14,9 @@ public class PropheticClock_Pattern_23_Becoming_2520 {
     // https://github.com/rsanluis/esword-cli/blob/main/images/patterns/I_or_ME_pattern.png
 
     // https://github.com/rsanluis/esword-cli/blob/main/images/patterns/pattern_53.png
+
+    // https://github.com/rsanluis/esword-cli/blob/main/images/patterns/69_going_onto_70.png
+
+    
     
 }
