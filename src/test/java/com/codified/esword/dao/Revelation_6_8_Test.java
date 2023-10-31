@@ -14,6 +14,7 @@ public class Revelation_6_8_Test {
     // He wrote the book The Fourth Part of the World: The Race to the Ends of the Earth, and the Epic Story of
     // the Map That Gave America Its Name
     // https://www.c-span.org/video/?290495-1/the-fourth-part-world
-    
+    //
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/verses/Revelation_6_8.png
     
 }
