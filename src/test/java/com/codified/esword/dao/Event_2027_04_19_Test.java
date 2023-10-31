@@ -39,7 +39,6 @@ public class Event_2027_04_19_Test {
         log.info("daysBetween: {}", daysBetween);
         assertTrue(daysBetween==1290);
     }
-
 }
 
 

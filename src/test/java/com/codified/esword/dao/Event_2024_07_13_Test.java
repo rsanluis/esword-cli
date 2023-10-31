@@ -34,7 +34,6 @@ public class Event_2024_07_13_Test {
         assertTrue(day==13);
         assertTrue(year==2024);
     }
-    
 }
 
 

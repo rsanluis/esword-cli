@@ -85,6 +85,23 @@ public class Event_2023_11_01_Test {
         // violence (against, done), violent (dealing), wrong.
     }
 
+    @Test
+    public void testSubtract35Days_From_November_1_2023() {
+        // If we were to use the 2520 clock and divide by 35, we get 72
+        // The pattern is 35 days of punishment, 70 days, then 35 days of punishment
+        // So the clock without punishment has to be set at 71*35, which is 2485
+        // If we subtract 2485 from 11/01/2023, we get another 111 date which is
+        // 1/11/2017
+        LocalDate localDate = LocalDate.of(2023,11,1).minusDays(2485);
+        int month = localDate.getMonthValue();
+        int day = localDate.getDayOfMonth();
+        int year = localDate.getYear();
+        log.info("localDate: {}/{}/{}", month, day, year);
+        assertTrue(month==1);
+        assertTrue(day==11);
+        assertTrue(year==2017);
+    }
+
     // Countdown timer expiring at D-day which is 11/01/2023
     // Timer is divisible by 13 in 622 parts
     // The number 13 - symbolizes rebellion & lawlessness
