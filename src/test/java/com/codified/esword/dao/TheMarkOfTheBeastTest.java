@@ -94,7 +94,34 @@ public class TheMarkOfTheBeastTest {
     // Processing power for the human brain
     // https://www.youtubetrimmer.com/view/?v=DjqX5mKDyPU&start=3726&end=3770&loop=0
 
+    // The Nanny of Elon asked, is he the antichrist?
+    // https://www.youtubetrimmer.com/view/?v=umNSEBc5pBg&start=98&end=188&loop=0
+    //
+    // https://www.youtube.com/playlist?list=PLG_v6fMCcEH7yEcTYyoI8bQMbx3-t1wUW
+    // She said that Elon will be the architect of the Great Deception
+    // They consider him to be Abaddon or Apollyon in Revelation 9:11
 
+    // Many suspect that Elon Musk is Satoshi Nakamoto
+    // https://www.youtubetrimmer.com/view/?v=l26xbmHE71c&start=26&end=103&loop=0
+    // Musk does things in 3s (threes) so having 3 different identities does not
+    // surprise me.
+    // 
+    // In the Bitcoin Coloring Book, supposedly written by Satoshi Nakamoto has some
+    // interesting pages in it.
+    //
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/satoshi_nakamoto/bitcoin_coloring_book_01.jpg
+    //
+    // He makes analogies with the creation of Cryptocurrency to the Book of Genesis 
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/satoshi_nakamoto/bitcoin_coloring_book_02.jpg
+    //
+    // "Stampede, Coming to a bank near you"
+    // Predicting or prophesysing a banking collapse
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/satoshi_nakamoto/bitcoin_coloring_book_03.jpg
+    //
+    // Prophesying a Great Wave that will collapse the current money system
+    // Could this be the 11/01/2023 event?
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/satoshi_nakamoto/bitcoin_coloring_book_04.jpg
+    //
     @Test
     //
     // G954
