@@ -318,7 +318,7 @@ public class TheMarkOfTheBeastTest {
     // Musk also created a clock timer leading to the 11/01/2023 event.
     //
     // He launched Falcon Heavy on Feb. 6, 2018 with a Tesla Roadster with 
-    // Hitchhiker's Guid to the Galaxy, which main premise is about 42.
+    // Hitchhiker's Guide to the Galaxy, which main premise is about 42.
     // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/starman/tesla_roadster_as_falcon_heavy_payload.png
     //
     @Test
