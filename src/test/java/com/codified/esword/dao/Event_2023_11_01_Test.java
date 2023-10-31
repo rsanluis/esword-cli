@@ -100,6 +100,17 @@ public class Event_2023_11_01_Test {
         assertTrue(month==1);
         assertTrue(day==11);
         assertTrue(year==2017);
+
+        localDate = LocalDate.of(2017,1,11).plusDays(2485+35);
+        month = localDate.getMonthValue();
+        day = localDate.getDayOfMonth();
+        year = localDate.getYear();
+        log.info("localDate: {}/{}/{}", month, day, year);
+        // 01/11/2017 + 2485    = 11/01/2023
+        // 11/01/2023 + 35 days = 12/06/2023  Start of Tribulation
+        assertTrue(month==12);
+        assertTrue(day==6);
+        assertTrue(year==2023);
     }
 
     // Countdown timer expiring at D-day which is 11/01/2023

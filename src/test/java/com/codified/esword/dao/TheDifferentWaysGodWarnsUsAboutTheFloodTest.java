@@ -1,6 +1,5 @@
 package com.codified.esword.dao;
 
-import org.mockito.BDDMockito.Then;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
@@ -22,7 +21,7 @@ public class TheDifferentWaysGodWarnsUsAboutTheFloodTest {
     // The key to finding out what will happen is to be watchful and alert as Jesus said in 
     // Matthew 24:42
 
-    
+
 
     // * These little ones & millstone around your neck warning
     // * Hagai 1 & 2
