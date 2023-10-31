@@ -289,6 +289,10 @@ public class WordMatchesTest {
   //
   //   I am Alpha and Omega ... which is to come/become the Almighty
   //   1    10        10                                       1 = 110101 (in binary) = 53 (in decimal)
+  //
+  //   Genesis 17:1  ... I am the Almighty God; walk before me, and be thou perfect.
+  //                     1 10 10      1 = 110101 (in binary) = 53 (in decimal)
+  //
   //  
   //   https://www.gematrix.org/?word=i%20am%20he
   //   I am he = 53 in Hebrew Gematria
