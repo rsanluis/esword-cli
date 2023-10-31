@@ -50,6 +50,7 @@ public class PropheticClock_SettingTheEndYear {
     // as a thousand years, and a thousand years as one day. 
     @Test
     public void testSettingTheEndYear_ByRule_1_Day_is_1000_Years_and_1000_Years_as_1_Day() {
+        // 1000 * 360 / 24 / 360 = can be simplified as just 1000/24
         double formula = 1000d / 24d;
         double valueFor1Hour = 41d + (2d/3d);
         assertTrue(formula == valueFor1Hour);

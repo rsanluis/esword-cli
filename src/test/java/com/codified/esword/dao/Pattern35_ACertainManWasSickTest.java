@@ -38,8 +38,7 @@ public class Pattern35_ACertainManWasSickTest {
     //       Jesus is referring the 2 edged sword in Revelation 1:16 which is the Word of God.
     //       The 2 swords are the New and Old Testaments.
     //
-    //       As I will show you, that I had to use both swords (Old & New Testaments) to decipher the 
-    //       timeline hidden in the bible.
+    //       I had to use both swords (Old & New Testaments) to decipher the timeline hidden in the bible.
     
 
     // 2) Jesus knew that from John 11:1 to John 11:35, that this pattern of (35) elapsed
