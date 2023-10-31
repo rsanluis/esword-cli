@@ -4,6 +4,5 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 public class PropheticClock_Pattern_LastWeek {
-    
-    // TODO: finish last week
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/last_week/last_week.png
 }
