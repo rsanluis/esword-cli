@@ -330,7 +330,8 @@ public class TheMarkOfTheBeastTest {
         log.info("daysBetween: {}", daysBetween);
         assertTrue(daysBetween==2094);
         // H2094 - to give warning
-        // 2093 divide by 3 = 698
+        // Now take 2093 and divide by 3 = 698
+        //
         // H698 - H696 - H695 - wait
         // G698 - From G697 - an Areopagite or member of the court held on Mars' Hill - Areopagite
         // From Ἄρης Arēs (the name of the Greek deity of war) and a derivative of G4078; rock of Ares, 
