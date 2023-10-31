@@ -43,10 +43,7 @@ public class Event_2023_11_01_Test {
     //   counsel from a far country: yea, I have spoken it, I will also bring it to pass; 
     //   I have purposed it, I will also do it.
 
-    // TODO: finish the ways you derived the date
-    // The many ways I derived this date
-    // 
-    
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/events/2023_11_01/What_will_happen_to_America.png
 
     @Test
     public void testDaysBetween9_11_2001_and_11_01_2023() {
