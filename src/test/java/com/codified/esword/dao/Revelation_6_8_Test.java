@@ -16,11 +16,10 @@ public class Revelation_6_8_Test {
     // https://www.c-span.org/video/?290495-1/the-fourth-part-world
     //
     // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/verses/Revelation_6_8.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/verses/Revelation_6_8_toby_lester.png
     //
     // The Fourth Part of the World Was Considered A Mystery
     // https://www.youtubetrimmer.com/view/?v=3maelyKRvu4&start=160&end=214&loop=0
     // Fourth Part of The World
     // https://www.youtubetrimmer.com/view/?v=3maelyKRvu4&start=126&end=152&loop=0
-
-    
 }
