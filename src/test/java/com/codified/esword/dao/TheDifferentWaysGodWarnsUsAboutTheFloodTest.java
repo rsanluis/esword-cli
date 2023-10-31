@@ -59,19 +59,10 @@ public class TheDifferentWaysGodWarnsUsAboutTheFloodTest {
     //   darkened in the heavens thereof. 
 
     
-    // God's names and numbers (required)
-    // * Revelation 12 sign
-    // Visions & Dreams
-    // Mathematical equations
-    // The different methods of counting
-
-    // Hebrew & Greek Code mapping was divinely inspired
-    // The use of words and the occurrence rate mattered
-    // biblical code patterns like 35
-
-    // * H2555
-    // * John 1:1-35 - people are sick - Lazarus
-    
-
-
+    // - God's names and numbers 
+    // - Revelation 12 sign
+    // - Visions & Dreams
+    // - Mathematical equations
+    // - The different methods of counting
+    // - Hebrew & Greek Code mapping was divinely inspired within the King James Bible
 }
