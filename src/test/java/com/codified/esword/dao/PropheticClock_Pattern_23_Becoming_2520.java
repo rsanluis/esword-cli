@@ -7,7 +7,7 @@ public class PropheticClock_Pattern_23_Becoming_2520 {
     // TODO: pattern 23 transitioning into 2520 test
 
 
-    // 
+    // https://github.com/rsanluis/esword-cli/blob/main/images/patterns/IAM_times_3.png
 
     // https://github.com/rsanluis/esword-cli/blob/main/images/patterns/pattern_105_adonai_doubled.png
 
