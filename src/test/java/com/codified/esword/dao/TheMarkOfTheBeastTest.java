@@ -208,6 +208,132 @@ public class TheMarkOfTheBeastTest {
     
 
 
+    // Update for October 31, 2023
+    // Due to lack of time....I'm going to do a brain dump instead of making slides
+    // 
+    // These articles will derive the Mark of the Beast
+    // The Mark of the Beast. Is it AI, X, 10, 666, monetary/ID system, or related to Elon Musk? The Bible says, All of the Above (Part I of VII)
+    // https://rolandsanluis.substack.com/p/the-mark-of-the-beast-is-it-ai-x
+    // The Mark of the Beast. Is it AI, X, 10, 666, monetary/ID system, or related to Elon Musk? The Bible says, All of the Above (Part II of VII)
+    // https://rolandsanluis.substack.com/p/the-mark-of-the-beast-is-it-ai-x-b8a
+    // 
+    // Rev 17:8  The beast that thou sawest was, and is not; and shall ascend out of the 
+    // bottomless pit, and go into perdition: and they that dwell on the earth shall wonder, 
+    // whose names were not written in the book of life from the foundation of the world, 
+    // when they behold the beast that was, and is not, and yet is. 
+    // 
+    // The beast that was, and is not, and yet is.
+    // - Satan wants to be like the most high, just like I and the Father are One
+    // - Musk talked about the ability to upload brain state to a Tesla Bot or to
+    //   a physiological being.  That is his way for eternal life.
+    // - Musk wants to change the laws and times by adding Douglas Adams book to
+    //   the end of Revelation.  That pretty much saying he wants to extend it
+    //   by another 42
+    // - The studies say that a human boy's brain is 95% developed at age 7.
+    // - Musk also prophesized about his death in tweets.
+    // -   Jesus prophesized his death
+    // - So Rev 17:8 foretells the death of Musk, and gets to be restored
+    //   onto his son...just like the verse, "I and my father are one"
+    // - His son X is the AntiChrist; when you search for man child, you get 10 matches
+    //   The Mark of the Beast is X. The number is 10.
+    //   Whenever you see references to xxx; they are not talking about the common definition
+    //   everyone knows.  They are referring to the end of the prophetic clock cycle.
+    //   They are talking about X=10,X=10,X=10 where it
+    //   forms a 10-10-10 pattern that signifies the end of for man.
+    //   https://github.com/rsanluis/esword-cli/blob/main/images/last_half_week/last_half_week.png
+    // - He intends to save himself by creating colonies on Mars since he knows the Bible well
+    //   and he knows the world will be destroyed by fire
+    // - Jesus warned in scripture...if you intend to build a tower, to make sure you have enough to finish it
+    // - Musk used Paypal profits as initial funding for Tesla, then he uses
+    //   Master Plan 1-3 to bankroll the rest of his foundation
+    // - He lost his firstborn due to the foundation he was trying to build his foundation
+    //   Musk - “My firstborn child died in my arms, I felt his last heartbeat”
+    //   These verses connect Musk and his foundation.  His 11th and youngest son is Techno Mechanicus.
+    //   Nothing came to pass yet regarding the younger son.
+    //
+    // 1 Kings 16:34 - In his days did Hiel the Bethelite build Jericho: he laid the foundation 
+    //   thereof in Abiram his firstborn, and set up the gates thereof in his youngest son Segub,
+    //   according to the word of the LORD, which he spake by Joshua the son of Nun.
+    //
+    // Josh 6:26 - And Joshua adjured them at that time, saying, Cursed be the man before the LORD,
+    //   that riseth up and buildeth this city Jericho: he shall lay the foundation thereof in his
+    //   firstborn, and in his youngest son shall he set up the gates of it.
+    // 
+    // His cars spell SEXY at the time, it is actually greek numerology.
+    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/musk/testa_lineup_01.png
+    // This would be a mockup if he has an e-Bike model that would make the 3 at the culmination of a 
+    // diamond.  Notice the 3,6,9 pattern and the Six,Six,Six in the shape of a Z
+    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/musk/tesla_lineup_02.png
+    // 
+    // He says he wants to use Neural Link to help humans to merge with AI
+    // In actuality, he wants Neural Link for him and his son to control it
+    // Most likely, on May 19th, 2023 singularity will be realized for X to blaspheme God
+    //
+    // Musk is most likely to be Satoshi Nakamoto - see the pages of the Bitcoin coloring book
+    // He does things in threes (3s) and it wouldn't surprise me if his 3rd secret identity is
+    // Satoshi
+    //
+    // Musk states in 2021 that they were going to test DART on asteroids.
+    // But it looks liek they might have tested it on Tonga.
+    // https://www.bitchute.com/video/saujHOFoNNf1/
+    // https://www.bitchute.com/video/YG13Ulzzv1ZM/
+    //
+    // Read Marshall Masters - The Sum of All Fears
+    // https://yowusa.com/la-palma-tsunami-the-sum-of-all-fears/
+    //
+    //   369 pattern coming from the AntiChrist
+    // Google: tonga in miles to the united states
+    //   You get 6540
+    // Google: la palma canary islands in miles to the united states
+    //   You get 4423
+    //
+    // Add together:
+    //     6540
+    //     4423
+    //     ----
+    //    10963  This 369 pattern in reverse is what is found frequently in the Bible
+    //
+    // https://github.com/rsanluis/esword-cli/blob/main/images/patterns/pattern_369_names_and_numbers_of_god.png
+    //
+    // And the 10 signifies the number of the Mark (X)
+    //
+    // Right after Tonga erupted, WEF claimed it to be a natural disaster
+    // https://twitter.com/elonmusk/status/1484422174626746371
+    // Shortly after, Musk tweets to the people to Tonga if they need Starlink terminals
+    // WEF has articles about underground cables that connect countries to the internet.
+    // Looks like this 11/01/2023 flood event is also aimed to disrupt the cabling between
+    // continents.
+    // 
+    // X in Hebrew Gematria is 300
+    // There's a committee of  300 to carry out their plans
+    //
+    // So if La Palma erupts, the rock slides and causes a Tsunami; they will blame it on 
+    // climate change.
+    // 
+    // 
 
 
+    // ************ !!!! Now, here's something absolutely important !!!! *****************
+    // Just like how I found clock timers leading to the 11/01/2023 event;
+    // Musk also created a clock timer leading to the 11/01/2023 event.
+    //
+    // He launched Falcon Heavy on Feb. 6, 2018 with a Tesla Roadster with 
+    // Hitchhiker's Guid to the Galaxy, which main premise is about 42.
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/starman/tesla_roadster_as_falcon_heavy_payload.png
+    //
+    @Test
+    public void testDaysBetweenFeb_6_2018_and_November_1_2023() {
+        long daysBetween = DAYS.between(
+            LocalDate.of(2018,2,6),
+            LocalDate.of(2023,11,1)
+        );
+        log.info("daysBetween: {}", daysBetween);
+        assertTrue(daysBetween==2094);
+        // H2094 - to give warning
+        // 2093 divide by 3 = 698
+        // H698 - H696 - H695 - wait
+        // G698 - From G697 - an Areopagite or member of the court held on Mars' Hill - Areopagite
+        // From Ἄρης Arēs (the name of the Greek deity of war) and a derivative of G4078; rock of Ares, 
+        // a place in Athens: - Areopagus, Mars’ Hill.
+    }
 }
