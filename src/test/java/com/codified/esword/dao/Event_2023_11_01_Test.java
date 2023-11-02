@@ -136,7 +136,7 @@ public class Event_2023_11_01_Test {
     // Pattern for the timer is (11+1)
     @Test
     public void test8085CountdownClockBetween9_11_2001_and_10_31_2023() {
-        // Calculate the countdown clock between 9/11/2001 and 11/1/2023
+        // Calculate the countdown clock between 9/11/2001 and 10/31/2023
         long daysBetween = DAYS.between(
             LocalDate.of(2001,9,11),
             LocalDate.of(2023,10,31)
