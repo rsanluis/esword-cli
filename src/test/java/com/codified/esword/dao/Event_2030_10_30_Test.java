@@ -67,4 +67,34 @@ public class Event_2030_10_30_Test {
         assertTrue(day==30);
         assertTrue(year==2030);
     }
+
+    @Test
+    public void testSubtract_2520_Years_from_October_30_2030() {
+        // If 2520 is 7 years then a full cirlce is 360 * 2520 in days
+        long fullCircleInDays = 360 * 2520; // 360 * (2520) years = 907200 days
+        LocalDate localDate = LocalDate.of(2030,10,30).minusDays(fullCircleInDays);
+        int month = localDate.getMonthValue();
+        int day = localDate.getDayOfMonth();
+        int year = localDate.getYear();
+        log.info("localDate: {}/{}/{}", month, day, year);
+        assertTrue(month==1);
+        assertTrue(day==1);
+        assertTrue(year==-453);
+        localDate = LocalDate.of(year, month, day).plusDays(fullCircleInDays);
+        month = localDate.getMonthValue();
+        day = localDate.getDayOfMonth();
+        year = localDate.getYear();
+        log.info("localDate: {}/{}/{}", month, day, year);
+        assertTrue(month==10);
+        assertTrue(day==30);
+        assertTrue(year==2030);
+        long fullCircleInDaysMinus7years = 359 * 2520; // 359 * (2520) years = 904680 days
+        localDate = LocalDate.of(-453, 1, 1).plusDays(fullCircleInDaysMinus7years);
+        month = localDate.getMonthValue();
+        day = localDate.getDayOfMonth();
+        year = localDate.getYear();
+        log.info("localDate: {}/{}/{}", month, day, year);
+        long diffInDays = fullCircleInDays - fullCircleInDaysMinus7years;
+        assertTrue(diffInDays == 2520);
+    } 
 }
