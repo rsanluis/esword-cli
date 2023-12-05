@@ -21,6 +21,12 @@ public class TheDifferentWaysGodWarnsUsAboutTheFloodTest {
     // Matthew 24:41  Two women shall be grinding at the mill; the one shall be taken, and the other left. 
     // Matthew 24:42  Watch therefore: for ye know not what hour your Lord doth come. 
 
+    // *** Rain fire and brimstone ***
+    // Luke 17:28  Likewise also as it was in the days of Lot; they did eat, they drank, they bought,
+    //   they sold, they planted, they builded; 
+    // Luke 17:29  But the same day that Lot went out of Sodom it rained fire and brimstone from heaven,
+    // and destroyed them all. 
+    //
     // *** Water event ***
     // Matthew 18:6  But whoso shall offend one of these little ones which believe in me, it were better
     // for him that a millstone were hanged about his neck, and that he were drowned in the depth of the sea. 
