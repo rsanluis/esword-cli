@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class Pattern35_ACertainManWasSickTest {
     // John 11:1  Now a certain man was ill, Lazarus of Bethany, the village of Mary and her sister Martha. 
     // https://rumble.com/v1aui9z-edward-dowd-covid-vaccines-causing-explosive-death-and-disability.html
-    // https://github.com/rsanluis/esword-cli/blob/main/images/asleep_in_truth/fraud_to_end_all_frauds.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/asleep_in_truth/fraud_to_end_all_frauds.png
     //
     // Lazarus in the End Times represents the certain (group of Men) that is currently sick,
     // dead in sleep, or metaphorically asleep in the truth while awake.

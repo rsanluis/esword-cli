@@ -56,7 +56,7 @@ public class Event_2030_10_27_Test {
     //
     // 666 represents Christos in English Gematria
     // https://www.gematrix.org/?word=christos
-    // https://github.com/rsanluis/esword-cli/blob/main/images/names_of_god/Christos.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/names_of_god/Christos.png
     //
     // |Deny Christ|+|Deny Christ|=Before the cock crow twice 
     // From 03/05/2027 to 10/27/2030 is 1332 day which represents the 2 date ranges

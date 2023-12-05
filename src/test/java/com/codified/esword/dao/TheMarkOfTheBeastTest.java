@@ -27,13 +27,13 @@ public class TheMarkOfTheBeastTest {
     //    60  - relating to # of cubits of the image set up by Nebuchadnezzar
     //   600  - relating to war - # of chariots the Egyptian pharaoh sent after the Israelites
     //
-    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_01.png
-    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_02.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_01.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_02.png
     // Knowledge is growing at a rate of 10x or tenfold.
     
     // See NthRootTest 
-    // https://github.com/rsanluis/esword-cli/blob/main/images/nthroot/nth_root_comparison.png
-    // https://github.com/rsanluis/esword-cli/blob/main/images/nthroot/nth_root_comparison_no_decimals.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/nthroot/nth_root_comparison.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/nthroot/nth_root_comparison_no_decimals.png
     
 
     // Daniel 7:25  And he shall speak words against the Most High, and shall wear out
@@ -133,7 +133,7 @@ public class TheMarkOfTheBeastTest {
     //
     // Isaiah 66:7  Before she travailed, she brought forth; before her pain came, 
     // she was delivered of a man child. 
-    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/man_child/a_pretribulation_birth.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/man_child/a_pretribulation_birth.png
     //
     // Revelation 12:5  And she brought forth a man child, who was to rule all nations with a rod of iron: and 
     // her child was caught up unto God, and to his throne. 
@@ -240,7 +240,7 @@ public class TheMarkOfTheBeastTest {
     //   everyone knows.  They are referring to the end of the prophetic clock cycle.
     //   They are talking about X=10,X=10,X=10 where it
     //   forms a 10-10-10 pattern that signifies the end of for man.
-    //   https://github.com/rsanluis/esword-cli/blob/main/images/last_half_week/last_half_week.png
+    //   https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/last_half_week/last_half_week.png
     // - He intends to save himself by creating colonies on Mars since he knows the Bible well
     //   and he knows the world will be destroyed by fire
     // - Jesus warned in scripture...if you intend to build a tower, to make sure you have enough to finish it

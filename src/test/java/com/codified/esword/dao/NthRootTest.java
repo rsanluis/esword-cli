@@ -12,8 +12,8 @@ public class NthRootTest {
     // The explanation from this video shows us a pattern of a 10-fold increase in the increase in knowledge
     // https://www.youtubetrimmer.com/view/?v=O81E3-6giuY&start=789&end=893&loop=0
     //
-    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_01.png
-    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_02.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_01.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/knowledge_shall_increase/knowledge_shall_increase_02.png
     // // Knowledge is growing at a rate of 10x or tenfold.
     //
     // This pattern was the key to solving God's prophetic clock and the
@@ -30,13 +30,13 @@ public class NthRootTest {
     //   600  100
     //
     // I noticed that every 3rd iteration formed the above pattern of 1, 10, 100
-    // https://github.com/rsanluis/esword-cli/blob/main/images/nthroot/every_3rd_iteration_grows_by_a_factor_of_10.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/nthroot/every_3rd_iteration_grows_by_a_factor_of_10.png
     //
     // The 3-6-9.sh  script in the nthroot project represents the Pattern of Man
     // The 3-7-10.sh script in the nthroot prpject represents the Pattern of God
     // 
-    // https://github.com/rsanluis/esword-cli/blob/main/images/nthroot/nth_root_comparison.png
-    // https://github.com/rsanluis/esword-cli/blob/main/images/nthroot/nth_root_comparison_no_decimals.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/nthroot/nth_root_comparison.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/nthroot/nth_root_comparison_no_decimals.png
     // The power of ordinal value of 10 is evident in the chart to the left
     // It starts with 1, and then starts with 10 and keeps repeating 10
     //
@@ -54,7 +54,7 @@ public class NthRootTest {
     // It continually repeats with the value of 10, like how the digits of PI keeps repeating forever.
     //
     // The pattern explains the verses in this image.
-    // https://github.com/rsanluis/esword-cli/blob/main/images/nthroot/first_and_the_last.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/nthroot/first_and_the_last.png
 
     
 }

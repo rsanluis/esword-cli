@@ -91,7 +91,7 @@ public class PropheticClock_BaseTest {
         // The full clock for Man (3-6-9) is represented by 2520 / 60
         units = (2520 / 60);
         assertTrue(units == 42);
-        // https://github.com/rsanluis/esword-cli/blob/main/images/prophetic_clock/mans_timeline_1260.png
+        // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/prophetic_clock/mans_timeline_1260.png
     }
 
     // 3-7-10
@@ -107,7 +107,7 @@ public class PropheticClock_BaseTest {
         // The full clock for Man (3-7-10) is represented by 2580 / 60
         units = (2580 / 60);
         assertTrue(units == 43); 
-        // https://github.com/rsanluis/esword-cli/blob/main/images/prophetic_clock/gods_timeline_1290.png
+        // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/prophetic_clock/gods_timeline_1290.png
     }
 
     // By the explanation above, now you have the notion of 2 clocks

@@ -22,12 +22,12 @@ public class Event_2017_09_23_Test {
     //
     // Revelation 12 Sign in 5 Minutes! September 23 2017 Alignment
     // https://www.youtube.com/watch?v=ZSqPiR2EK2s
-    // https://github.com/rsanluis/esword-cli/blob/main/images/events/2017_09_23/Event_2017_09_23_Test.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/events/2017_09_23/Event_2017_09_23_Test.png
     //
     // Correlates to this verse:
     // Isaiah 66:7  Before she travailed, she brought forth; before her pain came, 
     // she was delivered of a man child. 
-    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/man_child/a_pretribulation_birth.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/man_child/a_pretribulation_birth.png
     // 
     @Test
     public void testDaysBetweenSeptember_23_2017_and_November_1_2023() {
@@ -50,6 +50,6 @@ public class Event_2017_09_23_Test {
         // Total KJV occurrences: 9
         //
         // https://www.timeanddate.com/date/dateadded.html?d1=23&m1=9&y1=2017&type=add&ay=&am=&aw=&ad=2230&rec=
-        // https://github.com/rsanluis/esword-cli/blob/main/images/events/2017_09_23/Adding_2230_Days_to_September_23_2017.png
+        // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/events/2017_09_23/Adding_2230_Days_to_September_23_2017.png
     }
 }

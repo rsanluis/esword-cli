@@ -101,7 +101,7 @@ public class Event_2007_09_30_Test {
     // From H3176; expectation: - hope.
     // Total KJV occurrences: 6
     //
-    // https://github.com/rsanluis/esword-cli/blob/main/images/events/2007_09_30/h8431_meaning.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/events/2007_09_30/h8431_meaning.png
     @Test
     public void testDaysBetweenSeptember_30_2007_and_October_30_2030() {
         long daysBetween = DAYS.between(
