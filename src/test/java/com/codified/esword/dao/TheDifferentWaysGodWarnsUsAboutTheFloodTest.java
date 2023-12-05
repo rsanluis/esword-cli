@@ -66,9 +66,29 @@ public class TheDifferentWaysGodWarnsUsAboutTheFloodTest {
 
     
     // - God's names and numbers 
+    //     See https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/patterns/pattern_369_names_and_numbers_of_god.png
     // - Revelation 12 sign
+    //     See Event_2017_09_23_Test.java
     // - Visions & Dreams
+    //
+    //     Vision of Tsunami In East Coast Florida, New Jersey underwater - Bill Larkin
+    //     https://www.youtube.com/watch?v=f8XdJwjTT5o
+    //
+    //     MY VISION OF NEW YORK ON FIRE AND A TSUNAMI
+    //     https://www.youtube.com/watch?app=desktop&v=iopkN-aAR0Q&t=31s     
+    //
+    //     Dream: RUSSIA INVADES AMERICA, TSUNAMI DESTROYS MAJOR AMERICAN CITY
+    //     https://www.youtube.com/watch?app=desktop&v=7q6_i_eK8Zo
+    //  
+    //     Dream of Two Tsunami's Coming to America
+    //     https://youtu.be/kbaSyd6wXKo?si=JVPnf5yK8Rgi6ONi
+    //
     // - Mathematical equations & countdown timers
+    //     See the following tests
+    //     Event_2023_11_01_Test.test8086CountdownClockBetween9_11_2001_and_11_1_2023
+    //     Event_2023_11_01_Test.test8085CountdownClockBetween9_11_2001_and_10_31_2023
     // - The different methods of counting
+    //     See the following: 
+    //     https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/nthroot/first_and_the_last.png
     // - Hebrew & Greek Code mapping was divinely inspired within the King James Bible
 }
