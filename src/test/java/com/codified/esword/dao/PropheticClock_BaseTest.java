@@ -118,7 +118,7 @@ public class PropheticClock_BaseTest {
     // Now doing an occurence match for 60 from the King James Bible gives us something 
     // interesting:
     // 
-    // https://github.com/rsanluis/esword-cli/blob/main/images/prophetic_clock/wordmatch_context_bible_matches_60.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/prophetic_clock/wordmatch_context_bible_matches_60.png
     //
     // We get a list of words with an occurrence rate of exactly 60 in the King James Version Bible
     // One of the few words that catches my attention is h2555, nebuchandnezzar, h7379

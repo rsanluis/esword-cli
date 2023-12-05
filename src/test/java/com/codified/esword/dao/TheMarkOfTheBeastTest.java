@@ -49,7 +49,7 @@ public class TheMarkOfTheBeastTest {
     //
     // The number that represents that book is 42
 
-    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/42/Hitchhikers_Guide_To_The_Galaxy_Main_Point.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/42/hitchhikers_guide_to_the_galaxy_main_point_is_42.png
 
     // Little boy named El Elyon
     // https://youtu.be/NpCxK1OkqdE?start=9&end=54
@@ -260,10 +260,10 @@ public class TheMarkOfTheBeastTest {
     //   firstborn, and in his youngest son shall he set up the gates of it.
     // 
     // His cars spell SEXY at the time, it is actually greek numerology.
-    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/musk/testa_lineup_01.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/musk/tesla_lineup_01.png
     // This would be a mockup if he has an e-Bike model that would make the 3 at the culmination of a 
     // diamond.  Notice the 3,6,9 pattern and the Six,Six,Six in the shape of a Z
-    // https://github.com/rsanluis/esword-cli/blob/main/images/mark_of_the_beast/musk/tesla_lineup_02.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/mark_of_the_beast/musk/tesla_lineup_02.png
     // 
     // He says he wants to use Neural Link to help humans to merge with AI
     // In actuality, he wants Neural Link for him and his son to control it
@@ -293,7 +293,7 @@ public class TheMarkOfTheBeastTest {
     //     ----
     //    10963  This 369 pattern in reverse is what is found frequently in the Bible
     //
-    // https://github.com/rsanluis/esword-cli/blob/main/images/patterns/pattern_369_names_and_numbers_of_god.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/patterns/pattern_369_names_and_numbers_of_god.png
     //
     // And the 10 signifies the number of the Mark (X)
     //

@@ -255,7 +255,7 @@ public class SignatureOfThisProjectTest {
         // Appointed in conjunction with God's prophetic clock of 2520 corresponds to
         //   appointed time.
         //
-        // https://github.com/rsanluis/esword-cli/blob/main/images/numbers_in_bible/126/appointed_time_126.png
+        // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/numbers_in_bible/126/appointed_time_126.png
         //
         // Hebrews 9:27, KJV
         //   And as it is appointed unto men once to die, but after this the judgment.
