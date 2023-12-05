@@ -242,8 +242,14 @@ public class WordMatchesTest {
     assertTrue(wordMatchesList.size() == 1);
     String wordMatch = wordMatchesList.get(0).getWord();
     assertTrue(wordMatch.equals("speak"));
-    // https://github.com/rsanluis/esword-cli/blob/main/images/testWordMatchesBible_CommandGivenFromBibleBasedOnFirst3DigitsOfMyBday.png
-    // Here is the command instructed extracted from the Bible corresponding to my birth date
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/my_signature/prophets_command_to_speak.png
+    // This picture is a composite image depicting:
+    // 1) 
+    //    513 - Command to speak
+    // 2) 315 - First 3 digit of my birthday in reverse gives
+    //    2 definitions
+    //      a) Prophet
+    //      b) Twenty
   }
 
   // To have the knowledge of reversing my #, you will have to first understand reversing the
