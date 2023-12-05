@@ -225,7 +225,7 @@ public class SignatureOfThisProjectTest {
         // She would usually repeat that name twice like a lot of names in the Philippines.
         //
         // God also knows my nickname since he's an all knowing God
-        // https://github.com/rsanluis/esword-cli/blob/main/images/my_signature/a_new_prophet_like_moses/a_new_prophet_like_moses.png
+        // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/my_signature/a_new_prophet_like_moses/a_new_prophet_like_moses.png
     }
     
     /* 
