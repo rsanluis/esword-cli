@@ -62,7 +62,7 @@ public class WordMatchesTest {
    * The KJV+ Bible confirms this with 23 words total with 69 matches
    * esword wordmatch -c Bible -m 69
    * 23 words in total with 69 occurrences/matches
-   * https://github.com/rsanluis/esword-cli/blob/main/images/testWordMatchesBible_23_Matches_Test.png
+   * https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/numbers_in_bible/23/wordmatch_context_bible_matches_69.png
    */
   @Test
   public void testWordMatchesBible_23_Matches_Test() {
