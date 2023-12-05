@@ -246,8 +246,9 @@ public class WordMatchesTest {
     // This picture is a composite image depicting:
     // 1) 
     //    513 - Command to speak
-    // 2) 315 - First 3 digit of my birthday in reverse gives
-    //    2 definitions
+    //
+    // 2) 315 - First 3 digit of my birthday in reverse gives 2 definitions
+    //
     //      a) Prophet
     //      b) Twenty
   }
@@ -266,7 +267,7 @@ public class WordMatchesTest {
   // that will be realized in the future.
   //
   // I is equivalent to 1
-  //   https://github.com/rsanluis/esword-cli/blob/main/images/nth_root_comparison.png
+  //   https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/nthroot/nth_root_comparison.png
   //   AM is equivalent to 10 10
 
   //   as A is unto Alpha
@@ -311,7 +312,7 @@ public class WordMatchesTest {
   //   reversing 513, we get 315
   // 
   // esword wordmatch -c Bible -m 315
-  // https://github.com/rsanluis/esword-cli/blob/main/images/testWordMatchesBible_LabelGivenFromBibleBasedOnFirst3DigitsOfMyBdayReversed.png
+  // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/my_signature/315_bday_in_reverse/wordmatch_context_bible_search_words_with_315_matches.png
   //
   // H6242
   // עֶשְׂרִים
@@ -352,7 +353,8 @@ public class WordMatchesTest {
     assertTrue(wordMatchesList.size() == 1);
     String wordMatch = wordMatchesList.get(0).getWord();
     assertTrue(wordMatch.equals("g32"));
-    // https://github.com/rsanluis/esword-cli/blob/main/images/testWordMatchesDanRev_LabelGivenFromBibleBasedOnYearOfMyBday.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/my_signature/76_year_of_my_bday/wordmatch_context_danrev_search_words_with_76_matches.png
+    // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/my_signature/76_year_of_my_bday/g32_meaning_is_messenger.png
   }
 
 
