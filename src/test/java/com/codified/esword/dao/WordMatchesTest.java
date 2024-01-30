@@ -18,6 +18,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.UncategorizedSQLException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.lang.NonNull;
 
 import com.codified.esword.model.Bible;
 import com.codified.esword.model.WordMatches;
@@ -456,7 +457,7 @@ public class WordMatchesTest {
             WordMatches word = jdbcTemplate.queryForObject("select * from " + tableName + " where word = ?",
                 new RowMapper<WordMatches>() {
                   @Override
-                  public WordMatches mapRow(ResultSet rs, int rownumber) throws SQLException {
+                  public WordMatches mapRow(@NonNull ResultSet rs, int rownumber) throws SQLException {
                     WordMatches w = new WordMatches();
                     w.setId(rs.getInt(1));
                     w.setWord(rs.getString(2));

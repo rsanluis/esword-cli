@@ -4,12 +4,13 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.lang.NonNull;
 import com.codified.esword.model.SearchResult;
 
 public class SearchResultRowMapper implements RowMapper<SearchResult> {
 
     @Override
-    public SearchResult mapRow(ResultSet rs, int rowNum) throws SQLException {
+    public SearchResult mapRow(@NonNull ResultSet rs, int rowNum) throws SQLException {
         SearchResult searchResult = new SearchResult();
         searchResult.setBook(rs.getInt("book"));
         searchResult.setTitle(rs.getString("title"));

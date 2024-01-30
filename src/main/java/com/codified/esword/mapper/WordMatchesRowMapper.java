@@ -4,12 +4,14 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.lang.NonNull;
+
 import com.codified.esword.model.WordMatches;
 
 public class WordMatchesRowMapper implements RowMapper<WordMatches> {
 
     @Override
-    public WordMatches mapRow(ResultSet rs, int rowNum) throws SQLException {
+    public WordMatches mapRow(@NonNull ResultSet rs, int rowNum) throws SQLException {
         WordMatches wordMatches = new WordMatches();
         wordMatches.setId(rs.getInt("id"));
         wordMatches.setWord(rs.getString("word"));
