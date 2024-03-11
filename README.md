@@ -2,7 +2,7 @@
 
 #### Download and Install Java from the following link:
 
--  https://corretto.aws/downloads/latest/amazon-corretto-20-x64-windows-jdk.msi
+-  https://corretto.aws/downloads/latest/amazon-corretto-21-x64-windows-jdk.msi
 -  Just keep clicking Next until you see the Install button. Click Install.
 
 #### Download and Install Git from the following link:
@@ -49,9 +49,9 @@
 ### Mac Instructions
 - Download Visual Code from https://code.visualstudio.com/
 - Download and Install Java from the following link:
-  - https://corretto.aws/downloads/latest/amazon-corretto-20-x64-macos-jdk.pkg
+  - https://corretto.aws/downloads/latest/amazon-corretto-21-x64-macos-jdk.pkg
 - Edit your .zprofile and add the following variable exports:
-  - export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-20.jdk/Contents/Home
+  - export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-21.jdk/Contents/Home
   - export PATH=$JAVA_HOME/bin:$PATH
 
 #### Launch Visual Studio Code
