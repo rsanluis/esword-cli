@@ -20,4 +20,7 @@ public class PropheticClock_Pattern_23_Becoming_2520 {
     // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/patterns/210_going_onto_2520.png
 
     // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/patterns/2520_wheel_within_a_wheel.png
+    // Genesis 1:14  And God said, Let there be lights in the firmament of the heaven to divide the day 
+    // from the night; and let them be for signs, and for seasons, and for days, and years: 
+
 }
