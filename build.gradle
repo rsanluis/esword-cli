@@ -25,10 +25,10 @@ dependencies {
 	implementation 'org.fusesource.jansi:jansi:2.4.1'
 	implementation 'org.hibernate.orm:hibernate-community-dialects:7.0.0.Alpha3'
 	implementation 'org.apache.commons:commons-lang3'
-	compileOnly 'org.projectlombok:lombok'
-	testCompileOnly 'org.projectlombok:lombok'
-	annotationProcessor 'org.projectlombok:lombok'
-	testAnnotationProcessor 'org.projectlombok:lombok'
+	compileOnly 'org.projectlombok:lombok:1.18.34'
+	testCompileOnly 'org.projectlombok:lombok:1.18.34'
+	annotationProcessor 'org.projectlombok:lombok:1.18.34'
+	testAnnotationProcessor 'org.projectlombok:lombok:1.18.34'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation("org.junit.jupiter:junit-jupiter:5.11.0-M2")
 }
