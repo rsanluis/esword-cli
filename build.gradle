@@ -1,8 +1,8 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '3.3.1'
+	id 'org.springframework.boot' version '3.3.2'
 	id 'com.github.ben-manes.versions' version '0.51.0'
-	id 'io.spring.dependency-management' version '1.1.5'
+	id 'io.spring.dependency-management' version '1.1.6'
 }
 
 group = 'com.codified.esword'
@@ -18,19 +18,19 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa:3.3.2'
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc:3.3.2'
 	implementation 'info.picocli:picocli-spring-boot-starter:4.7.6'
 	implementation 'org.xerial:sqlite-jdbc:3.46.0.0'
 	implementation 'org.fusesource.jansi:jansi:2.4.1'
-	implementation 'org.hibernate.orm:hibernate-community-dialects:7.0.0.Alpha3'
-	implementation 'org.apache.commons:commons-lang3'
+	implementation 'org.hibernate.orm:hibernate-community-dialects:7.0.0.Beta1'
+	implementation 'org.apache.commons:commons-lang3:3.16.0'
 	compileOnly 'org.projectlombok:lombok:1.18.34'
 	testCompileOnly 'org.projectlombok:lombok:1.18.34'
 	annotationProcessor 'org.projectlombok:lombok:1.18.34'
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.34'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testImplementation("org.junit.jupiter:junit-jupiter:5.11.0-M2")
+	testImplementation("org.junit.jupiter:junit-jupiter:5.11.0")
 }
 
 tasks.named('test') {
