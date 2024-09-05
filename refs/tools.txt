@@ -8,3 +8,10 @@ TODO: use Qortal for videos in case of censored videos
 
   https://qortal.org/
   
+
+  SSG Static Site Generator
+  https://jamstack.org/generators/
+    #1) Next.js 
+      https://sandocs.vercel.app/
+    #2) Hugo
+
