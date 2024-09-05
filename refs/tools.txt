@@ -1,5 +1,8 @@
 
 https://asciinema.org/
+  or
+https://github.com/charmbracelet/vhs
+
 
 TODO: use Qortal for videos in case of censored videos
   https://www.newstarget.com/2023-07-31-brighteon-streaming-via-free-decentralized-platform-qortal.html
