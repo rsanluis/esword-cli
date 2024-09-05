@@ -43,3 +43,6 @@ out/
 *.bbli
 *.dzip
 *.zip
+
+### VIM swap files ###
+*.swp
