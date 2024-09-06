@@ -25,3 +25,7 @@ Gematria Values
   EG => 2520: Canary Islands, Canary Islands, Canary Islands 
   HG =>  307: son of man 
   HG =>  307: x æ a12
+
+Son of God (exact phrase search) yields 48
+  2520/48 = 52.5
+  Psalms 52:5
