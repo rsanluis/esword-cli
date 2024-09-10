@@ -54,3 +54,4 @@ https://quickchart.io/sandbox#%7B%22chart%22%3A%22%7B%5Cn%20%20type%3A%20'doughn
 
 Potential templates to use for static page generation
 https://themes.gohugo.io/themes/hextra/
+  It has multiple language options
