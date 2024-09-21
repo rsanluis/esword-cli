@@ -228,6 +228,12 @@ public class SignatureOfThisProjectTest {
         // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/my_signature/a_new_prophet_like_moses/a_new_prophet_like_moses.png
     }
     
+    // https://www.abarim-publications.com/Meaning/Aharah.html
+    // Meaning: After Brother
+    // My parents named me after my brother.  They just switched a few letters from my brother's name: Ronald to get Roland
+    // H315 - From H310 and H251; after (his) brother; Achrach, an Israelite: - Aharah.
+    // Noticed it is derived from H310 (after) and H251 (brother)
+
     /* 
      * Further expanding the Biblical code found in the Bible, is the
      * command that God gave me:
