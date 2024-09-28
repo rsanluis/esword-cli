@@ -1,0 +1,10 @@
+https://sourceforge.net/p/stellarium/discussion/278769/thread/846ca813/
+
+But instead in programs you count 3, 2, 1, 0, -1, -2 and so on.
+So year 1 BC is mathematically 0, 2 BC is mathematically -1 and so on.
+A generic year "N" BC must be computed and entered as "-N+1"!
+As an example the year 1000 BC must be entered as -999!
+
+To obtain 3 BC, we need to enter it into Stellerium as: -N+1
+
+So 3 BC is -3+1 which is -2 as we see in the provided image.
