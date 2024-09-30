@@ -18,3 +18,7 @@ TODO: use Qortal for videos in case of censored videos
       https://sandocs.vercel.app/
     #2) Hugo
 
+Radicle (GitHub decentralized replacement)
+
+How to Replace GitHub with Radicle to Take Ownership of Your Code
+https://www.youtube.com/watch?v=Y8pulFGOrMw
