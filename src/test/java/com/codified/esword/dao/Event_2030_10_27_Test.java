@@ -25,6 +25,8 @@ public class Event_2030_10_27_Test {
     //   We can now rewrite the equation like the following:
     //   12 * (111 & 1/4) = 1335
     //   12 * 111 + (12 * 1/4) = 1332 + 3
+    //   (12 * 111) + (12 * 1/4) = 1332 + 3
+    //   1332 + 3
     //   Let's inspect the 1st number *** 1332 ***
     //
     // H1332 - leads to root Hebrew H3050 which is yah

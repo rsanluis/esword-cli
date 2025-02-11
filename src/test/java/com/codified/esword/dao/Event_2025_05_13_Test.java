@@ -34,7 +34,7 @@ public class Event_2025_05_13_Test {
     //   Mark 13:20 - And except that the Lord had shortened those days, no flesh should be saved: but for the elect's sake, whom he hath chosen, he hath shortened the days.
     @Test
     public void testAdd_315_Days_from_December_6_2023() {
-        LocalDate localDate = LocalDate.of(2023,12,23).minusDays(315);
+        LocalDate localDate = LocalDate.of(2023,12,6).plusDays(315);
         int month = localDate.getMonthValue();
         int day = localDate.getDayOfMonth();
         int year = localDate.getYear();

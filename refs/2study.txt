@@ -41,21 +41,6 @@ Proverbs 31:8-9 KJV
 Pro 31:8  Open thy mouth for the dumb in the cause of all such as are appointed to destruction. 
 Pro 31:9  Open thy mouth, judge righteously, and plead the cause of the poor and needy. 
 
-IPFS Storage
-  https://docs.filebase.com/archive/content-archive/knowledge-base/web3-tutorials/unstoppable-domains/unstoppable-domains-deploy-a-decentralized-blog-using-unstoppable-domains-akash-and-ipfs
-
-
-Charting Libraries for Pie/Clock charts
-https://quickchart.io/documentation/usage/client-libraries/
-
-https://quickchart.io/gallery/
-Complex Doughnut
-https://quickchart.io/sandbox#%7B%22chart%22%3A%22%7B%5Cn%20%20type%3A%20'doughnut'%2C%5Cn%20%20data%3A%20%7B%5Cn%20%20%20%20datasets%3A%20%5B%5Cn%20%20%20%20%20%20%7B%5Cn%20%20%20%20%20%20%20%20label%3A%20'Dataset%3A%20Subcategory'%2C%20%20%20%20%20%20%20%20%5Cn%20%20%20%20%20%20%20%20labels%3A%20%5B%20'Car%20Hire'%2C'Fuel'%2C'8c%2Fkm%20road%20tax'%2C'Flights'%2C'Taxi'%2C'Unknown'%2C'River%20Surfing'%2C'Kayaking'%2C'Luge'%2C'Shopping'%2C'Eat%20Out'%2C'Insurance'%2C'Unknown'%2C'Phone'%2C'Does%20not%20balance'%2C'Camping%20Site'%2C'Holiday%20Park'%2C'Yoga%20Matts'%2C'Chemist'%2C'Car%20Gas'%2C'Intenational%20Transaction%20Fees'%5D%2C%20%20%20%20%20%20%20%20%5Cn%20%20%20%20%20%20%20%20data%3A%20%5B%201798%2C690%2C103%2C1709%2C177%2C7%2C512%2C306%2C141%2C416%2C240%2C448%2C128%2C120%2C0%2C87%2C84%2C18%2C12%2C11%2C0%5D%2C%5Cn%20%20%20%20%20%20%20%20backgroundColor%3A%20%5B%20'hsl(52.5%2C%20100%25%2C%2050%25)'%2C'hsl(52.5%2C%20100%25%2C%2076%25)'%2C'hsl(52.5%2C%20100%25%2C%2090%25)'%2C'hsl(190%2C%20100%25%2C%2050%25)'%2C'hsl(190%2C%20100%25%2C%2086%25)'%2C'hsl(190%2C%20100%25%2C%2090%25)'%2C'hsl(327.5%2C%20100%25%2C%2050%25)'%2C'hsl(327.5%2C%20100%25%2C%2072%25)'%2C'hsl(327.5%2C%20100%25%2C%2090%25)'%2C'hsl(105%2C%20100%25%2C%2050%25)'%2C'hsl(105%2C%20100%25%2C%2090%25)'%2C'hsl(242.5%2C%20100%25%2C%2050%25)'%2C'hsl(20%2C%20100%25%2C%2050%25)'%2C'hsl(20%2C%20100%25%2C%2052%25)'%2C'hsl(20%2C%20100%25%2C%2090%25)'%2C'hsl(157.5%2C%20100%25%2C%2050%25)'%2C'hsl(157.5%2C%20100%25%2C%2080%25)'%2C'hsl(295%2C%20100%25%2C%2050%25)'%2C'hsl(295%2C%20100%25%2C%2080%25)'%2C'hsl(295%2C%20100%25%2C%2085%25)'%2C'hsl(72.5%2C%20100%25%2C%2050%25)'%20%20%20%20%20%5Cn%5Cn%20%20%20%20%20%20%20%20%5D%2C%5Cn%20%20%20%20%20%20%7D%2C%5Cn%20%20%20%20%20%20%20%7B%5Cn%20%20%20%20%20%20%20%20label%3A%20'Dataset%3A%20Category'%2C%5Cn%20%20%20%20%20%20%20%20labels%3A%20%5B%20'Car'%2C'Airport'%2C'Adventure'%2C'Food'%2C'Insurance'%2C'Misc'%2C'Accommodation'%2C'Equipment'%2C'International%20Transaction%20Fees'%5D%2C%20%20%20%20%20%20%20%20%5Cn%20%20%20%20%20%20%20%20data%3A%20%5B%202591%2C1893%2C959%2C656%2C448%2C248%2C171%2C41%2C0%5D%2C%5Cn%20%20%20%20%20%20%20%20backgroundColor%3A%20%5B%20'hsl(52.5%2C%20100%25%2C%2050%25)'%2C'hsl(190%2C%20100%25%2C%2050%25)'%2C'hsl(327.5%2C%20100%25%2C%2050%25)'%2C'hsl(105%2C%20100%25%2C%2050%25)'%2C'hsl(242.5%2C%20100%25%2C%2050%25)'%2C'hsl(20%2C%20100%25%2C%2050%25)'%2C'hsl(157.5%2C%20100%25%2C%2050%25)'%2C'hsl(295%2C%20100%25%2C%2050%25)'%2C'hsl(72.5%2C%20100%25%2C%2050%25)'%5Cn%5Cn%20%20%20%20%20%20%20%20%5D%2C%20%20%20%20%20%20%20%20%5Cn%20%20%20%20%20%20%7D%2C%5Cn%20%20%20%20%5D%2C%5Cn%20%20%7D%2C%5Cn%5Cnoptions%3A%20%7B%5Cn%20%20%20%20cutoutPercentage%3A%2038%20%2C%5Cn%20%20%20%20animation%3A%20%7B%5Cn%20%20%20%20%20%20animateRotate%3A%20true%2C%5Cn%20%20%20%20%7D%2C%5Cn%20%20%20%20plugins%3A%20%7B%5Cn%20%20%20%20%20%20doughnutlabel%3A%20%7B%5Cn%20%20%20%20%20%20%20%20labels%3A%20%5B%7B%20text%3A%20'%247%2C007'%2C%20font%3A%20%7B%20size%3A%2020%20%7D%20%7D%2C%20%7B%20text%3A%20'Total%20Cost'%20%7D%5D%2C%5Cn%20%20%20%20%20%7D%2C%5Cn%20%20%20%20%20%20datalabels%3A%20%7B%5Cn%20%20%20%20%20%20%20%20formatter%3A%20(val%2C%20ctx)%20%3D%3E%20%7B%5Cn%20%20%20%20%20%20%20%20%20%20if%20(val%20%3C%20100)%20return%20''%3B%5Cn%20%20%20%20%20%20%20%20%20%20const%20label%20%3D%20ctx.chart.data.datasets%5Bctx.datasetIndex%5D.labels%5Bctx.dataIndex%5D%3B%5Cn%20%20%20%20%20%20%20%20%20%20const%20formattedVal%20%3D%20Intl.NumberFormat('en-US').format(val)%3B%5Cn%20%20%20%20%20%20%20%20%20%20return%20%60%24%7Blabel%7D%60.concat('%20%24'%2CformattedVal)%3B%5Cn%20%20%20%20%20%20%20%20%7D%2C%5Cn%20%20%20%20%20%20%20%20color%3A%20'black'%2C%5Cn%20%20%20%20%20%20%20%20font%3A%20%7B%5Cn%20%20%20%20%20%20%20%20%20%20size%3A%206%2C%20%20%20%20%20%20%20%20%20%20%5Cn%20%20%20%20%20%20%20%20%7D%2C%5Cn%20%20%20%20%20%20%20%20rotation%3A%20function(ctx)%20%7B%5Cn%20%20%20%20%20%20%20%20%20%20const%20valuesBefore%20%3D%20ctx.dataset.data.slice(0%2C%20ctx.dataIndex).reduce((a%2C%20b)%20%3D%3E%20a%20%2B%20b%2C%200)%3B%5Cn%20%20%20%20%20%20%20%20%20%20const%20sum%20%3D%20ctx.dataset.data.reduce((a%2C%20b)%20%3D%3E%20a%20%2B%20b%2C%200)%3B%5Cn%20%20%20%20%20%20%20%20%20%20let%20rotation%20%3D%20((valuesBefore%20%2B%20ctx.dataset.data%5Bctx.dataIndex%5D%20%2F%202)%20%2F%20sum%20*%20360)%20%2B%2090%3B%5Cn%20%20%20%20%20%20%20%20%20%20if%20(rotation%20%3E%2090%20%26%26%20rotation%20%3C%20270)%20%7B%5Cn%20%20%20%20%20%20%20%20%20%20%20%20rotation%20%2B%3D%20180%3B%5Cn%20%20%20%20%20%20%20%20%20%20%7D%5Cn%20%20%20%20%20%20%20%20%20%20return%20rotation%3B%5Cn%20%20%20%20%20%20%20%20%7D%2C%5Cn%20%20%20%20%20%20%7D%2C%5Cn%20%20%20%20%7D%2C%5Cn%20%20%7D%2C%5Cn%7D%5Cn%5Cn%5Cn%22%2C%22width%22%3A500%2C%22height%22%3A300%2C%22version%22%3A%222%22%2C%22backgroundColor%22%3A%22%23fff%22%7D
-
-Potential templates to use for static page generation
-https://themes.gohugo.io/themes/hextra/
-  It has multiple language options
-
 
 Ezekiel 26:3
   KJV 3  Therefore thus saith the Lord GOD; Behold, I am against thee, O Tyrus, and will cause many nations to come up against thee, as the sea causeth his waves to come up.
@@ -110,11 +95,6 @@ Joy
 
   joy: G5479   10/30/2030 minus 5479 ==> October 30, 2015
 
-G4396
-προφήτης
-prophētēs
-prof-ay'-tace
-From a compound of G4253 and G5346; a foreteller (“prophet”); by analogy an inspired speaker; by extension a poet: - prophet.
 
 G2495
 Ἰωνᾶς
@@ -122,6 +102,12 @@ Iōnas
 ee-o-nas'
 Of Hebrew origin [H3124]; Jonas (that is, Jonah), the name of two Israelites: - Jonas.
 Total KJV occurrences: 13
+
+G4396
+προφήτης
+prophētēs
+prof-ay'-tace
+From a compound of G4253 and G5346; a foreteller (“prophet”); by analogy an inspired speaker; by extension a poet: - prophet.
 
 Jonas - the name of two Israelites  
   From a compound of G4253 and G5346
@@ -149,8 +135,7 @@ The difference in dates between myself and my brother is 267 days
 
 Act 14:17  NeverthelessG2544 he leftG863 notG3756 himselfG1438 without witness,G267 in that he did 
 good,G15 and gaveG1325 usG2254 rainG5205 from heaven,G3771 andG2532 fruitfulG2593 seasons,G2540 fillingG1705
-ourG2257 heartsG2588 with foodG5160 andG2532 gladness.G2167 
-  
+ourG2257 heartsG2588 with foodG5160 andG2532 gladness.G2167  
 
 3 GREAT AMERICAN Solar ECLIPSES 2023-2024 ⚠️ Spell a WARNING Across USA 
 https://www.youtube.com/watch?v=c3Db07CaPPE&t=3s
@@ -164,3 +149,118 @@ http://www.mostholyfaith.com/beta/bible/topics/Mene_Mene_Tekel_Upharsin.asp
 
 https://www.slideshare.net/slideshow/profeca-2520-en-la-biblia-mene-mene-tekel-upharsin/72274667#2
 126 * 20
+
+
+
+
+5/13/1976   Add 53 years   535 days
+Luk_14:28 ForG1063 whichG5101 ofG1537 you,G5216 intendingG2309 to buildG3618 a tower,G4444 sitteth not downG2523 G3780 first,G4412 and countethG5585 theG3588 cost,G1160 whetherG1487 he haveG2192 sufficient to finishG4314 G535 it?
+
+5/13/2029 + 535 days = October 30, 2030
+
+10/30/2030
+  5/13/2015 5649 days
+           H5649 servant
+
+https://www.jewishvirtuallibrary.org/invitation-to-the-signing-of-the-declaration-of-independence#:~:text=(May%2013%2C%201948)&text=The%20day%20before%20the%20British,Israel's%20declaration%20of%20Independence.
+
+
+5/13/1948 to 5/13/1976
+   1461 weeks
+  h1461 husbandmen
+
+graffed into G1461
+
+2Ki_25:12  But the captainH7227 of the guardH2876 leftH7604 of the poorH4480 H1803 of the landH776 to be vinedressersH3755 and 
+  husbandmen H1461
+John 15:1  I am the true vine, and my Father is the husbandman.
+
+
+Rev_7:2  AndG2532 I sawG1492 anotherG243 angelG32 ascendingG305 fromG575 the east,G395 G2246 havingG2192 the sealG4973 of the livingG2198 God:G2316 
+andG2532 he criedG2896 with a loudG3173 voiceG5456 to theG3588 fourG5064 angels,G32 to whomG3739 it was givenG1325 to(G846) hurtG91 theG3588 
+earthG1093 andG2532 theG3588 sea,G2281
+
+
+https://www.sherriseligson.com/a-scientific-look-at-the-branches-vine-and-grafting-in-the-bible/
+
+
+Dan_4:16  Let his heartH3825 be changedH8133 fromH4481 man's,H606 and let a beast'sH2423 heartH3825 be givenH3052 unto him; and let sevenH7655 timesH5732 passH2499 overH5922 him.
+  times = 360; a set time; technically a year: - time.
+
+
+
+Zec_4:9  The handsH3027 of ZerubbabelH2216 have laid the foundationH3245 of thisH2088 house;H1004 his handsH3027 shall also finishH1214 it; 
+and thou shalt knowH3045 thatH3588 the LORDH3068 of hostsH6635 hath sentH7971 me untoH413 you.
+
+Mat 11:25  Then Jesus said, "I praise you, Father, Lord of heaven and earth. I am thankful that you have hidden these things from those who are so wise and so smart. 
+But you have shown them to people who are like little children. 
+
+Mat 11:27  All thingsG3956 are deliveredG3860 unto meG3427 ofG5259 myG3450 Father:G3962 andG2532 no manG3762 knowethG1921 theG3588 Son,G5207 butG1508 
+theG3588 Father;G3962 neitherG3761 knowethG1921 any manG5100 theG3588 Father,G3962 saveG1508 theG3588 Son,G5207 andG2532 he to whomsoeverG3739 G1437 theG3588 SonG5207 willG1014 revealG601 him. 
+
+
+Isa 13:12  I will make a manH582 more preciousH3365 than fine gold;H4480 H6337 even a manH120 than the golden wedgeH4480 H3800 of Ophir.H211 
+
+Jhn_3:33  He that hath receivedG2983 hisG846 testimonyG3141 hath set to his sealG4972 thatG3754 GodG2316 isG2076 true.G227
+
+Rev 9:4  AndG2532 it was commandedG4483 themG846 thatG2443 they should notG3361 hurtG91 theG3588 grassG5528 of theG3588 earth,G1093 neitherG3761 anyG3956 green thing,G5515 neitherG3761 anyG3956 tree;G1186 butG1508 onlyG3441 those menG444 whichG3748 haveG2192 notG3756 theG3588 sealG4973 of GodG2316 inG1909 theirG848 foreheads.G3359
+
+Gen_8:7  And he sent forthH7971 (H853) a raven,H6158 which went forthH3318 to and fro,H3318 H7725 untilH5704 the watersH4325 were dried upH3001 from offH4480 H5921 the earth.H776
+
+Zec_13:9  And I will bringH935 (H853) the third partH7992 through the fire,H784 and will refineH6884 them as(H853) silverH3701 is refined,H6884 and will tryH974 them as(H853) goldH2091 is tried:H974 theyH1931 shall callH7121 on my name,H8034 and IH589 will hearH6030 them: I will say,H559 ItH1931 is my people:H5971 and theyH1931 shall say,H559 The LORDH3068 is my God.H430
+
+https://www.openbible.info/labs/cross-references/search?q=Revelation+7%3A2
+
+Read Isaiah 11:1
+
+Deu 13:1  IfH3588 there ariseH6965 amongH7130 you a prophet,H5030 orH176 a dreamerH2492 of dreams,H2472 and givethH5414 H413 thee a signH226 orH176 a wonder,H4159 
+Deu 13:2  And the signH226 or the wonderH4159 come to pass,H935 whereofH834 he spakeH1696 untoH413 thee, saying,H559 Let us goH1980 afterH310 otherH312 gods,H430 whichH834 thou hast notH3808 known,H3045 and let us serveH5647 them; 
+Deu 13:3  Thou shalt notH3808 hearkenH8085 untoH413 the wordsH1697 of thatH1931 prophet,H5030 orH176 thatH1931 dreamerH2492 of dreams:H2472 forH3588 the LORDH3068 your GodH430 provethH5254 you, to knowH3045 whetherH3426 ye loveH157 (H853) the LORDH3068 your GodH430 with allH3605 your heartH3824 and with allH3605 your soul.H5315 
+Deu 13:4  Ye shall walkH1980 afterH310 the LORDH3068 your God,H430 and fearH3372 him, and keepH8104 his commandments,H4687 and obeyH8085 his voice,H6963 and ye shall serveH5647 him, and cleaveH1692 unto him. 
+Deu 13:5  And thatH1931 prophet,H5030 orH176 thatH1931 dreamerH2492 of dreams,H2472 shall be put to death;H4191 becauseH3588 he hath spokenH1696 to turn you awayH5627 fromH5921 the LORDH3068 your God,H430 which brought you outH3318 (H853) of the landH4480 H776 of Egypt,H4714 and redeemedH6299 you out of the houseH4480 H1004 of bondage,H5650 to thrustH5080 thee out ofH4480 the wayH1870 whichH834 the LORDH3068 thy GodH430 commandedH6680 thee to walkH1980 in. So shalt thou put the evil awayH1197 H7451 from the midstH4480 H7130 of thee. 
+
+https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html
+
+Finish the tower
+Luk_14:28  ForG1063 whichG5101 ofG1537 you,G5216 intendingG2309 to buildG3618 a tower,G4444 sitteth not downG2523 G3780 first,G4412 and countethG5585 theG3588 cost,G1160 whetherG1487 he haveG2192 sufficient to finishG4314 G535 it?
+
+Zec_12:10  And I will pourH8210 uponH5921 the houseH1004 of David,H1732 and uponH5921 the inhabitantsH3427 of Jerusalem,H3389 the spiritH7307 of graceH2580 and of supplications:H8469 and they shall lookH5027 uponH413 me(H853) whomH834 they have pierced,H1856 and they shall mournH5594 forH5921 him, as one mournethH4553 forH5921 his onlyH3173 son, and shall be in bitternessH4843 forH5921 him, as one that is in bitternessH4843 forH5921 his firstborn.H1060
+
+
+Amo_5:17  And in allH3605 vineyardsH3754 shall be wailing:H4553 forH3588 I will passH5674 throughH7130 thee, saithH559 the LORD.H3068
+
+
+g4188 - drink     drink the same spiritual drink
+  5/13/2019
+
+Zec_4:7  WhoH4310 art thou,H859 O greatH1419 mountain?H2022 beforeH6440 ZerubbabelH2216 thou shalt become a plain:H4334 and he shall bring 
+forthH3318 (H853) the headstoneH68 H7222 thereof with shoutings,H8663 crying, Grace,H2580 graceH2580 unto it.
+
+
+Stone
+Eph_2:20  And are builtG2026 uponG1909 theG3588 foundationG2310 of theG3588 apostlesG652 andG2532 prophets,G4396 JesusG2424 ChristG5547 himselfG846 beingG5607 the chief cornerG204 stone;
+
+Job_14:7  ForH3588 there isH3426 hopeH8615 of a tree,H6086 ifH518 it be cut down,H3772 that it will sproutH2498 again,H5750 and that the tenderH3127 branch thereof will notH3808 cease.H2308
+
+Luk_6:48  He isG2076 likeG3664 a manG444 which builtG3618 an house,G3614 and(G3739) diggedG4626 deep,G900 andG2532 laidG5087 the foundationG2310 onG1909 a rock:G4073 
+andG1161 when the floodG4132 arose,G1096 theG3588 streamG4215 beat vehemently uponG4366 thatG1565 house,G3614 andG2532 couldG2480 notG3756 shakeG4531 it:G846 forG1063 
+it was foundedG2311 uponG1909 a rock.G4073
+
+
+2Sa 23:7  But the manH376 that shall touchH5060 them must be fencedH4390 with ironH1270 and the staffH6086 of 
+a spear;H2595 and they shall be utterly burnedH8313 H8313 with fireH784 in the same place.H7675 
+
+Heb_11:28  Through faithG4102 he keptG4160 theG3588 passover,G3957 andG2532 theG3588 sprinklingG4378 of blood,G129 
+lestG3363 he that destroyedG3645 theG3588 firstbornG4416 should touchG2345 them.G846
+
+Zec_4:7  WhoH4310 art thou,H859 O greatH1419 mountain?H2022 beforeH6440 ZerubbabelH2216 thou shalt become a plain:H4334 and he shall bring forthH3318 (H853) 
+the headstoneH68 H7222 thereof with shoutings,H8663 crying, Grace,H2580 graceH2580 unto it.
+
+
+The Reign of the Lord's Anointed
+  Psa 2:7  I will declareH5608 H413 the decree:H2706 the LORDH3068 hath saidH559 untoH413 me, ThouH859 art my Son;H1121 this dayH3117 have IH589 begottenH3205 thee. 
+
+
+Israel's relationship with God
+Disintegration of society
+Bringing harm to humanity

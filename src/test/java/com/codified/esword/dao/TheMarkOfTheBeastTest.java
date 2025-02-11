@@ -93,6 +93,8 @@ public class TheMarkOfTheBeastTest {
     // Ray Kurzweil The Future of Humanity 2045
     // Processing power for the human brain
     // https://www.youtubetrimmer.com/view/?v=DjqX5mKDyPU&start=3726&end=3770&loop=0
+    // 1:02:23-1:02:51    10^16 
+    // emulating the human brain 
 
     // The Nanny of Elon asked, is he the antichrist?
     // https://www.youtubetrimmer.com/view/?v=umNSEBc5pBg&start=98&end=188&loop=0
@@ -292,6 +294,12 @@ public class TheMarkOfTheBeastTest {
     //     4423
     //     ----
     //    10963  This 369 pattern in reverse is what is found frequently in the Bible
+    //
+    // Note: As of 2/11/2025 the results of the search above has changed
+    // Google: tonga in miles to the united states
+    //   You now get 6064
+    // Google: la palma canary islands in miles to the united states
+    //   You now get 4937
     //
     // https://raw.githubusercontent.com/rsanluis/esword-cli/main/images/patterns/pattern_369_names_and_numbers_of_god.png
     //
