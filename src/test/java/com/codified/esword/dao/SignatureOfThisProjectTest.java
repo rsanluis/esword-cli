@@ -248,6 +248,24 @@ public class SignatureOfThisProjectTest {
     }
 
     @Test
+    void testIt() {
+        int may13thCount = 0;
+		int may12thCount = 0;
+        for (long i=0; i<1030; i++) {
+			System.out.println("i: " + i);
+            LocalDate localDate = LocalDate.of(992,10,30).plusYears(i).plusDays(3117);
+            int month = localDate.getMonthValue();
+            int day = localDate.getDayOfMonth();
+            String month_day = month + "/" + day;
+			if (month_day.equals("5/13")) may13thCount++;
+			if (month_day.equals("5/12")) may12thCount++;
+        }
+		log.info("may13thCount: " + may13thCount);
+        log.info("may12thCount: " + may12thCount);
+        assertTrue(may13thCount > may12thCount);
+    }
+
+    @Test
     void testTheDefinitionThatGodLabeledMe() {
         // See validating test: 
         //   WordMatchesTest.testWordMatchesBible_LabelGivenFromBibleBasedOnFirst3DigitsOfMyBdayReversed

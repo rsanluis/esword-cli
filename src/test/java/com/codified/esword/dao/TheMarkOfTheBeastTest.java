@@ -315,6 +315,15 @@ public class TheMarkOfTheBeastTest {
     // X in Hebrew Gematria is 300
     // There's a committee of  300 to carry out their plans
     //
+    // https://x.com/UniquelyDarkly/status/1891147307460038976
+    // Memphis - capital of Ancient Egypt - Elon says the place our new god will come from
+    //
+    // https://www.youtube.com/watch?v=osUWE7W23uY
+    // Elon Musk Warns of the Coming DIGITAL GOD and Why He Ultimately Chose to Accept It
+    //
+    // https://www.youtube.com/shorts/D5gMe14hzL0
+    // Elon Musk is scaring me
+    //
     // So if La Palma erupts, the rock slides and causes a Tsunami; they will blame it on 
     // climate change.
     // 
