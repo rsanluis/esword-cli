@@ -263,6 +263,8 @@ public class SignatureOfThisProjectTest {
 		log.info("may13thCount: " + may13thCount);
         log.info("may12thCount: " + may12thCount);
         assertTrue(may13thCount > may12thCount);
+
+        // 10/30/YEAR plus 3117 days often yields a May 13th date
     }
 
     @Test
