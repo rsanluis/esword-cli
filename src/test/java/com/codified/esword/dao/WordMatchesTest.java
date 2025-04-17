@@ -195,7 +195,7 @@ public class WordMatchesTest {
     // 9. book
     // 10. g4160 did,make,forth,causeth,do,doest,doeth,forth
     // 11. g2400 behold,lo
-    // 12. g5064 four
+    // 12. g5064 four 
     //
     // Behold, ye sawest book answered.
     // Do give interpretation to all four end.
