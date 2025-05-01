@@ -47,3 +47,5 @@ https://www.chartjs.org/docs/latest/samples/other-charts/multi-series-pie.html
 
 https://timeline.knightlab.com/#preview-embed
 Make a timeline via Google spreadsheet and embed in website
+
+https://deepai.org/machine-learning-model/text2img
