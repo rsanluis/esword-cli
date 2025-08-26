@@ -49,3 +49,7 @@ https://timeline.knightlab.com/#preview-embed
 Make a timeline via Google spreadsheet and embed in website
 
 https://deepai.org/machine-learning-model/text2img
+https://app.leonardo.ai/image-generation
+
+
+https://en-gb.topographic-map.com/map-5w818/Florida/
