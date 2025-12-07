@@ -4,7 +4,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
-import org.springframework.lang.NonNull;
+import org.jspecify.annotations.NonNull;
 
 import com.codified.esword.model.WordMatches;
 

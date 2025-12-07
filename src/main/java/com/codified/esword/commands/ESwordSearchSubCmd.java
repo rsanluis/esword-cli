@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.concurrent.Callable;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.springframework.beans.factory.annotation.Autowired;
 import static com.codified.esword.constants.AnsiConstants.*;
 import com.codified.esword.dao.ContextDAO;
@@ -65,16 +66,16 @@ public class ESwordSearchSubCmd implements Callable<Integer> {
         if (verbose) {
             for (SearchResult searchResult : resultsList) {
                 String scripture = searchResult.getScripture();
-                scripture = StringUtils.replace(scripture, "<match>", ANSI_COLOR_YELLOW + ANSI_BOLD);
-                scripture = StringUtils.replace(scripture, "</match>", ANSI_RESET);
-                scripture = StringUtils.replace(scripture, "<num>", ANSI_COLOR_CYAN);
-                scripture = StringUtils.replace(scripture, "</num>", ANSI_RESET);
-                scripture = StringUtils.replace(scripture, "<i>", ANSI_ITALICIZED);
-                scripture = StringUtils.replace(scripture, "</i>", ANSI_RESET);
-                scripture = StringUtils.replace(scripture, "<red>", ANSI_COLOR_RED);
-                scripture = StringUtils.replace(scripture, "</red>", ANSI_RESET);
-                scripture = StringUtils.replace(scripture, "<sup>", StringUtils.EMPTY);
-                scripture = StringUtils.replace(scripture, "</sup>", StringUtils.EMPTY);
+                scripture = Strings.CS.replace(scripture, "<match>", ANSI_COLOR_YELLOW + ANSI_BOLD);
+                scripture = Strings.CS.replace(scripture, "</match>", ANSI_RESET);
+                scripture = Strings.CS.replace(scripture, "<num>", ANSI_COLOR_CYAN);
+                scripture = Strings.CS.replace(scripture, "</num>", ANSI_RESET);
+                scripture = Strings.CS.replace(scripture, "<i>", ANSI_ITALICIZED);
+                scripture = Strings.CS.replace(scripture, "</i>", ANSI_RESET);
+                scripture = Strings.CS.replace(scripture, "<red>", ANSI_COLOR_RED);
+                scripture = Strings.CS.replace(scripture, "</red>", ANSI_RESET);
+                scripture = Strings.CS.replace(scripture, "<sup>", StringUtils.EMPTY);
+                scripture = Strings.CS.replace(scripture, "</sup>", StringUtils.EMPTY);
                 System.out.println(
                     ANSI_FG_WHITE_BG_BLUE +
                     searchResult.getTitle() + " " + searchResult.getChapter() + ":" + searchResult.getVerse() + 
