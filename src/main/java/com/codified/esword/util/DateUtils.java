@@ -99,7 +99,7 @@ public final class DateUtils {
 
         int total = hits.values().stream().mapToInt(Integer::intValue).sum();
         hits.forEach((monthDay, count) ->
-                log.info("{} {} {} days -> {}: {} hits ({})", startMonthDay.format(OUTPUT_FORMAT), operation.symbol,
+                log.info("\t{} {} {} days -> {}: {} matches ({})", startMonthDay.format(OUTPUT_FORMAT), operation.symbol,
                         days, monthDay.format(OUTPUT_FORMAT), count, percent(count, total)));
 
         MonthDay winner = hits.entrySet().stream()
@@ -109,7 +109,7 @@ public final class DateUtils {
                 .orElseThrow();
 
         String formatted = winner.format(OUTPUT_FORMAT);
-        log.info("Winner: {} with {} hits ({})", formatted, hits.get(winner), percent(hits.get(winner), total));
+        log.info("Most Occurrences: {} with {} matches ({})", formatted, hits.get(winner), percent(hits.get(winner), total));
         return formatted;
     }
 
