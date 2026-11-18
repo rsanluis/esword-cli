@@ -34,7 +34,7 @@ class DateUtilsTest {
         assertEquals("October 30", DateUtils.determineMonthAndDay("10/30/2030", Operation.SUBTRACT, 5479));
     }
 
-    @Test
+    @Test // G5479 - From G5463; cheerfulness, that is, calm delight: - gladness, X greatly, (X be exceeding) joy (-ful, -fully, -fulness, -ous).
     void determineMonthAndDay_subtract5479FromOctober30LocalDate_returnsOctober30() {
         assertEquals("October 30", DateUtils.determineMonthAndDay(LocalDate.of(2030, 10, 30), Operation.SUBTRACT, 5479));
     }
