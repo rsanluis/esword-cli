@@ -29,6 +29,26 @@ class DateUtilsTest {
         assertEquals("October 30", DateUtils.determineMonthAndDay("5/13/2030", Operation.SUBTRACT, 3117));
     }
 
+    @Test
+    void determineMonthAndDay_subtract5479FromOctober30String_returnsOctober30() {
+        assertEquals("October 30", DateUtils.determineMonthAndDay("10/30/2030", Operation.SUBTRACT, 5479));
+    }
+
+    @Test
+    void determineMonthAndDay_subtract5479FromOctober30LocalDate_returnsOctober30() {
+        assertEquals("October 30", DateUtils.determineMonthAndDay(LocalDate.of(2030, 10, 30), Operation.SUBTRACT, 5479));
+    }
+
+    @Test
+    void determineMonthAndDay_add5479ToOctober30String_returnsOctober30() {
+        assertEquals("October 30", DateUtils.determineMonthAndDay("10/30/2030", Operation.ADD, 5479));
+    }
+
+    @Test
+    void determineMonthAndDay_add5479ToOctober30LocalDate_returnsOctober30() {
+        assertEquals("October 30", DateUtils.determineMonthAndDay(LocalDate.of(2030, 10, 30), Operation.ADD, 5479));
+    }
+
     @ParameterizedTest
     @ValueSource(strings = {"0/15/2030", "13/15/2030"})
     void determineMonthAndDay_invalidMonth_throws(String date) {
