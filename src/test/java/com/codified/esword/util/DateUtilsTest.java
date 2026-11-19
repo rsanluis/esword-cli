@@ -19,11 +19,6 @@ class DateUtilsTest {
     }
 
     @Test
-    void determineMonthAndDay_addFromLocalDate_returnsMay13() {
-        assertEquals("May 13", DateUtils.determineMonthAndDay(LocalDate.of(2030, 10, 30), Operation.ADD, 3117));
-    }
-
-    @Test
     void determineMonthDayAndYear_addFromLocalDate_returnsOctober302030() {
         assertEquals("October 30, 2030",
                 DateUtils.determineExactMonthDayAndYear(LocalDate.of(2024, 7, 13), Operation.ADD, 2300));
@@ -83,25 +78,15 @@ class DateUtilsTest {
     }
 
     @Test
+    // G5479 - From G5463; cheerfulness, that is, calm delight: - gladness, X
+    // greatly, (X be exceeding) joy (-ful, -fully, -fulness, -ous).
     void determineMonthAndDay_subtract5479FromOctober30MonthDay_returnsOctober30() {
         assertEquals("October 30", DateUtils.determineMonthAndDay(MonthDay.of(10, 30), Operation.SUBTRACT, 5479));
-    }
-
-    @Test // G5479 - From G5463; cheerfulness, that is, calm delight: - gladness, X
-          // greatly, (X be exceeding) joy (-ful, -fully, -fulness, -ous).
-    void determineMonthAndDay_subtract5479FromOctober30LocalDate_returnsOctober30() {
-        assertEquals("October 30",
-                DateUtils.determineMonthAndDay(LocalDate.of(2030, 10, 30), Operation.SUBTRACT, 5479));
     }
 
     @Test
     void determineMonthAndDay_add5479ToOctober30MonthDay_returnsOctober30() {
         assertEquals("October 30", DateUtils.determineMonthAndDay(MonthDay.of(10, 30), Operation.ADD, 5479));
-    }
-
-    @Test
-    void determineMonthAndDay_add5479ToOctober30LocalDate_returnsOctober30() {
-        assertEquals("October 30", DateUtils.determineMonthAndDay(LocalDate.of(2030, 10, 30), Operation.ADD, 5479));
     }
 
     @Test

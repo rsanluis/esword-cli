@@ -77,13 +77,6 @@ public final class DateUtils {
     }
 
     /**
-     * Convenience overload accepting a full date; only its month and day are used.
-     */
-    public static String determineMonthAndDay(LocalDate date, Operation operation, int days) {
-        return determineMonthAndDay(MonthDay.from(date), operation, days);
-    }
-
-    /**
      * Takes the given month and day, applies it to every year from
      * START_YEAR to END_YEAR, adds or subtracts {@code days} days according to
      * {@code operation}, and returns the resulting month/day combination that
