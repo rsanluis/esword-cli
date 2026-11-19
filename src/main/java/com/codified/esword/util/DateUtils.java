@@ -94,6 +94,7 @@ public final class DateUtils {
         Objects.requireNonNull(startMonthDay, "startMonthDay must not be null");
         Objects.requireNonNull(operation, "operation must not be null");
         Map<MonthDay, Integer> hits = new TreeMap<>();
+        int total = 0;
 
         for (int year = START_YEAR; year <= END_YEAR; year++) {
             // Skip years where the start date doesn't exist (e.g. Feb 29 in non-leap years)
@@ -101,23 +102,24 @@ public final class DateUtils {
                 continue;
             }
             LocalDate result = operation.apply(startMonthDay.atYear(year), days);
-            hits.merge(MonthDay.from(result), 1, Integer::sum);
+            hits.merge(MonthDay.from(result), 1, (a, b) -> a + b);
+            total++;
         }
 
-        int total = hits.values().stream().mapToInt(Integer::intValue).sum();
+        final int grandTotal = total;
         hits.forEach((monthDay, count) -> log.info("\t{} {} {} days -> {}: {} matches ({})",
                 startMonthDay.format(OUTPUT_FORMAT), operation.symbol,
-                days, monthDay.format(OUTPUT_FORMAT), count, percent(count, total)));
+                days, monthDay.format(OUTPUT_FORMAT), count, percent(count, grandTotal)));
 
-        MonthDay winner = hits.entrySet().stream()
+        Map.Entry<MonthDay, Integer> winner = hits.entrySet().stream()
                 .max(Map.Entry.<MonthDay, Integer>comparingByValue()
                         .thenComparing(Map.Entry.comparingByKey(Comparator.reverseOrder())))
-                .map(Map.Entry::getKey)
                 .orElseThrow();
 
-        String formatted = winner.format(OUTPUT_FORMAT);
-        log.info("Most Occurrences: {} with {} matches ({})", formatted, hits.get(winner),
-                percent(hits.get(winner), total));
+        String formatted = winner.getKey().format(OUTPUT_FORMAT);
+        int winnerCount = winner.getValue();
+        log.info("Most Occurrences: {} with {} matches ({})", formatted, winnerCount,
+                percent(winnerCount, grandTotal));
         return formatted;
     }
 
