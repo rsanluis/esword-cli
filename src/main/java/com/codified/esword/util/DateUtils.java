@@ -107,7 +107,7 @@ public final class DateUtils {
         }
 
         final int grandTotal = total;
-        hits.forEach((monthDay, count) -> log.info("\t{} {} {} days -> {}: {} matches ({})",
+        hits.forEach((monthDay, count) -> log.info("\s\s\s{} {} {} days -> {}: {} matches ({})",
                 startMonthDay.format(OUTPUT_FORMAT), operation.symbol,
                 days, monthDay.format(OUTPUT_FORMAT), count, percent(count, grandTotal)));
 
@@ -118,7 +118,7 @@ public final class DateUtils {
 
         String formatted = winner.getKey().format(OUTPUT_FORMAT);
         int winnerCount = winner.getValue();
-        log.info("Most Occurrences: {} with {} matches ({})", formatted, winnerCount,
+        log.info("[{}] is the Month/Day result with the most matches: {} matches ({})", formatted, winnerCount,
                 percent(winnerCount, grandTotal));
         return formatted;
     }
