@@ -19,13 +19,13 @@ class DateUtilsTest {
     }
 
     @Test
-    void determineMonthDayAndYear_addFromLocalDate_returnsOctober302030() {
+    void determineExactMonthDayAndYear_addFromLocalDate_returnsOctober302030() {
         assertEquals("October 30, 2030",
                 DateUtils.determineExactMonthDayAndYear(LocalDate.of(2024, 7, 13), Operation.ADD, 2300));
     }
 
     @Test
-    void determineMonthDayAndYear_subtractFromLocalDate_returnsJuly132024() {
+    void determineExactMonthDayAndYear_subtractFromLocalDate_returnsJuly132024() {
         assertEquals("July 13, 2024",
                 DateUtils.determineExactMonthDayAndYear(LocalDate.of(2030, 10, 30), Operation.SUBTRACT, 2300));
     }
