@@ -1,13 +1,17 @@
 package com.codified.esword.util;
 
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.time.MonthDay;
 import java.time.format.DateTimeFormatter;
 import java.time.format.ResolverStyle;
 import java.util.Comparator;
+import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Objects;
+import java.util.StringJoiner;
 import java.util.TreeMap;
 
 import lombok.extern.slf4j.Slf4j;
@@ -30,6 +34,10 @@ public final class DateUtils {
             Locale.ENGLISH);
     private static final DateTimeFormatter INPUT_FORMAT = DateTimeFormatter.ofPattern("M/d/uuuu", Locale.ENGLISH)
             .withResolverStyle(ResolverStyle.STRICT);
+    private static final String QUICKCHART_URL = "https://quickchart.io/chart?v=4&c=";
+    // Pie slice colors by rank: 1st = green, 2nd = blue, 3rd = dark blue
+    private static final String[] RANK_COLORS = { "#2E9E44", "#3B82F6", "#1E3A8A" };
+    private static final String OTHER_COLOR = "#B0B0B0";
 
     public enum Operation {
         ADD("+"),
@@ -113,7 +121,58 @@ public final class DateUtils {
         int winnerCount = winner.getValue();
         log.info("[{}] is the Month/Day result with the most matches: {} matches ({})", formatted, winnerCount,
                 percent(winnerCount, grandTotal));
+        String pieChartTitle = String.format(Locale.ENGLISH,
+                operation == Operation.ADD
+                        ? "Adding %d days to %s for years %d to %d"
+                        : "Subtracting %d days from %s for years %d to %d",
+                days, startMonthDay.format(OUTPUT_FORMAT), START_YEAR, END_YEAR);
+        String mainTitle = formatted;
+        log.info("Pie chart: {}", buildPieChartUrl(hits, grandTotal, mainTitle, pieChartTitle));
         return formatted;
+    }
+
+    /**
+     * Builds a QuickChart.io URL (which renders Chart.js configs as images) for a
+     * pie chart with one slice per month/day, labeled with the date and its
+     * percentage of all matches.
+     */
+    static String buildPieChartUrl(Map<MonthDay, Integer> hits, int total, String mainTitle, String subTitle) {
+        // Rank slices by match count (ties -> earliest date) to assign the top colors
+        List<MonthDay> ranked = hits.entrySet().stream()
+                .sorted(Map.Entry.<MonthDay, Integer>comparingByValue(Comparator.reverseOrder())
+                        .thenComparing(Map.Entry.comparingByKey()))
+                .map(entry -> entry.getKey())
+                .toList();
+
+        StringJoiner labels = new StringJoiner(",", "[", "]");
+        StringJoiner data = new StringJoiner(",", "[", "]");
+        StringJoiner colors = new StringJoiner(",", "[", "]");
+        StringJoiner matches = new StringJoiner(",", "[", "]");
+        hits.forEach((monthDay, count) -> {
+            matches.add(String.valueOf(count));
+            labels.add("\"" + monthDay.format(OUTPUT_FORMAT) + " (" + percent(count, total) + ")\"");
+            data.add(String.format(Locale.ENGLISH, "%.2f", count * 100.0 / total));
+            int rank = ranked.indexOf(monthDay);
+            colors.add("\"" + (rank < RANK_COLORS.length ? RANK_COLORS[rank] : OTHER_COLOR) + "\"");
+        });
+        String config = "{\"type\":\"pie\",\"data\":{\"labels\":" + labels
+                + ",\"datasets\":[{\"data\":" + data + ",\"backgroundColor\":" + colors
+                + ",\"matches\":" + matches + "}]}"
+                // QuickChart bundles chartjs-plugin-datalabels; draw date, match count
+                // and percent on three lines inside each slice
+                // Chart.js 4 (subtitles need 3.4+): titles live under options.plugins
+                + ",\"options\":{\"plugins\":{"
+                + "\"title\":{\"display\":true,\"text\":\"" + escapeJson(mainTitle) + "\","
+                + "\"color\":\"" + RANK_COLORS[0] + "\",\"font\":{\"weight\":\"bold\"}},"
+                + "\"subtitle\":{\"display\":true,\"text\":\"" + escapeJson(subTitle) + "\"},"
+                + "\"datalabels\":{\"color\":\"#FFFFFF\",\"font\":{\"weight\":\"bold\",\"size\":8},"
+                + "\"textAlign\":\"center\",\"formatter\":(v,ctx)=>[ctx.chart.data.labels[ctx.dataIndex]"
+                + ".replace(/ \\(.*/,''),ctx.dataset.matches[ctx.dataIndex]+' matches',v.toFixed(2)+'%']}}}}";
+        return QUICKCHART_URL + URLEncoder.encode(config, StandardCharsets.UTF_8);
+    }
+
+    private static String escapeJson(String text) {
+        return text.replace("\\", "\\\\").replace("\"", "\\\"");
     }
 
     private static String percent(int count, int total) {
