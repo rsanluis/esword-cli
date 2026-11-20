@@ -164,7 +164,8 @@ public final class DateUtils {
                 + ",\"options\":{\"plugins\":{"
                 + "\"title\":{\"display\":true,\"text\":\"" + escapeJson(mainTitle) + "\","
                 + "\"color\":\"" + RANK_COLORS[0] + "\",\"font\":{\"weight\":\"bold\"}},"
-                + "\"subtitle\":{\"display\":true,\"text\":\"" + escapeJson(subTitle) + "\"},"
+                + "\"subtitle\":{\"display\":true,\"text\":\"" + escapeJson(subTitle) + "\","
+                + "\"font\":{\"weight\":\"bold\"}},"
                 + "\"datalabels\":{\"color\":\"#FFFFFF\",\"font\":{\"weight\":\"bold\",\"size\":8},"
                 + "\"textAlign\":\"center\",\"formatter\":(v,ctx)=>[ctx.chart.data.labels[ctx.dataIndex]"
                 + ".replace(/ \\(.*/,''),ctx.dataset.matches[ctx.dataIndex]+' matches',v.toFixed(2)+'%']}}}}";
